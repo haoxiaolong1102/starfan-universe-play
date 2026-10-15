@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0">
+		<title>星爷宇宙 · 影迷闯关录 ALPHA 0.15.0</title>
+<meta name="description" content="六部电影主题，三十关构筑冒险。电脑浏览器直接试玩。">
+		<style>
+html, body, #canvas {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+body {
+	color: white;
+	background-color: black;
+	overflow: hidden;
+	touch-action: none;
+}
+
+#canvas {
+	display: block;
+}
+
+#canvas:focus {
+	outline: none;
+}
+
+#status, #status-splash, #status-progress {
+	position: absolute;
+	left: 0;
+	right: 0;
+}
+
+#status, #status-splash {
+	top: 0;
+	bottom: 0;
+}
+
+#status {
+	background-color: #242424;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	visibility: hidden;
+}
+
+#status-splash {
+	max-height: 100%;
+	max-width: 100%;
+	margin: auto;
+}
+
+#status-splash.show-image--false {
+	display: none;
+}
+
+#status-splash.fullsize--true {
+	height: 100%;
+	width: 100%;
+	object-fit: contain;
+}
+
+#status-splash.use-filter--false {
+	image-rendering: pixelated;
+}
+
+#status-progress, #status-notice {
+	display: none;
+}
+
+#status-progress {
+	bottom: 10%;
+	width: 50%;
+	margin: 0 auto;
+}
+
+#status-notice {
+	background-color: #5b3943;
+	border-radius: 0.5rem;
+	border: 1px solid #9b3943;
+	color: #e0e0e0;
+	font-family: 'Noto Sans', 'Droid Sans', Arial, sans-serif;
+	line-height: 1.3;
+	margin: 0 2rem;
+	overflow: hidden;
+	padding: 1rem;
+	text-align: center;
+	z-index: 1;
+}
+		
+body {font-family:-apple-system,BlinkMacSystemFont,"PingFang SC","Microsoft YaHei",sans-serif;}
+#status {background:radial-gradient(ellipse at 50% 40%,#1b2930 0%,#0a111b 65%);overflow:auto;}
+#status-splash {display:none!important;}
+#load-copy {text-align:center;width:min(560px,85vw);margin-top:-65px;color:#d6ccb4;}
+#load-copy h1 {font-size:clamp(28px,5vw,54px);font-weight:600;letter-spacing:.16em;margin:12px 0;color:#f3dfb6;}
+#load-copy .eyebrow {font-size:12px;letter-spacing:.15em;color:#bca470;}
+#load-copy p {font-size:14px;line-height:1.7;margin:9px 0;color:#aba99e;}
+#load-progress-text {min-height:24px;color:#f1d49c!important;font-variant-numeric:tabular-nums;}
+#load-copy .small {font-size:12px;color:#959b9e;}
+#status-progress {bottom:22%;width:min(460px,70vw);height:7px;accent-color:#dfb967;border:none;}
+#status-progress::-webkit-progress-value {background:#dfb967;}
+#status-progress::-moz-progress-bar {background:#dfb967;}
+#status-notice {position:static;max-width:min(700px,85vw);margin:8px auto;}
+#load-retry {font:inherit;background:#d6b475;color:#171b20;border:1px solid #edce91;border-radius:5px;padding:12px 26px;cursor:pointer;}
+#load-retry:focus-visible {outline:3px solid #fff;outline-offset:4px;}
+#load-error-detail {margin-top:12px;font-size:11px;max-height:100px;overflow:auto;white-space:pre-wrap;word-break:break-word;color:#acb2b7;}
+#load-error-detail summary {cursor:pointer;}
+@media(max-height:600px) {#load-copy {margin-top:-20px;} #load-copy h1 {font-size:30px;margin:5px 0;} #load-copy p {font-size:12px;margin:5px 0;} #status-progress {bottom:12%;}}
+</style>
+		<link id="-gd-engine-icon" rel="icon" type="image/png" href="starfan-0-15-0.icon.png" />
+<link rel="apple-touch-icon" href="starfan-0-15-0.apple-touch-icon.png"/>
+
+	</head>
+	<body>
+		<canvas id="canvas">
+			请使用支持 WebGL2 的桌面浏览器打开游戏。
+		</canvas>
+
+		<noscript>
+			请启用 JavaScript 后重新打开。
+		</noscript>
+
+		<div id="status">
+			<img id="status-splash" class="show-image--true fullsize--true use-filter--true" src="starfan-0-15-0.png" alt="">
+			<div id="load-copy"><span class="eyebrow">影迷闯关录 · ALPHA 0.15.0</span><h1>星爷宇宙</h1><p>六部电影 · 三十关 · 以构筑破局</p><p id="load-progress-text" role="status" aria-live="polite">正在连接资源服务器…</p><p id="load-help" class="small">首次资源约 116.7 MB；网络压缩后的实际传输可能更小。<br>下载后还需初始化画面，请保持此页打开。</p><p class="small">电脑键鼠：WASD 移动 · 自动攻击 · Shift 闪身 · 空格绝活<br>档案保存在当前浏览器；清除网站数据会移除本地档案。</p><button id="load-retry" type="button" hidden>重新加载</button><details id="load-error-detail" hidden><summary>技术详情</summary><div id="load-error-text"></div></details></div>
+<progress aria-label="游戏资源下载进度" id="status-progress"></progress>
+			<div id="status-notice"></div>
+		</div>
+
+		<script src="starfan-0-15-0.js"></script>
+		<script>
+const GODOT_CONFIG = {"args":[],"canvasResizePolicy":2,"emscriptenPoolSize":8,"ensureCrossOriginIsolationHeaders":false,"executable":"starfan-0-15-0","experimentalVK":false,"fileSizes":{"starfan-0-15-0.pck":77234588,"starfan-0-15-0.wasm":39514754},"focusCanvas":true,"gdextensionLibs":[],"godotPoolSize":4};
+const GODOT_THREADS_ENABLED = false;
+const engine = new Engine(GODOT_CONFIG);
+
+(function () {
+	const statusOverlay = document.getElementById('status');
+	const statusProgress = document.getElementById('status-progress');
+	const statusNotice = document.getElementById('status-notice');
+	const loadProgressText = document.getElementById('load-progress-text');
+	const loadHelp = document.getElementById('load-help');
+	const loadRetry = document.getElementById('load-retry');
+	const loadErrorDetail = document.getElementById('load-error-detail');
+	const loadErrorText = document.getElementById('load-error-text');
+	loadRetry.addEventListener('click', () => window.location.reload());
+	const initialLoadHelp = loadHelp.textContent;
+	let lastCurrent = -1;
+	let lastProgressAt = Date.now();
+	let downloadComplete = false;
+	const slowTimer = window.setInterval(() => {
+		if (initializing && Date.now() - lastProgressAt > 20000) {
+			loadHelp.textContent = navigator.onLine === false
+				? '当前网络已断开。连接后可重新加载；已有本地档案会保留。'
+				: (downloadComplete ? '正在初始化游戏；首次启动可能较慢，请稍候。' : '资源仍在载入；网络较慢时可能需要更久。可继续等待，或重新加载。');
+			loadRetry.hidden = false;
+		}
+	}, 1000);
+
+	let initializing = true;
+	let statusMode = '';
+
+	function setStatusMode(mode) {
+		if (statusMode === mode || !initializing) {
+			return;
+		}
+		if (mode === 'hidden') {
+			window.clearInterval(slowTimer);
+			statusOverlay.remove();
+			initializing = false;
+			return;
+		}
+		statusOverlay.style.visibility = 'visible';
+		statusProgress.style.display = mode === 'progress' ? 'block' : 'none';
+		statusNotice.style.display = mode === 'notice' ? 'block' : 'none';
+		statusMode = mode;
+	}
+
+	function setStatusNotice(text) {
+		while (statusNotice.lastChild) {
+			statusNotice.removeChild(statusNotice.lastChild);
+		}
+		const lines = text.split('\n');
+		lines.forEach((line) => {
+			statusNotice.appendChild(document.createTextNode(line));
+			statusNotice.appendChild(document.createElement('br'));
+		});
+	}
+
+	function displayFailureNotice(err) {
+		console.error(err);
+		window.clearInterval(slowTimer);
+		loadProgressText.textContent = '游戏未能完成加载';
+		loadHelp.textContent = navigator.onLine === false
+			? '网络已断开。恢复连接后重新加载；已有本地档案会保留。'
+			: '请检查网络后重试。需要支持 WebGL2 的桌面 Chrome / Edge / Firefox / Safari。';
+		loadRetry.hidden = false;
+		loadErrorDetail.hidden = false;
+		loadErrorText.textContent = err instanceof Error ? err.message : String(err);
+		if (err instanceof Error) {
+			setStatusNotice(err.message);
+		} else if (typeof err === 'string') {
+			setStatusNotice(err);
+		} else {
+			setStatusNotice('未知加载错误，请重试。');
+		}
+		setStatusMode('notice');
+		statusNotice.style.display = 'none';
+		initializing = false;
+		loadRetry.focus();
+	}
+
+	const missing = Engine.getMissingFeatures({
+		threads: GODOT_THREADS_ENABLED,
+	});
+
+	if (missing.length !== 0) {
+		if (GODOT_CONFIG['serviceWorker'] && GODOT_CONFIG['ensureCrossOriginIsolationHeaders'] && 'serviceWorker' in navigator) {
+			let serviceWorkerRegistrationPromise;
+			try {
+				serviceWorkerRegistrationPromise = navigator.serviceWorker.getRegistration();
+			} catch (err) {
+				serviceWorkerRegistrationPromise = Promise.reject(new Error('Service worker registration failed.'));
+			}
+			// There's a chance that installing the service worker would fix the issue
+			Promise.race([
+				serviceWorkerRegistrationPromise.then((registration) => {
+					if (registration != null) {
+						return Promise.reject(new Error('Service worker already exists.'));
+					}
+					return registration;
+				}).then(() => engine.installServiceWorker()),
+				// For some reason, `getRegistration()` can stall
+				new Promise((resolve) => {
+					setTimeout(() => resolve(), 2000);
+				}),
+			]).then(() => {
+				// Reload if there was no error.
+				window.location.reload();
+			}).catch((err) => {
+				console.error('Error while registering service worker:', err);
+			});
+		} else {
+			// Display the message as usual
+			const missingMsg = '浏览器缺少运行游戏所需功能：\n';
+			displayFailureNotice(missingMsg + missing.join('\n'));
+		}
+	} else {
+		setStatusMode('progress');
+		engine.startGame({
+			'onProgress': function (current, total) {
+				if (current > lastCurrent) {
+					lastProgressAt = Date.now();
+					lastCurrent = current;
+					loadHelp.textContent = initialLoadHelp;
+					loadRetry.hidden = true;
+				}
+				downloadComplete = total > 0 && current >= total;
+				if (downloadComplete) {
+					loadProgressText.textContent = '下载完成，正在初始化游戏…';
+				} else if (total > 0 && current >= 0) {
+					const percent = Math.min(99, Math.floor(current * 100 / total));
+					loadProgressText.textContent = `下载资源 ${percent}% · ${(current / 1000000).toFixed(1)} / ${(total / 1000000).toFixed(1)} MB`;
+				} else {
+					loadProgressText.textContent = '正在下载游戏资源…';
+				}
+				if (current > 0 && total > 0) {
+					statusProgress.value = current;
+					statusProgress.max = total;
+				} else {
+					statusProgress.removeAttribute('value');
+					statusProgress.removeAttribute('max');
+				}
+			},
+		}).then(() => {
+			setStatusMode('hidden');
+		}, displayFailureNotice);
+	}
+}());
+		</script>
+	</body>
+</html>
+
