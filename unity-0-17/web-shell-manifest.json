@@ -1,0 +1,70 @@
+{
+  "schema": 1,
+  "build_directory": "/Users/mac/Documents/ChatGPT/互动影游/builds/unity-0-17/web",
+  "project": "/Users/mac/Documents/ChatGPT/互动影游/unity-remake/StarFanURP",
+  "metadata": {
+    "companyName": "StarFan Studio",
+    "productName": "星迷宇宙 · 大话西游 0.17",
+    "bundleVersion": "0.17.0-preview.1"
+  },
+  "files": {
+    "loaderUrl": {
+      "path": "Build/web.loader.js",
+      "bytes": 47867,
+      "sha256": "3078d127252c6877543046ee7171d3d45c6619ca2709caf8b3bcbfc9125a1f4f"
+    },
+    "dataUrl": {
+      "path": "Build/web.data.unityweb",
+      "bytes": 49357107,
+      "sha256": "bf092281feeeaee039ed736eb68fdb3196009301d11222655d3e6d6d5285e9fa"
+    },
+    "frameworkUrl": {
+      "path": "Build/web.framework.js.unityweb",
+      "bytes": 87129,
+      "sha256": "8be23d11729af857e9c8af9d989a92a4bf566069bc7c7d3955a1123124677af6"
+    },
+    "codeUrl": {
+      "path": "Build/web.wasm.unityweb",
+      "bytes": 8736835,
+      "sha256": "68a1831fec258e4ef6feba38bc4fbdee2e27334af32552ad818d5751fff5b288"
+    }
+  },
+  "initial_file_bytes": 58228938,
+  "exported_metadata": {
+    "companyName": "StarFan Studio",
+    "productName": "星迷宇宙 · 大话西游 0.17",
+    "productVersion": "0.17.0-preview.1"
+  },
+  "original_unity_html_sha256": "3742441c0afd54097c3717de1ea696112a498a394e0c8d0531b236bf817a651e",
+  "metadata_verified_against_original_export": true,
+  "credits": [
+    {
+      "path": "credits/Unity-Companion-License.txt",
+      "sha256": "75377eac4782953a8fac0284596b1427e9f5dfef7cea55e563aa938686203069"
+    },
+    {
+      "path": "credits/Unity-Boss-Room-LICENSE.md",
+      "sha256": "b7bd774e693d010a22386460b6f0e2544f1b496c735e746d80cb94e54b0a07ce"
+    },
+    {
+      "path": "credits/Unity-Boss-Room-Third-Party-Notices.md",
+      "sha256": "9de3af22f58b67f2b716b5848a0af1b97a1cdf1d96c04374384761da0346eac0"
+    },
+    {
+      "path": "credits/Boss-Room-SOURCE.txt",
+      "sha256": "a4c8144dc0ee70479e1758fb742992146e31e5c827976abe49349786e2c26575"
+    },
+    {
+      "path": "credits/Noto-OFL.txt",
+      "sha256": "6a73f9541c2de74158c0e7cf6b0a58ef774f5a780bf191f2d7ec9cc53efe2bf2"
+    },
+    {
+      "path": "credits/Noto-SOURCE.md",
+      "sha256": "365ecf4e50a197a35c408444faeed517a5801c561e958bc6e3a06a917e4b41fd"
+    }
+  ],
+  "shell_sha256": "b52bea96e77b5e4b283c8e2bdaceccff8e8e1f5c8a82f1f94b3c8b97c99cf350",
+  "warnings": [],
+  "browser_tested": false,
+  "note": "Packaging only. Actual Unity startup, audio, input, save and browser performance require runtime verification."
+}
