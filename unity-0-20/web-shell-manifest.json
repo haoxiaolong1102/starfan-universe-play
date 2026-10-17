@@ -5,37 +5,37 @@
   "metadata": {
     "companyName": "StarFan Studio",
     "productName": "小人物逆袭",
-    "bundleVersion": "0.20.0-preview.1"
+    "bundleVersion": "0.20.0-preview.2"
   },
   "files": {
     "loaderUrl": {
-      "path": "Build/web.96404d928411085a.loader.js",
+      "path": "Build/web.ebfcf76f2ed5db9f.loader.js",
       "bytes": 47867,
-      "sha256": "96404d928411085a00e8c75bf1ab7fe31183799f729f3ddd6b940c31feb9f73f"
+      "sha256": "ebfcf76f2ed5db9f6732a6d958c9847df62dcaaa51915c593fdec5b8d3aa716c"
     },
     "dataUrl": {
-      "path": "Build/web.dde3a1e4ad60e331.data.unityweb",
-      "bytes": 96011955,
-      "sha256": "dde3a1e4ad60e331d87da03dfbd7c09442e9e44db8040136ddaec12bbf927cd5"
+      "path": "Build/web.4c499a99410127f7.data.unityweb",
+      "bytes": 96011773,
+      "sha256": "4c499a99410127f75a9a34948e0515edd3b65af63a51eae45e12bf5be1661181"
     },
     "frameworkUrl": {
-      "path": "Build/web.65d83428de997649.framework.js.unityweb",
+      "path": "Build/web.b51536d79dad0ceb.framework.js.unityweb",
       "bytes": 87261,
-      "sha256": "65d83428de99764954eb0bf01bd503b5aadbb8d3720f72c0d4764ad5b9d1e558"
+      "sha256": "b51536d79dad0ceb9fb89c2ee368dfa32e92abc14ec4b66e41f564fb84c6d726"
     },
     "codeUrl": {
-      "path": "Build/web.c6a7625078799509.wasm.unityweb",
-      "bytes": 8789587,
-      "sha256": "c6a7625078799509c78cb3ffc9844e063fd8e2cc597e1022efeb3b62b5b45f96"
+      "path": "Build/web.b3c33d6d158af222.wasm.unityweb",
+      "bytes": 8791789,
+      "sha256": "b3c33d6d158af2221ba2796d50ea1efd3bcbe529c07679f7382d2bf40b847faf"
     }
   },
-  "initial_file_bytes": 104936670,
+  "initial_file_bytes": 104938690,
   "exported_metadata": {
     "companyName": "StarFan Studio",
     "productName": "小人物逆袭",
-    "productVersion": "0.20.0-preview.1"
+    "productVersion": "0.20.0-preview.2"
   },
-  "original_unity_html_sha256": "70b1ae6dde92fb6e6376df55a02f2d17a14699da3e8bd5e9f1b4a09f4495ae66",
+  "original_unity_html_sha256": "ff139ad981cadaffe683ff5b4d0276713e70ac052aa95dd3436b116434c176db",
   "metadata_verified_against_original_export": true,
   "credits": [
     {
@@ -139,7 +139,7 @@
       "sha256": "b700200d889d253cc4eaade48742a7447ea8ec7f3ef9ed263aa7dd89e0138414"
     }
   ],
-  "shell_sha256": "0de9f575f62c705c09fb6adc00a405d214a41531fa0f509a1adf9504d326105a",
+  "shell_sha256": "92e07db93dddce29bc8e5450b662f3ed3c28ef9345475c688a86c47ff081bb97",
   "warnings": [],
   "browser_tested": false,
   "note": "Packaging only. Actual Unity startup, audio, input, save and browser performance require runtime verification."
