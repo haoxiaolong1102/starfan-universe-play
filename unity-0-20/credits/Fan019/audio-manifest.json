@@ -1,0 +1,320 @@
+{
+  "scope": "Actual edited recordings; no film dialogue/score; pending in-game listening",
+  "date": "2026-10-17",
+  "records": [
+    {
+      "name": "Swing0",
+      "output": "unity-remake/StarFanURP/Assets/StarFan/Art/Fan019/Resources/StarFanAudio019/Swing0.wav",
+      "seconds": 0.62,
+      "peak": 0.7999999999999999,
+      "rms": 0.05933101486423696,
+      "sources": [
+        "unity-remake/ReferenceProject/Assets/Sounds/Character/Tank/tank_attk1.wav",
+        "art/fan019/licensed-source/rpg-audio/Audio/cloth1.ogg"
+      ],
+      "sha256": "9bb56dda95eb97542e30088ffe71278ea0b16cc893207c1fc0c6b9e948680e61",
+      "changes": "Layered real recordings, trimmed, gain balanced, 12ms edge fades, subtle stereo diffusion"
+    },
+    {
+      "name": "Swing1",
+      "output": "unity-remake/StarFanURP/Assets/StarFan/Art/Fan019/Resources/StarFanAudio019/Swing1.wav",
+      "seconds": 0.62,
+      "peak": 0.8074676639776726,
+      "rms": 0.07974646082458844,
+      "sources": [
+        "unity-remake/ReferenceProject/Assets/Sounds/Character/Tank/tank_attk2.wav",
+        "art/fan019/licensed-source/rpg-audio/Audio/cloth2.ogg"
+      ],
+      "sha256": "ad06be8e9c6380544d8bdb9e5df7a86cfc35e2254df3d01a0c4c16dca620cc51",
+      "changes": "Layered real recordings, trimmed, gain balanced, 12ms edge fades, subtle stereo diffusion"
+    },
+    {
+      "name": "Swing2",
+      "output": "unity-remake/StarFanURP/Assets/StarFan/Art/Fan019/Resources/StarFanAudio019/Swing2.wav",
+      "seconds": 0.62,
+      "peak": 0.8001471151457189,
+      "rms": 0.06008487271154588,
+      "sources": [
+        "unity-remake/ReferenceProject/Assets/Sounds/Character/Tank/tank_attk1.wav",
+        "art/fan019/licensed-source/rpg-audio/Audio/cloth3.ogg"
+      ],
+      "sha256": "0918269583dc791dbdcbb44a40bea8978ccedf03356b117390dd455c98b47ea2",
+      "changes": "Layered real recordings, trimmed, gain balanced, 12ms edge fades, subtle stereo diffusion"
+    },
+    {
+      "name": "Hit0",
+      "output": "unity-remake/StarFanURP/Assets/StarFan/Art/Fan019/Resources/StarFanAudio019/Hit0.wav",
+      "seconds": 0.55,
+      "peak": 0.8,
+      "rms": 0.12163443018128042,
+      "sources": [
+        "art/fan019/licensed-source/impact-sounds/Audio/impactPunch_medium_000.ogg",
+        "art/fan019/licensed-source/impact-sounds/Audio/impactWood_medium_000.ogg"
+      ],
+      "sha256": "8f14ff581ec29be87095e46ed0fa6f4c29647e31b6222f19f6355136b9dae0ed",
+      "changes": "Layered real recordings, trimmed, gain balanced, 12ms edge fades, subtle stereo diffusion"
+    },
+    {
+      "name": "Hit1",
+      "output": "unity-remake/StarFanURP/Assets/StarFan/Art/Fan019/Resources/StarFanAudio019/Hit1.wav",
+      "seconds": 0.55,
+      "peak": 0.8,
+      "rms": 0.10114463362636875,
+      "sources": [
+        "art/fan019/licensed-source/impact-sounds/Audio/impactPunch_medium_001.ogg",
+        "art/fan019/licensed-source/impact-sounds/Audio/impactWood_medium_001.ogg"
+      ],
+      "sha256": "e2702d576163cd5c6bc84c14c6f40969c971e0db09316d7b6d359e0e369f20e8",
+      "changes": "Layered real recordings, trimmed, gain balanced, 12ms edge fades, subtle stereo diffusion"
+    },
+    {
+      "name": "Hit2",
+      "output": "unity-remake/StarFanURP/Assets/StarFan/Art/Fan019/Resources/StarFanAudio019/Hit2.wav",
+      "seconds": 0.55,
+      "peak": 0.8,
+      "rms": 0.11256516542520881,
+      "sources": [
+        "art/fan019/licensed-source/impact-sounds/Audio/impactPunch_medium_002.ogg",
+        "art/fan019/licensed-source/impact-sounds/Audio/impactWood_medium_002.ogg"
+      ],
+      "sha256": "fc7e47b44dae474da9497d4a61018bc919f22b332c20be18c0d4892addbaac3e",
+      "changes": "Layered real recordings, trimmed, gain balanced, 12ms edge fades, subtle stereo diffusion"
+    },
+    {
+      "name": "Hit3",
+      "output": "unity-remake/StarFanURP/Assets/StarFan/Art/Fan019/Resources/StarFanAudio019/Hit3.wav",
+      "seconds": 0.55,
+      "peak": 0.8,
+      "rms": 0.10059723864337773,
+      "sources": [
+        "art/fan019/licensed-source/impact-sounds/Audio/impactPunch_medium_003.ogg",
+        "art/fan019/licensed-source/impact-sounds/Audio/impactWood_medium_003.ogg"
+      ],
+      "sha256": "935ec56e56e5ec4f2eac7be8089f884357c4c8dedc18ce81969f28442c72edf3",
+      "changes": "Layered real recordings, trimmed, gain balanced, 12ms edge fades, subtle stereo diffusion"
+    },
+    {
+      "name": "UIConfirm",
+      "output": "unity-remake/StarFanURP/Assets/StarFan/Art/Fan019/Resources/StarFanAudio019/UIConfirm.wav",
+      "seconds": 0.32,
+      "peak": 0.8000012159228783,
+      "rms": 0.023081723648751055,
+      "sources": [
+        "art/fan019/licensed-source/ui-audio/Audio/click3.ogg",
+        "art/fan019/licensed-source/rpg-audio/Audio/handleCoins.ogg"
+      ],
+      "sha256": "99665fa0dde9617777ec2dd5fd7cf0337f6a22454960ec610152ec7323b0677d",
+      "changes": "Layered real recordings, trimmed, gain balanced, 12ms edge fades, subtle stereo diffusion"
+    },
+    {
+      "name": "UICancel",
+      "output": "unity-remake/StarFanURP/Assets/StarFan/Art/Fan019/Resources/StarFanAudio019/UICancel.wav",
+      "seconds": 0.28,
+      "peak": 0.8000000000000002,
+      "rms": 0.02823108763439081,
+      "sources": [
+        "art/fan019/licensed-source/ui-audio/Audio/switch4.ogg",
+        "art/fan019/licensed-source/rpg-audio/Audio/clothBelt.ogg"
+      ],
+      "sha256": "63bbb9c08a4d71f030a74e2a5a6c623dcfc0486b2ba5866b95a84049a97c3547",
+      "changes": "Layered real recordings, trimmed, gain balanced, 12ms edge fades, subtle stereo diffusion"
+    },
+    {
+      "name": "MageCast",
+      "output": "unity-remake/StarFanURP/Assets/StarFan/Art/Fan019/Resources/StarFanAudio019/MageCast.wav",
+      "seconds": 0.85,
+      "peak": 0.8042017235193433,
+      "rms": 0.14181120281200366,
+      "sources": [
+        "unity-remake/ReferenceProject/Assets/Sounds/Character/Mage/attk 1 magic bolt.wav",
+        "art/fan019/licensed-source/impact-sounds/Audio/impactGlass_light_002.ogg"
+      ],
+      "sha256": "e028975b4aa3217001383124363a001fd678c6dc522c79a53db3740506a6ee9a",
+      "changes": "Layered real recordings, trimmed, gain balanced, 12ms edge fades, subtle stereo diffusion"
+    },
+    {
+      "name": "Summon",
+      "output": "unity-remake/StarFanURP/Assets/StarFan/Art/Fan019/Resources/StarFanAudio019/Summon.wav",
+      "seconds": 1.15,
+      "peak": 0.8,
+      "rms": 0.10258118246972615,
+      "sources": [
+        "unity-remake/ReferenceProject/Assets/Sounds/Character/Mage/skill_heal_a.wav",
+        "art/fan019/licensed-source/rpg-audio/Audio/bookFlip2.ogg",
+        "art/fan019/licensed-source/impact-sounds/Audio/impactBell_heavy_002.ogg"
+      ],
+      "sha256": "df999eafc449566ed0b8531afb71df6e49b264cb64a499e171fb93141a9ab9c6",
+      "changes": "Layered real recordings, trimmed, gain balanced, 12ms edge fades, subtle stereo diffusion"
+    },
+    {
+      "name": "Danger",
+      "output": "unity-remake/StarFanURP/Assets/StarFan/Art/Fan019/Resources/StarFanAudio019/Danger.wav",
+      "seconds": 0.72,
+      "peak": 0.8007904030512535,
+      "rms": 0.12496286810510761,
+      "sources": [
+        "unity-remake/ReferenceProject/Assets/Sounds/Character/Boss/charge_attack_start.wav",
+        "art/fan019/licensed-source/impact-sounds/Audio/impactMetal_heavy_002.ogg"
+      ],
+      "sha256": "0326940913676770e4c9dbc6cd06af1903d49eff965152d62851858ccd1c96aa",
+      "changes": "Layered real recordings, trimmed, gain balanced, 12ms edge fades, subtle stereo diffusion"
+    },
+    {
+      "name": "Footstep0",
+      "output": "unity-remake/StarFanURP/Assets/StarFan/Art/Fan019/Resources/StarFanAudio019/Footstep0.wav",
+      "seconds": 0.3,
+      "peak": 0.6001539168267074,
+      "rms": 0.08456948410938846,
+      "sources": [
+        "art/fan019/licensed-source/impact-sounds/Audio/footstep_concrete_000.ogg",
+        "art/fan019/licensed-source/rpg-audio/Audio/cloth1.ogg"
+      ],
+      "sha256": "be4b0b5968f85d7f0abe601b06e6a0befbac882b816560c8e03f387c67c835a8",
+      "changes": "Layered real recordings, trimmed, gain balanced, 12ms edge fades, subtle stereo diffusion"
+    },
+    {
+      "name": "Footstep1",
+      "output": "unity-remake/StarFanURP/Assets/StarFan/Art/Fan019/Resources/StarFanAudio019/Footstep1.wav",
+      "seconds": 0.3,
+      "peak": 0.6,
+      "rms": 0.08576740032930463,
+      "sources": [
+        "art/fan019/licensed-source/impact-sounds/Audio/footstep_concrete_001.ogg",
+        "art/fan019/licensed-source/rpg-audio/Audio/cloth2.ogg"
+      ],
+      "sha256": "faec6d2ee038c26e8ad2d314d5b9a6b835ec52158208c19e8472e34419e67a4e",
+      "changes": "Layered real recordings, trimmed, gain balanced, 12ms edge fades, subtle stereo diffusion"
+    },
+    {
+      "name": "Voice0",
+      "output": "unity-remake/StarFanURP/Assets/StarFan/Art/Fan019/Resources/StarFanAudio019/Voice0.ogg",
+      "sources": [
+        "art/fan019/licensed-source/voiceover-pack/Male/ready.ogg"
+      ],
+      "sha256": "64e189a22bcf6768a46d34bdade886e7698502d1e2864a9407c29638199c5f1c",
+      "changes": "Unmodified licensed English ready; two original voice actors shared by four adult appearance presets, not four unique Chinese voice packs"
+    },
+    {
+      "name": "Voice1",
+      "output": "unity-remake/StarFanURP/Assets/StarFan/Art/Fan019/Resources/StarFanAudio019/Voice1.ogg",
+      "sources": [
+        "art/fan019/licensed-source/voiceover-pack/Female/ready.ogg"
+      ],
+      "sha256": "4a49258fab1f84b00d0060e1535218b22a3b4bba61ef4d989b82e4cab15d69b3",
+      "changes": "Unmodified licensed English ready; two original voice actors shared by four adult appearance presets, not four unique Chinese voice packs"
+    },
+    {
+      "name": "Voice2",
+      "output": "unity-remake/StarFanURP/Assets/StarFan/Art/Fan019/Resources/StarFanAudio019/Voice2.ogg",
+      "sources": [
+        "art/fan019/licensed-source/voiceover-pack/Male/ready.ogg"
+      ],
+      "sha256": "64e189a22bcf6768a46d34bdade886e7698502d1e2864a9407c29638199c5f1c",
+      "changes": "Unmodified licensed English ready; two original voice actors shared by four adult appearance presets, not four unique Chinese voice packs"
+    },
+    {
+      "name": "Voice3",
+      "output": "unity-remake/StarFanURP/Assets/StarFan/Art/Fan019/Resources/StarFanAudio019/Voice3.ogg",
+      "sources": [
+        "art/fan019/licensed-source/voiceover-pack/Female/ready.ogg"
+      ],
+      "sha256": "4a49258fab1f84b00d0060e1535218b22a3b4bba61ef4d989b82e4cab15d69b3",
+      "changes": "Unmodified licensed English ready; two original voice actors shared by four adult appearance presets, not four unique Chinese voice packs"
+    },
+    {
+      "name": "Film0",
+      "output": "unity-remake/StarFanURP/Assets/StarFan/Art/Fan019/Audio/Ambience/Film0.ogg",
+      "seconds": 20,
+      "peak": 0.3019485326039511,
+      "rms": 0.013759948774875066,
+      "sources": [
+        "art/fan019/licensed-source/rpg-audio/Audio/creak1.ogg",
+        "art/fan019/licensed-source/rpg-audio/Audio/cloth4.ogg",
+        "art/fan019/licensed-source/rpg-audio/Audio/doorClose_3.ogg",
+        "art/fan019/licensed-source/rpg-audio/Audio/creak1.ogg",
+        "art/fan019/licensed-source/rpg-audio/Audio/cloth4.ogg",
+        "art/fan019/licensed-source/rpg-audio/Audio/doorClose_3.ogg",
+        "art/fan019/licensed-source/rpg-audio/Audio/creak1.ogg",
+        "art/fan019/licensed-source/rpg-audio/Audio/cloth4.ogg"
+      ],
+      "sha256": "074dcd6ba1c8adfdb751b00f68a881e6fdd158d545d409fa6712044c2fd606db",
+      "changes": "Layered real recordings, trimmed, gain balanced, 12ms edge fades, subtle stereo diffusion"
+    },
+    {
+      "name": "Film1",
+      "output": "unity-remake/StarFanURP/Assets/StarFan/Art/Fan019/Audio/Ambience/Film1.ogg",
+      "seconds": 20,
+      "peak": 0.30007952138107125,
+      "rms": 0.008727654027622258,
+      "sources": [
+        "art/fan019/licensed-source/rpg-audio/Audio/footstep04.ogg",
+        "art/fan019/licensed-source/rpg-audio/Audio/doorOpen_1.ogg",
+        "art/fan019/licensed-source/rpg-audio/Audio/metalLatch.ogg",
+        "art/fan019/licensed-source/rpg-audio/Audio/footstep04.ogg",
+        "art/fan019/licensed-source/rpg-audio/Audio/doorOpen_1.ogg",
+        "art/fan019/licensed-source/rpg-audio/Audio/metalLatch.ogg",
+        "art/fan019/licensed-source/rpg-audio/Audio/footstep04.ogg",
+        "art/fan019/licensed-source/rpg-audio/Audio/doorOpen_1.ogg"
+      ],
+      "sha256": "447c852e68451a551a790a135d1f6426d712ecb36d664da83d14c83151acb439",
+      "changes": "Layered real recordings, trimmed, gain balanced, 12ms edge fades, subtle stereo diffusion"
+    },
+    {
+      "name": "Film2",
+      "output": "unity-remake/StarFanURP/Assets/StarFan/Art/Fan019/Audio/Ambience/Film2.ogg",
+      "seconds": 20,
+      "peak": 0.30012448517308155,
+      "rms": 0.02384830156057006,
+      "sources": [
+        "art/fan019/licensed-source/rpg-audio/Audio/metalPot1.ogg",
+        "art/fan019/licensed-source/rpg-audio/Audio/chop.ogg",
+        "art/fan019/licensed-source/rpg-audio/Audio/metalPot3.ogg",
+        "art/fan019/licensed-source/rpg-audio/Audio/metalPot1.ogg",
+        "art/fan019/licensed-source/rpg-audio/Audio/chop.ogg",
+        "art/fan019/licensed-source/rpg-audio/Audio/metalPot3.ogg",
+        "art/fan019/licensed-source/rpg-audio/Audio/metalPot1.ogg",
+        "art/fan019/licensed-source/rpg-audio/Audio/chop.ogg"
+      ],
+      "sha256": "041381d39802b2a881a8554ede0c0d811cb9e22abd88353f940b18d58044fd8c",
+      "changes": "Layered real recordings, trimmed, gain balanced, 12ms edge fades, subtle stereo diffusion"
+    },
+    {
+      "name": "Film3",
+      "output": "unity-remake/StarFanURP/Assets/StarFan/Art/Fan019/Audio/Ambience/Film3.ogg",
+      "seconds": 20,
+      "peak": 0.30002406039673196,
+      "rms": 0.005748542640847255,
+      "sources": [
+        "art/fan019/licensed-source/rpg-audio/Audio/footstep06.ogg",
+        "art/fan019/licensed-source/rpg-audio/Audio/cloth2.ogg",
+        "art/fan019/licensed-source/rpg-audio/Audio/footstep07.ogg",
+        "art/fan019/licensed-source/rpg-audio/Audio/footstep06.ogg",
+        "art/fan019/licensed-source/rpg-audio/Audio/cloth2.ogg",
+        "art/fan019/licensed-source/rpg-audio/Audio/footstep07.ogg",
+        "art/fan019/licensed-source/rpg-audio/Audio/footstep06.ogg",
+        "art/fan019/licensed-source/rpg-audio/Audio/cloth2.ogg"
+      ],
+      "sha256": "d7dd51dfdff580c0427239c21ab2393bffdf30b9571f526479537dad7828e13b",
+      "changes": "Layered real recordings, trimmed, gain balanced, 12ms edge fades, subtle stereo diffusion"
+    },
+    {
+      "name": "Film4",
+      "output": "unity-remake/StarFanURP/Assets/StarFan/Art/Fan019/Audio/Ambience/Film4.ogg",
+      "seconds": 20,
+      "peak": 0.3,
+      "rms": 0.004577776531504925,
+      "sources": [
+        "art/fan019/licensed-source/rpg-audio/Audio/creak3.ogg",
+        "art/fan019/licensed-source/rpg-audio/Audio/metalClick.ogg",
+        "art/fan019/licensed-source/rpg-audio/Audio/metalLatch.ogg",
+        "art/fan019/licensed-source/rpg-audio/Audio/creak3.ogg",
+        "art/fan019/licensed-source/rpg-audio/Audio/metalClick.ogg",
+        "art/fan019/licensed-source/rpg-audio/Audio/metalLatch.ogg",
+        "art/fan019/licensed-source/rpg-audio/Audio/creak3.ogg",
+        "art/fan019/licensed-source/rpg-audio/Audio/metalClick.ogg"
+      ],
+      "sha256": "ed7902b119f6ace58f7937b772fcf6204dbcf2be0a60663d5275ab1e718fa733",
+      "changes": "Layered real recordings, trimmed, gain balanced, 12ms edge fades, subtle stereo diffusion"
+    }
+  ]
+}
