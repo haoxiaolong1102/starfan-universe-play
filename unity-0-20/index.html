@@ -55,7 +55,7 @@ footer{padding:4px 10px;font-size:10px;gap:8px}.reference{display:none}.controls
 <span><span class="reference">模型与音频来源见署名 · </span><a href="credits/index.html" target="_blank" rel="noopener">美术、音频与字体来源</a></span></footer>
 <script>
 "use strict";
-const build = {"loaderUrl": "Build/web.loader.js", "dataUrl": "Build/web.data.unityweb", "frameworkUrl": "Build/web.framework.js.unityweb", "codeUrl": "Build/web.wasm.unityweb", "companyName": "StarFan Studio", "productName": "小人物逆袭", "productVersion": "0.20.0-preview.1", "streamingAssetsUrl": "StreamingAssets"};
+const build = {"loaderUrl": "Build/web.96404d928411085a.loader.js", "dataUrl": "Build/web.dde3a1e4ad60e331.data.unityweb", "frameworkUrl": "Build/web.65d83428de997649.framework.js.unityweb", "codeUrl": "Build/web.c6a7625078799509.wasm.unityweb", "companyName": "StarFan Studio", "productName": "小人物逆袭", "productVersion": "0.20.0-preview.1", "streamingAssetsUrl": "StreamingAssets"};
 const canvas = document.getElementById("unity-canvas");
 const stage = document.getElementById("stage");
 const loading = document.getElementById("loading");
@@ -161,6 +161,7 @@ const config = {
   devicePixelRatio: Math.min(window.devicePixelRatio || 1, 1.5),
   matchWebGLToCanvasSize: true,
   dataCaching: true,
+  autoSyncPersistentDataPath: true,
   showBanner
 };
 if (location.protocol === "file:") {
