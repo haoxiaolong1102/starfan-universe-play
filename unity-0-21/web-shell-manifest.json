@@ -14,22 +14,22 @@
       "sha256": "05648e52f71575cf053b6525045f3d797b3aa20e6ce97d2455d9e76563233cd5"
     },
     "dataUrl": {
-      "path": "Build/web.81ec7c1bcf9d1fef.data.unityweb",
-      "bytes": 96811681,
-      "sha256": "81ec7c1bcf9d1fef2db1867758d725ec843c335235488d4cfee342cbe8c2ef77"
+      "path": "Build/web.9b14c32160e229db.data.unityweb",
+      "bytes": 96812672,
+      "sha256": "9b14c32160e229dbc78fb66ee68fe775ac22312cb9ecc0999514fb47a09bfae8"
     },
     "frameworkUrl": {
-      "path": "Build/web.2fdd67e7b29776c2.framework.js.unityweb",
+      "path": "Build/web.a9a4f020e56d8327.framework.js.unityweb",
       "bytes": 87271,
-      "sha256": "2fdd67e7b29776c2f8ae64a37da1044023e48fcdc64b863bf71a11e59bafa03a"
+      "sha256": "a9a4f020e56d8327e30c526afaf6b5bb832157dde92cd85eb2166c84797c61d1"
     },
     "codeUrl": {
-      "path": "Build/web.949aa2351a492697.wasm.unityweb",
-      "bytes": 8811323,
-      "sha256": "949aa2351a4926975706c7f8d3776925a7c936623a9f712b28a9290236688d20"
+      "path": "Build/web.cb836d437ca9f4bb.wasm.unityweb",
+      "bytes": 8818056,
+      "sha256": "cb836d437ca9f4bb5d0d9ff94d26650fdd5de1e5014fa07d3857f81a636b616f"
     }
   },
-  "initial_file_bytes": 105758142,
+  "initial_file_bytes": 105765866,
   "exported_metadata": {
     "companyName": "StarFan Studio",
     "productName": "小人物逆袭",
@@ -147,7 +147,7 @@
       "sha256": "bfc09d83a50226a5331619bd302a04c0d7a9f9386ea8bd3e2e527aa0f96bdb80"
     }
   ],
-  "shell_sha256": "265427ef36fff5268041eebded06779524f8479a36172f1f618f802e0625df24",
+  "shell_sha256": "54a1892db5612c8345efe23c44f9fb06629240e8b9ef320b62bc412ee9e7d5b9",
   "warnings": [],
   "browser_tested": false,
   "note": "Packaging only. Actual Unity startup, audio, input, save and browser performance require runtime verification."
