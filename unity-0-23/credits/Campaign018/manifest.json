@@ -1,0 +1,134 @@
+{
+  "scope": "Original authored 3D campaign architecture and costume props; Unity import/native render acceptance pending. Official reference rigs stay unchanged.",
+  "blender": "4.5.9 LTS",
+  "assets": [
+    {
+      "name": "KungfuTenement",
+      "triangles": 77096,
+      "mesh_groups": 9,
+      "uv": true,
+      "sha256": "686d43f7f780dc345e98e05a833773f15eccc216a852e9f8093a432f24441b78",
+      "open_playfield_half_extent": 10.6
+    },
+    {
+      "name": "FoodMarket",
+      "triangles": 104904,
+      "mesh_groups": 8,
+      "uv": true,
+      "sha256": "b2f5d707cac85af17971220814b5b6061d846e6e205f4aae9457c93285489dff",
+      "open_playfield_half_extent": 10.6
+    },
+    {
+      "name": "ShaolinStadium",
+      "triangles": 36752,
+      "mesh_groups": 9,
+      "uv": true,
+      "sha256": "ee2a34c81519bda04795c73a34cb8e07d782af87a5f36f91d2d48d8058e676c9",
+      "open_playfield_half_extent": 10.6
+    },
+    {
+      "name": "SpyHarbour",
+      "triangles": 64512,
+      "mesh_groups": 6,
+      "uv": true,
+      "sha256": "1fe1ecdc7fd5f68b809604b5ee3b30974010dd951289f37f58145cd7da16fb35",
+      "open_playfield_half_extent": 10.6
+    },
+    {
+      "name": "ChefHat",
+      "triangles": 3688,
+      "mesh_groups": 2,
+      "uv": true,
+      "sha256": "e639fbb4d6bbb6727a591140aa1d3a9b22fc7c466b624971ac55ae41f17ede2f",
+      "open_playfield_half_extent": null
+    },
+    {
+      "name": "Fedora",
+      "triangles": 1024,
+      "mesh_groups": 2,
+      "uv": true,
+      "sha256": "f5d850b15218b46835dfa93482710cfeef26a188a1c265c03f0d1b7b2985932b",
+      "open_playfield_half_extent": null
+    },
+    {
+      "name": "SportBand",
+      "triangles": 300,
+      "mesh_groups": 1,
+      "uv": true,
+      "sha256": "bcb78a7f03bf33920969528570dcfac515672180cd49b221715dd9c83a99e9f0",
+      "open_playfield_half_extent": null
+    },
+    {
+      "name": "Visor",
+      "triangles": 924,
+      "mesh_groups": 2,
+      "uv": true,
+      "sha256": "402a419ac3809b3cc12a8a76f57329b3c2f1de95adb805dd14bda6c65dc0a4fa",
+      "open_playfield_half_extent": null
+    },
+    {
+      "name": "Apron",
+      "triangles": 516,
+      "mesh_groups": 2,
+      "uv": true,
+      "sha256": "3ebe887d61479ea42fee3b106d8239f63aff772570e6975a30d293e2f89fae07",
+      "open_playfield_half_extent": null
+    },
+    {
+      "name": "Cleaver",
+      "triangles": 1772,
+      "mesh_groups": 4,
+      "uv": true,
+      "sha256": "0b89edf95192dc20c331bc1f0fb67c03141f3aa1d8f4e1f0427f788fb532b0cb",
+      "open_playfield_half_extent": null
+    },
+    {
+      "name": "Ladle",
+      "triangles": 856,
+      "mesh_groups": 2,
+      "uv": true,
+      "sha256": "6302a6ee58974e70a7e5e22ec3c26f146bc5494137d84eb8c7f7bc750d2c5506",
+      "open_playfield_half_extent": null
+    },
+    {
+      "name": "Axe",
+      "triangles": 1028,
+      "mesh_groups": 4,
+      "uv": true,
+      "sha256": "ac25d5db64eb426893e4400f8572266d3ca270884214e0bfb588bf00c996298b",
+      "open_playfield_half_extent": null
+    },
+    {
+      "name": "GoldPistol",
+      "triangles": 724,
+      "mesh_groups": 2,
+      "uv": true,
+      "sha256": "8264c685d8add5a44c3c0f35aa5a571be57e3efd4880a442fd8d6afd5f4d86a2",
+      "open_playfield_half_extent": null
+    },
+    {
+      "name": "Football",
+      "triangles": 2744,
+      "mesh_groups": 2,
+      "uv": true,
+      "sha256": "b5a5a0ab756e0eb52435a7780e5d4850b50c8ad0de7d095677b3932d38044171",
+      "open_playfield_half_extent": null
+    },
+    {
+      "name": "Bullet",
+      "triangles": 896,
+      "mesh_groups": 2,
+      "uv": true,
+      "sha256": "4ada7c9b1b84e5cdfed62ae166b1ec4dfc4d7b66b4834a13b55ac88003d35ddb",
+      "open_playfield_half_extent": null
+    },
+    {
+      "name": "Meatball",
+      "triangles": 584,
+      "mesh_groups": 2,
+      "uv": true,
+      "sha256": "f2f062c3deafcc6ff722dea62e66bf3fedce715d9598eb3416a8142904e0fa96",
+      "open_playfield_half_extent": null
+    }
+  ]
+}

@@ -1,0 +1,202 @@
+{
+  "schema": 1,
+  "build_directory": "/Users/mac/Documents/ChatGPT/互动影游/builds/unity-0-23/web",
+  "project": "/Users/mac/Documents/ChatGPT/互动影游/unity-remake/StarFanURP",
+  "metadata": {
+    "companyName": "StarFan Studio",
+    "productName": "小人物逆袭",
+    "bundleVersion": "0.23.0-preview.1"
+  },
+  "files": {
+    "loaderUrl": {
+      "path": "Build/web.c9a889ded963945a.loader.js",
+      "bytes": 47867,
+      "sha256": "c9a889ded963945a2ced715e3629dd748bcaec1175c67ac2cc78ed0d6598f7bf"
+    },
+    "dataUrl": {
+      "path": "Build/web.5336b307b4553805.data.unityweb",
+      "bytes": 98385557,
+      "sha256": "5336b307b4553805fcd4a94a66c0f7610382ff9890fa37bdbb0922cf07375007"
+    },
+    "frameworkUrl": {
+      "path": "Build/web.b7385e5df67d3cad.framework.js.unityweb",
+      "bytes": 87344,
+      "sha256": "b7385e5df67d3cadf8213fb40ec32a956859bcecdce80fa8bb3991d424ab188f"
+    },
+    "codeUrl": {
+      "path": "Build/web.6e59fb4cba7354e6.wasm.unityweb",
+      "bytes": 8841581,
+      "sha256": "6e59fb4cba7354e61214ddaf962ef596c3c6e83624a5056d953fa7ae0c16075f"
+    }
+  },
+  "initial_file_bytes": 107362349,
+  "exported_metadata": {
+    "companyName": "StarFan Studio",
+    "productName": "小人物逆袭",
+    "productVersion": "0.23.0-preview.1"
+  },
+  "original_unity_html_sha256": "b287c654065ac3eda6c24cce16a5735afc8a07745f213ff15ef5beefcd24c4ab",
+  "metadata_verified_against_original_export": true,
+  "credits": [
+    {
+      "path": "credits/Unity-Companion-License.txt",
+      "sha256": "75377eac4782953a8fac0284596b1427e9f5dfef7cea55e563aa938686203069"
+    },
+    {
+      "path": "credits/Unity-Boss-Room-LICENSE.md",
+      "sha256": "b7bd774e693d010a22386460b6f0e2544f1b496c735e746d80cb94e54b0a07ce"
+    },
+    {
+      "path": "credits/Unity-Boss-Room-Third-Party-Notices.md",
+      "sha256": "9de3af22f58b67f2b716b5848a0af1b97a1cdf1d96c04374384761da0346eac0"
+    },
+    {
+      "path": "credits/Boss-Room-SOURCE.txt",
+      "sha256": "a4c8144dc0ee70479e1758fb742992146e31e5c827976abe49349786e2c26575"
+    },
+    {
+      "path": "credits/Noto-OFL.txt",
+      "sha256": "6a73f9541c2de74158c0e7cf6b0a58ef774f5a780bf191f2d7ec9cc53efe2bf2"
+    },
+    {
+      "path": "credits/Noto-SOURCE.md",
+      "sha256": "365ecf4e50a197a35c408444faeed517a5801c561e958bc6e3a06a917e4b41fd"
+    },
+    {
+      "path": "credits/Art-README.md",
+      "sha256": "f336e1cd2aa1d406d40f59071af99a8f502304970e6de4d9650a4f4a1ba1ecf0"
+    },
+    {
+      "path": "credits/Film01-Actors.md",
+      "sha256": "360633fff5b04274a7c21d35051ffe8d2006280d4d63d64dbcfad60d3e294e77"
+    },
+    {
+      "path": "credits/Film01-Loot-ASSET_SOURCES.md",
+      "sha256": "68e1df667515196f9f97130e157061328d1a207c710ef3ca20b95204ceb82a50"
+    },
+    {
+      "path": "credits/Campaign018/README.md",
+      "sha256": "cef1940e062bb7d3f5b91f9d9451a703d6b1ffa69b5388d5292bf93c24ff1e58"
+    },
+    {
+      "path": "credits/Campaign018/manifest.json",
+      "sha256": "427e1c969e91a99062cc1e1e78597324a38d33088f16383fce1e3bb32f348245"
+    },
+    {
+      "path": "credits/Fan019/README.md",
+      "sha256": "8d7bd0ee5f8d9471dc0d040a2294fc6489cec97a8c50e998c2864f3968d6fd66"
+    },
+    {
+      "path": "credits/Fan019/audio-manifest.json",
+      "sha256": "124358ca16bbdea94cab54f3760e29253c6261cb821aa899a42a12d1b1e45a9f"
+    },
+    {
+      "path": "credits/Fan019/licenses/music-manifest.json",
+      "sha256": "2cd05bc2ea598342779867e28bdfdc7befcfb1f0b682c6dffc04763189c19371"
+    },
+    {
+      "path": "credits/Fan019/licenses/kenney-downloads.json",
+      "sha256": "5814011547b69c53299eec5e23be1e356e203be901cafaeaf5302b5b2040e597"
+    },
+    {
+      "path": "credits/Fan019/licenses/incompetech-pieces.json",
+      "sha256": "54802ad340562624b9d1c9c97aa9f005e2b9bf79001f8a1a07ed857e68b2164a"
+    },
+    {
+      "path": "credits/Fan019/imported-licenses/AUDIO_CREDITS.txt",
+      "sha256": "3b0bafeceea8b4d3b02e5b5a0e74791006c92d001e42bfaf68a926fbcda3821d"
+    },
+    {
+      "path": "credits/Fan019/imported-licenses/rpg-audio-LICENSE.txt",
+      "sha256": "5735dfd72cb64cbbceda4ebc00c380c41ca680edb82ff153aa7c9ab97614c539"
+    },
+    {
+      "path": "credits/Fan019/imported-licenses/impact-sounds-LICENSE.txt",
+      "sha256": "b49aa9c56b04528b95913de13e506a0f7c5e807b9925db9bfef86af1f91120db"
+    },
+    {
+      "path": "credits/Fan019/imported-licenses/ui-audio-LICENSE.txt",
+      "sha256": "4f88ab3c885c87874834441a0d009cea8942f57461d7b870be65cf4e31362073"
+    },
+    {
+      "path": "credits/Fan019/imported-licenses/voiceover-pack-LICENSE.txt",
+      "sha256": "57d021b53ab176ba287ee0e32abe3a31df86a2449715bf437789cf9779cc1d4e"
+    },
+    {
+      "path": "credits/Fan019/imported-licenses/voiceover-pack-CREDITS.txt",
+      "sha256": "b16848bb21bf12e38c6fc96ad2a55bb9e623a11dba3a843c957aa356515d2fef"
+    },
+    {
+      "path": "credits/Fan019/StarFanAudio019Credits.txt",
+      "sha256": "3b0bafeceea8b4d3b02e5b5a0e74791006c92d001e42bfaf68a926fbcda3821d"
+    },
+    {
+      "path": "credits/Campaign020/README.md",
+      "sha256": "a83d7faebc89b2868dc66832c388d8dc27f66c2c9c71482f693a47ea16dd5062"
+    },
+    {
+      "path": "credits/Campaign020/manifest.json",
+      "sha256": "b700200d889d253cc4eaade48742a7447ea8ec7f3ef9ed263aa7dd89e0138414"
+    },
+    {
+      "path": "credits/Campaign021/README.md",
+      "sha256": "34dc5cc3832333599aa0dc7ed21a1c8d8857394ec4178a19178b2dbe9a964400"
+    },
+    {
+      "path": "credits/Campaign021/manifest.json",
+      "sha256": "bfc09d83a50226a5331619bd302a04c0d7a9f9386ea8bd3e2e527aa0f96bdb80"
+    },
+    {
+      "path": "credits/Presentation023/README.md",
+      "sha256": "c14e125b78f99b00257f458bbf85ef5b0152d6019a89f232495aa9c180ae17bd"
+    },
+    {
+      "path": "credits/Presentation023/manifest.json",
+      "sha256": "83d834dc2eba528077b8eb1f09a6d2e74ca6d86a49d676b91ff8740669d587ef"
+    },
+    {
+      "path": "credits/Presentation023/palm-cards-README.md",
+      "sha256": "c148e1b5c90cf106205a2375a7ad80df1824091bb324926a3675356612bd9177"
+    },
+    {
+      "path": "credits/Presentation023/palm-cards-manifest.json",
+      "sha256": "a02f6bb9b10ee17409543fb51b581b3807264b1b50417b4e873317c3c473e4ea"
+    },
+    {
+      "path": "credits/Audio023/README.md",
+      "sha256": "d9ec900daf5338987a8e3343ab4885cb3e956fb1f3860df2a3fa979045219c4f"
+    },
+    {
+      "path": "credits/Audio023/audio-manifest.json",
+      "sha256": "398d75dd2efa05a102fb7d98b79c19bea627b10b4daa0fb994bad5f77bcf039d"
+    },
+    {
+      "path": "credits/Audio023/AUDIO_CREDITS.txt",
+      "sha256": "94b2dbf543fc1dc6191eb816153ce731081781df6b549c8474869d9bd4ac6e4c"
+    },
+    {
+      "path": "credits/Audio023/licenses/impact-sounds-LICENSE.txt",
+      "sha256": "b49aa9c56b04528b95913de13e506a0f7c5e807b9925db9bfef86af1f91120db"
+    },
+    {
+      "path": "credits/Audio023/licenses/rpg-audio-LICENSE.txt",
+      "sha256": "5735dfd72cb64cbbceda4ebc00c380c41ca680edb82ff153aa7c9ab97614c539"
+    },
+    {
+      "path": "credits/Audio023/licenses/ui-audio-LICENSE.txt",
+      "sha256": "4f88ab3c885c87874834441a0d009cea8942f57461d7b870be65cf4e31362073"
+    },
+    {
+      "path": "credits/Audio023/licenses/voiceover-Credits.txt",
+      "sha256": "b16848bb21bf12e38c6fc96ad2a55bb9e623a11dba3a843c957aa356515d2fef"
+    },
+    {
+      "path": "credits/Audio023/licenses/voiceover-pack-LICENSE.txt",
+      "sha256": "57d021b53ab176ba287ee0e32abe3a31df86a2449715bf437789cf9779cc1d4e"
+    }
+  ],
+  "shell_sha256": "7ecc7067f6a3f176f751fbc0a89d316f5885097d71f451392de136e5de3af89f",
+  "warnings": [],
+  "browser_tested": false,
+  "note": "Packaging only. Actual Unity startup, audio, input, save and browser performance require runtime verification."
+}
