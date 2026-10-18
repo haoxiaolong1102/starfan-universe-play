@@ -1,0 +1,72 @@
+[
+  {
+    "film": 0,
+    "title": "Asian Drums",
+    "author": "Kevin MacLeod",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "source_page": "https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1100396",
+    "source_url": "https://incompetech.com/music/royalty-free/mp3-royaltyfree/Asian%20Drums.mp3",
+    "source_sha256": "c715f9f9af67505447e8083f50206799ec8563157aab6fdc80e7672698cc8a7d",
+    "output": "unity-remake/StarFanURP/Assets/StarFan/Art/Fan019/Audio/Music/Film0.ogg",
+    "sha256": "b98f99cb41f37034e34061d4e670f67b413aba0dd305b6d4fccd7a9c9ae57d1d",
+    "changes": "Loudness normalized to -20 LUFS target, encoded Ogg Vorbis; original instrumental composition, not a movie soundtrack",
+    "date": "2026-10-17"
+  },
+  {
+    "film": 1,
+    "title": "The Show Must Be Go",
+    "author": "Kevin MacLeod",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "source_page": "https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1500068",
+    "source_url": "https://incompetech.com/music/royalty-free/mp3-royaltyfree/The%20Show%20Must%20Be%20Go.mp3",
+    "source_sha256": "2c9d78a555ea3f897a1529c819da442a9ea479b29704a3e5b8ed4a3ee3245cc5",
+    "output": "unity-remake/StarFanURP/Assets/StarFan/Art/Fan019/Audio/Music/Film1.ogg",
+    "sha256": "38241e76022fb09393a7312cd82008db41242fb9c8f51b064c11b412aeff2ca5",
+    "changes": "Loudness normalized to -20 LUFS target, encoded Ogg Vorbis; original instrumental composition, not a movie soundtrack",
+    "date": "2026-10-17"
+  },
+  {
+    "film": 2,
+    "title": "Monkeys Spinning Monkeys",
+    "author": "Kevin MacLeod",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "source_page": "https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1400011",
+    "source_url": "https://incompetech.com/music/royalty-free/mp3-royaltyfree/Monkeys%20Spinning%20Monkeys.mp3",
+    "source_sha256": "a5bb345c23849ad0786aa0bc5157a9f2d4039660fe00282e55754d475f36dc14",
+    "output": "unity-remake/StarFanURP/Assets/StarFan/Art/Fan019/Audio/Music/Film2.ogg",
+    "sha256": "56d90e5076f444a50ec3ec66313399e71e0161cce35488c374a17b4c2953d11a",
+    "changes": "Loudness normalized to -20 LUFS target, encoded Ogg Vorbis; original instrumental composition, not a movie soundtrack",
+    "date": "2026-10-17"
+  },
+  {
+    "film": 3,
+    "title": "Movement Proposition",
+    "author": "Kevin MacLeod",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "source_page": "https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1100778",
+    "source_url": "https://incompetech.com/music/royalty-free/mp3-royaltyfree/Movement%20Proposition.mp3",
+    "source_sha256": "e3a4c4ba2118109c78bfd0e538acb04d8bd6ac2d8ddb5617e0a0bfeedec1e5d6",
+    "output": "unity-remake/StarFanURP/Assets/StarFan/Art/Fan019/Audio/Music/Film3.ogg",
+    "sha256": "1c1172ca88ae4b36bf1bdba01bf44bcfdeba0d129b3a68723c469f15de1ea0f5",
+    "changes": "Loudness normalized to -20 LUFS target, encoded Ogg Vorbis; original instrumental composition, not a movie soundtrack",
+    "date": "2026-10-17"
+  },
+  {
+    "film": 4,
+    "title": "Covert Affair",
+    "author": "Kevin MacLeod",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "source_page": "https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1100795",
+    "source_url": "https://incompetech.com/music/royalty-free/mp3-royaltyfree/Covert%20Affair.mp3",
+    "source_sha256": "279be47ea7880460be1393d66a83bcc7bee18e10d73537420098e4e1b1c0646f",
+    "output": "unity-remake/StarFanURP/Assets/StarFan/Art/Fan019/Audio/Music/Film4.ogg",
+    "sha256": "6c78eacefef9eb75b0106d0f2f3f91746f6d931f2445d405ada5b4638001e54d",
+    "changes": "Loudness normalized to -20 LUFS target, encoded Ogg Vorbis; original instrumental composition, not a movie soundtrack",
+    "date": "2026-10-17"
+  }
+]
