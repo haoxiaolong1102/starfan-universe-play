@@ -60,6 +60,34 @@ footer{padding:4px 10px;font-size:10px;gap:8px}.reference{display:none}.controls
 "use strict";
 const build = {"loaderUrl": "Build/web.b9fc00878b8ba10c.loader.js", "dataUrl": "Build/web.54e87caabe09504f.data.unityweb", "frameworkUrl": "Build/web.377ea28311199bc2.framework.js.unityweb", "codeUrl": "Build/web.fb91619af81edb02.wasm.unityweb", "companyName": "StarFan Studio", "productName": "小人物逆袭", "productVersion": "0.25.0-preview.1", "streamingAssetsUrl": "StreamingAssets"};
 const canvas = document.getElementById("unity-canvas");
+// UUM-93245: Chromium can advertise EXT_render_snorm while rejecting the six
+// SNORM multisample capability queries made by Unity at engine startup.
+// Disable this optional render-target capability for THIS game canvas only.
+// No error draining, fabricated query results, or console filtering.
+// The shipped effects render into the normal URP color target, not SNORM RTs.
+(() => {
+  const gameCanvas = canvas;
+  const originalGetContext = gameCanvas.getContext;
+  const configured = new WeakSet();
+  gameCanvas.getContext = function (type, ...args) {
+    const gl = Reflect.apply(originalGetContext, this, [type, ...args]);
+    if (this !== gameCanvas || type !== "webgl2" || !gl || configured.has(gl)) return gl;
+    configured.add(gl);
+    const supported = gl.getSupportedExtensions;
+    const extension = gl.getExtension;
+    gl.getSupportedExtensions = function (...queryArgs) {
+      const result = Reflect.apply(supported, this, queryArgs);
+      return this === gl && result ? result.filter(name => name !== "EXT_render_snorm") : result;
+    };
+    gl.getExtension = function (name) {
+      if (this === gl && name === "EXT_render_snorm") return null;
+      return Reflect.apply(extension, this, [name]);
+    };
+    console.info("[StarFan WebGL] Optional SNORM render targets disabled (UUM-93245).");
+    return gl;
+  };
+})();
+
 const stage = document.getElementById("stage");
 const loading = document.getElementById("loading");
 const statusText = document.getElementById("status");

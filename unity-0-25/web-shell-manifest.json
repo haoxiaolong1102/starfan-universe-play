@@ -291,7 +291,7 @@
       "sha256": "2990d1108415708db7d71e3ee8074f6e51a089b1b41427d7d63021e65f487c62"
     }
   ],
-  "shell_sha256": "e02c05de733d1d57a3fc85558cdd6798a626ac00f819c7942e45b0ca3974f2ea",
+  "shell_sha256": "fbce18157a3ff635da30000fbb893b334be12471c1a66177daff8c6858757237",
   "warnings": [],
   "browser_tested": false,
   "note": "Packaging only. Actual Unity startup, audio, input, save and browser performance require runtime verification."
