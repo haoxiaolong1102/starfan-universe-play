@@ -1,0 +1,218 @@
+<!doctype html>
+<!-- starfan-unity-web-shell:v1 -->
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#101113">
+<title>小人物逆袭 · 网页试玩</title>
+<style>
+:root{color-scheme:dark;font-family:system-ui,-apple-system,"PingFang SC","Microsoft YaHei",sans-serif;
+--gold:#d7b56f;--ink:#101113;--muted:#a7a49d}
+*{box-sizing:border-box}html,body{width:100%;height:100%;margin:0;overflow:hidden;background:var(--ink);color:#eee8dc}
+body{display:flex;flex-direction:column;height:100dvh;user-select:none;-webkit-user-select:none}button,a{-webkit-tap-highlight-color:transparent}
+header{height:44px;min-height:44px;display:flex;align-items:center;gap:14px;padding:0 18px;
+border-bottom:1px solid #34302a;background:#151619}h1{font-size:15px;font-weight:600;letter-spacing:.07em;margin:0}
+.version{font-size:11px;color:var(--gold);white-space:nowrap}.spacer{flex:1}
+button{border:1px solid #6d5b37;background:#25221c;color:#e8d8b7;border-radius:5px;padding:6px 12px;cursor:pointer;font:inherit;font-size:12px}
+button:hover{background:#383023}button:focus-visible,a:focus-visible{outline:2px solid var(--gold);outline-offset:3px}
+button:disabled{opacity:.4;cursor:default}
+#stage{position:relative;flex:1;min-height:0;width:100%;display:flex;align-items:center;justify-content:center;background:#090a0b}
+#stage:fullscreen{width:100vw;height:100vh;background:#090a0b}
+#display-hint{position:absolute;z-index:5;top:24px;left:50%;transform:translateX(-50%);width:min(440px,calc(100% - 32px));padding:16px 18px;background:#1c1d20;border:1px solid #5b4b30;border-radius:8px;text-align:center;line-height:1.6}
+#display-hint[hidden]{display:none}#display-hint strong{display:block;font-size:17px;color:#eee8dc}#display-hint p{font-size:14px;color:#c4beb3;margin:6px 0 12px}#display-hint button{font-size:14px}#display-hint .dismiss-display{margin-left:8px;background:transparent;border-color:#4e4b46;color:#bcb8b0}
+#unity-canvas{display:block;background:#101113;outline:none;touch-action:none;width:16px;height:9px}
+#web-name{position:absolute;z-index:3;margin:0;border:1px solid transparent;border-radius:0;background:#0d0f18;color:#f2eee4;
+font-family:inherit;font-weight:500;line-height:1.3;outline:none;user-select:text;-webkit-user-select:text;caret-color:var(--gold)}
+#web-name:focus{border-color:#c5a05a}#web-name[hidden]{display:none}
+#loading{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;background:#101113;padding:24px}
+#loading[hidden]{display:none}.load-panel{width:min(420px,100%)}.eyebrow{font-size:11px;letter-spacing:.24em;color:var(--gold);margin:0 0 20px}
+h2{font-size:25px;letter-spacing:.08em;font-weight:500;margin:0 0 24px}#status{font-size:14px;line-height:1.6;margin:0 0 12px}
+.progress-line{display:flex;align-items:center;gap:12px}progress{width:100%;height:5px;accent-color:var(--gold);border:0;background:#36332d}
+progress::-webkit-progress-bar{background:#36332d}progress::-webkit-progress-value{background:var(--gold)}
+progress::-moz-progress-bar{background:var(--gold)}#percent{font-size:12px;color:var(--gold);min-width:34px;text-align:right;font-variant-numeric:tabular-nums}
+.details{color:var(--muted);font-size:12px;line-height:1.8;margin-top:18px}#error{color:#e8b6a3;white-space:pre-wrap;overflow-wrap:anywhere;max-height:32vh;overflow:auto;font-size:12px}
+#retry{margin-top:14px}#banner{position:absolute;top:12px;left:50%;transform:translateX(-50%);max-width:min(90%,750px);
+background:#352a1b;border:1px solid #8a6637;border-radius:5px;padding:8px 12px;color:#f3d9a8;font-size:12px;pointer-events:none}
+footer{min-height:32px;padding:6px 18px;display:flex;gap:12px;align-items:center;justify-content:space-between;
+font-size:11px;line-height:20px;color:var(--muted);background:#151619}footer a{color:#c7b07d;text-decoration:none;white-space:nowrap}
+.controls{color:#d2c8b7}.small-screen{display:none;color:var(--gold)}
+@media(max-width:760px),(max-height:480px){header{padding:0 10px;gap:8px}h1{font-size:12px;letter-spacing:0}.version{font-size:10px}
+footer{padding:4px 10px;font-size:10px;gap:8px}.reference{display:none}.controls{display:none}.small-screen{display:inline}}
+</style>
+</head>
+<body>
+<header><h1>小人物逆袭</h1><span class="version" title="0.25.0-preview.1">0.25 试玩</span><span class="spacer"></span><button id="fullscreen" disabled>全屏</button></header>
+<main id="stage">
+<canvas id="unity-canvas" width="1600" height="900" tabindex="0" aria-label="小人物逆袭游戏画面"></canvas>
+<input id="web-name" aria-label="影迷名字" type="text" maxlength="18" autocomplete="off" spellcheck="false" hidden>
+<aside id="display-hint" aria-label="显示建议" hidden><strong>全屏后，卡牌和敌人招式更清楚</strong><p>当前窗口较窄。这是电脑键盘游戏，建议全屏试玩，再开始你的第一关。</p><button id="display-fullscreen" disabled>全屏试玩</button><button id="display-dismiss" class="dismiss-display">本页继续</button></aside>
+<div id="loading"><div class="load-panel"><p class="eyebrow">STARFAN / PLAYABLE PREVIEW</p><h2>小人物逆袭</h2>
+<p id="status" role="status">正在载入 Unity 加载器…</p>
+<div class="progress-line"><progress id="progress" max="1" value="0" aria-label="Unity 游戏加载进度"></progress><span id="percent">0%</span></div>
+<p class="details">首次游戏文件约 89.8 MiB，进度由 Unity 加载器报告。<br>载入后阅读开场寄语，向下选择角色与出发兵器；点击游戏即可启用声音。</p>
+<div id="error" hidden></div><button id="retry" hidden>重新加载</button></div></div>
+<div id="banner" role="status" hidden></div>
+</main>
+<footer><span><span class="controls">WASD 移动 · 自动攻击 · Shift 闪身 · Space 大招 · Esc 暂停</span><span class="small-screen">请使用电脑键盘试玩</span></span>
+<span><span class="reference">模型与音频来源见署名 · </span><a href="credits/index.html" target="_blank" rel="noopener">美术、音频与字体来源</a></span></footer>
+<script>
+"use strict";
+const build = {"loaderUrl": "Build/web.b9fc00878b8ba10c.loader.js", "dataUrl": "Build/web.54e87caabe09504f.data.unityweb", "frameworkUrl": "Build/web.377ea28311199bc2.framework.js.unityweb", "codeUrl": "Build/web.fb91619af81edb02.wasm.unityweb", "companyName": "StarFan Studio", "productName": "小人物逆袭", "productVersion": "0.25.0-preview.1", "streamingAssetsUrl": "StreamingAssets"};
+const canvas = document.getElementById("unity-canvas");
+const stage = document.getElementById("stage");
+const loading = document.getElementById("loading");
+const statusText = document.getElementById("status");
+const progress = document.getElementById("progress");
+const percent = document.getElementById("percent");
+const errorBox = document.getElementById("error");
+const retry = document.getElementById("retry");
+const fullscreen = document.getElementById("fullscreen");
+const banner = document.getElementById("banner");
+const webName = document.getElementById("web-name");
+const displayHint = document.getElementById("display-hint");
+const displayFullscreen = document.getElementById("display-fullscreen");
+const displayDismiss = document.getElementById("display-dismiss");
+let displayHintDismissed = false;
+let instance = null;
+let failed = false;
+let bannerTimer;
+let nameRect = null;
+function nameMessage(method, value) {
+  if (instance) instance.SendMessage("StarFanWebNameInput", method, value);
+}
+function syncName() {
+  if (nameRect && nameRect.visible) nameMessage("SetName", webName.value);
+}
+function fitNameInput() {
+  const show = Boolean(nameRect && nameRect.visible && instance && !failed && loading.hidden);
+  if (!show) {
+    if (document.activeElement === webName) webName.blur();
+    webName.hidden = true;
+    return;
+  }
+  const c = canvas.getBoundingClientRect(), s = stage.getBoundingClientRect(), r = nameRect;
+  webName.style.left = (c.left - s.left + r.x * c.width) + "px";
+  webName.style.top = (c.top - s.top + r.y * c.height) + "px";
+  webName.style.width = r.w * c.width + "px";
+  webName.style.height = r.h * c.height + "px";
+  webName.style.fontSize = Math.max(10, r.fontRatio * c.height) + "px";
+  webName.style.padding = "0 " + (r.w * c.width * 18 / 510) + "px";
+  if (document.activeElement !== webName && webName.value !== r.text) webName.value = r.text;
+  webName.hidden = false;
+}
+// Unity owns visibility and geometry; the browser owns native text/IME/clipboard handling.
+window.StarFanWebNameRect = (visible, x, y, w, h, text, fontRatio) => {
+  nameRect = {visible: Boolean(visible), x, y, w, h, text, fontRatio};
+  fitNameInput();
+  fitDisplayHint(canvas.getBoundingClientRect().width);
+};
+webName.addEventListener("focus", () => nameMessage("SetFocus", 1));
+webName.addEventListener("blur", () => { syncName(); nameMessage("SetFocus", 0); });
+webName.addEventListener("input", event => { if (!event.isComposing) syncName(); });
+webName.addEventListener("compositionend", syncName);
+webName.addEventListener("change", syncName);
+webName.addEventListener("keydown", event => event.stopPropagation());
+function fitCanvas() {
+  const width = Math.min(stage.clientWidth, stage.clientHeight * 16 / 9);
+  canvas.style.width = width + "px";
+  canvas.style.height = width * 9 / 16 + "px";
+  fitNameInput();
+  fitDisplayHint(width);
+}
+function fitDisplayHint(width) {
+  const narrow = width < 1100 && !document.fullscreenElement;
+  displayHint.hidden = failed || !loading.hidden || !narrow || displayHintDismissed || !(nameRect && nameRect.visible);
+  const unusedTop = Math.max(0, (stage.clientHeight - width * 9 / 16) / 2);
+  displayHint.style.top = (unusedTop > 185 ? Math.min(48, unusedTop - 170) : 12) + "px";
+}
+new ResizeObserver(fitCanvas).observe(stage);
+window.addEventListener("resize", fitCanvas);
+document.addEventListener("fullscreenchange", () => {
+  fullscreen.textContent = document.fullscreenElement ? "退出全屏" : "全屏";
+  fitCanvas();
+});
+fitCanvas();
+function showError(message) {
+  failed = true;
+  loading.hidden = false;
+  statusText.textContent = "游戏未能载入，请重新加载。";
+  errorBox.textContent = String(message);
+  errorBox.hidden = false;
+  retry.hidden = false;
+  fullscreen.disabled = true;
+  fitNameInput();
+}
+function showBanner(message, type) {
+  if (type === "error") { showError(message); return; }
+  banner.textContent = String(message);
+  banner.hidden = false;
+  clearTimeout(bannerTimer);
+  bannerTimer = setTimeout(() => { banner.hidden = true; }, 8000);
+}
+retry.addEventListener("click", () => location.reload());
+async function toggleFullscreen() {
+  try {
+    if (document.fullscreenElement) await document.exitFullscreen();
+    else if (stage.requestFullscreen) await stage.requestFullscreen();
+    else if (instance) instance.SetFullscreen(1);
+    canvas.focus({preventScroll:true});
+  } catch (error) { showBanner("当前浏览器未能进入全屏：" + error.message, "warning"); }
+}
+fullscreen.addEventListener("click", toggleFullscreen);
+displayFullscreen.addEventListener("click", toggleFullscreen);
+displayDismiss.addEventListener("click", () => { displayHintDismissed = true; displayHint.hidden = true; canvas.focus({preventScroll:true}); });
+canvas.addEventListener("pointerdown", () => canvas.focus({preventScroll:true}));
+// Keep browser shortcuts intact; only suppress page scrolling while the game owns focus.
+canvas.addEventListener("keydown", event => {
+  if (!event.metaKey && !event.ctrlKey && !event.altKey &&
+      ["Space", "ArrowUp", "ArrowDown", "ArrowLeft", "ArrowRight"].includes(event.code)) event.preventDefault();
+});
+const config = {
+  dataUrl: build.dataUrl,
+  frameworkUrl: build.frameworkUrl,
+  codeUrl: build.codeUrl,
+  streamingAssetsUrl: build.streamingAssetsUrl,
+  companyName: build.companyName,
+  productName: build.productName,
+  productVersion: build.productVersion,
+  devicePixelRatio: Math.min(window.devicePixelRatio || 1, 1.5),
+  matchWebGLToCanvasSize: true,
+  dataCaching: true,
+  autoSyncPersistentDataPath: true,
+  showBanner
+};
+if (location.protocol === "file:") {
+  showError("请通过 HTTP 或 HTTPS 打开游戏，浏览器无法直接读取本地 Unity 游戏文件。");
+} else {
+  const loader = document.createElement("script");
+  loader.src = build.loaderUrl;
+  loader.onerror = () => showError("无法下载 Unity 加载器：" + build.loaderUrl);
+  loader.onload = () => {
+    if (typeof createUnityInstance !== "function") {
+      showError("Unity 加载器没有提供 createUnityInstance。"); return;
+    }
+    statusText.textContent = "正在下载并准备游戏资源…";
+    // No manual decompression: Unity's generated loader handles its own .unityweb files.
+    Promise.resolve().then(() => createUnityInstance(canvas, config, value => {
+      if (failed) return;
+      const fraction = Math.max(0, Math.min(1, Number(value) || 0));
+      progress.value = fraction;
+      percent.textContent = Math.round(fraction * 100) + "%";
+      statusText.textContent = fraction >= 1 ? "正在启动游戏…" : "正在下载并准备游戏资源…";
+    })).then(game => {
+      instance = game;
+      if (failed) return;
+      loading.hidden = true;
+      fullscreen.disabled = false;
+      displayFullscreen.disabled = false;
+      fitNameInput();
+      fitCanvas();
+      canvas.focus({preventScroll:true});
+    }).catch(error => showError(error && error.message ? error.message : error));
+  };
+  document.body.appendChild(loader);
+}
+</script>
+</body>
+</html>
