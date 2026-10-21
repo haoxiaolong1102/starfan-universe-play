@@ -1,0 +1,8 @@
+{
+  "utc": "2026-10-19T13:14:23.836943+00:00",
+  "path": "unity-remake/StarFanURP/Assets/Effekseer/Scripts/EffekseerSystem.cs",
+  "beforeSha256": "822dac4dcbeac6568a9be918d61c9f0952d81f31685377f257163a4162e98612",
+  "afterSha256": "7f4134b71be0bd0887ed8b1ec23569138c194eddc7d45222cd9f3cb8d1c778d5",
+  "change": "In InitPlugin isWebGL guard, exclude UNITY_EDITOR. Unity Editor compiles active target UNITY_WEBGL even on Metal; Native renderer cannot render on Metal. WebGL Player still selects native.",
+  "scope": "Source compatibility patch, actual new render still to verify. No renderer quality claimed from source."
+}
