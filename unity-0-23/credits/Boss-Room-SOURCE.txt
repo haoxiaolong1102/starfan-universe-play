@@ -1,5 +1,0 @@
-Official Unity Boss Room visual reference assets
-Source: https://github.com/Unity-Technologies/com.unity.multiplayer.samples.coop
-Commit: 1299ba4fc97d83b634e7d32a86c438ba668d7f9c
-Imported and repackaged through Unity Editor APIs for this offline playable prototype. Original visual artwork and audio remain Unity/reference contributors content; not claimed as original StarFan artwork.
-The accompanying license and third-party notices remain applicable.

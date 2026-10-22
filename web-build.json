@@ -1,58 +1,54 @@
 {
-  "version": "0.15.0",
-  "engine": "4.7.2.stable.official.ed1daf0bf",
-  "generated_at_utc": "2026-10-15T14:52:37.933633+00:00",
-  "renderer": "gl_compatibility",
-  "thread_support": false,
-  "entry_html": "starfan-0-15-0.html",
-  "engine_prefix": "starfan-0-15-0",
-  "main_pack": "starfan-0-15-0.pck",
-  "additional_resources_pruned": false,
+  "schema": 2,
+  "version": "0.27.0-preview.1",
+  "engine": "Unity 6000.3.26f1",
+  "generated_at_utc": "2026-10-22T08:16:59.418782+00:00",
+  "entry_html": "unity-0-27/index.html",
+  "scope": {
+    "films": 1,
+    "waves": 5,
+    "weapon": "Warrior0 long staff",
+    "ultimate": 0
+  },
+  "build": {
+    "result": "Succeeded",
+    "errors": 0,
+    "warnings": 17,
+    "bytes": 108588305,
+    "seconds": 470.351162,
+    "version": "0.27.0-preview.1",
+    "outputPath": "unity-0-27/",
+    "scenes": [
+      "Assets/StarFan/Art/FirstActArcher/Scenes/FirstActArcher.unity"
+    ]
+  },
   "files": {
-    ".nojekyll": {
-      "bytes": 0,
-      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    "loaderUrl": {
+      "path": "Build/web.2f3e0f617e154ee2.loader.js",
+      "bytes": 117894,
+      "sha256": "2f3e0f617e154ee20c1f0a2d69fad130f5cfa91220e88416c99f7c2627dddb1e"
     },
-    "index.html": {
-      "bytes": 10296,
-      "sha256": "8300f8bc62e5297f6efde8bfa43b9a7e3eb42d7466129650b329d14582fdc86a"
+    "dataUrl": {
+      "path": "Build/web.b5723286841c8686.data.unityweb",
+      "bytes": 101295370,
+      "sha256": "b5723286841c8686430d301ff72569e79eb2ab4e4667dfc1228385d310a38a7e"
     },
-    "starfan-0-15-0.apple-touch-icon.png": {
-      "bytes": 8061,
-      "sha256": "d61362b3912c76183fa5c9d13d1659719c839c5ab6ee19b21000075be7dda00a"
+    "frameworkUrl": {
+      "path": "Build/web.006b71357c6c06ab.framework.js.unityweb",
+      "bytes": 80579,
+      "sha256": "006b71357c6c06ab4f6c9eb7dc8366d86395871900b9f17d9e0e6864081f6f99"
     },
-    "starfan-0-15-0.audio.position.worklet.js": {
-      "bytes": 2973,
-      "sha256": "be33985bc7160d6bf9646f259cd86b259cd67b02ccb297ee5c44f8ac84327bc8"
-    },
-    "starfan-0-15-0.audio.worklet.js": {
-      "bytes": 7298,
-      "sha256": "5b476a9c9ce642c0ee4256436d1bc31d9c38f868aca0f9a8e2a57c18d2dec2a3"
-    },
-    "starfan-0-15-0.html": {
-      "bytes": 10296,
-      "sha256": "8300f8bc62e5297f6efde8bfa43b9a7e3eb42d7466129650b329d14582fdc86a"
-    },
-    "starfan-0-15-0.icon.png": {
-      "bytes": 28807,
-      "sha256": "f1f5978f219cd2dd289d0140eda9454240b904760b93de6bf8cd1072d130f35b"
-    },
-    "starfan-0-15-0.js": {
-      "bytes": 279815,
-      "sha256": "33c94cb3175f3333b82e2a3be5e8e86f77986f0aa2042b1631f6367a4e5bb6ba"
-    },
-    "starfan-0-15-0.pck": {
-      "bytes": 77234588,
-      "sha256": "a78aa421a8132086f52852221d1a9d89207ce8ebb430248c7118496c2963d0b9"
-    },
-    "starfan-0-15-0.png": {
-      "bytes": 21443,
-      "sha256": "3cb4495c0b98dfbe4b663cbf2b6836473572339beb66d902367893162a70be0e"
-    },
-    "starfan-0-15-0.wasm": {
-      "bytes": 39514754,
-      "sha256": "fc74679e3b97f76878947fcd4fbe1268cbfa6188182a2e33bbc3f5dc9bfa57d0"
+    "codeUrl": {
+      "path": "Build/web.83041d2066f56553.wasm.unityweb",
+      "bytes": 7090883,
+      "sha256": "83041d2066f5655305ea3f4f2979215a741dfb0659711555bc94cf49a62b8e30"
     }
   },
-  "validation": "Local browser acceptance passed; public acceptance recorded in the project release report."
+  "validation": {
+    "editor_five_wave_public_input_route": "passed; single seed and ultimate route",
+    "chrome_ui_regression": "passed; one wave to second wave on identical runtime code; final texture build startup/combat/card smoke",
+    "complete_browser_five_wave_clear": "not verified",
+    "multiple_build_routes": "not verified",
+    "public_http_verification": "recorded separately after deployment"
+  }
 }
