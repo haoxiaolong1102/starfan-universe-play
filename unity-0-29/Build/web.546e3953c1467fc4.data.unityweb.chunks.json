@@ -1,0 +1,32 @@
+{
+  "schema": "starfan-unity-data-chunks-v1",
+  "chunk_bytes": 67108864,
+  "original": {
+    "path": "Build/web.546e3953c1467fc4.data.unityweb",
+    "bytes": 141398602,
+    "sha256": "546e3953c1467fc46859028c68180f39368e3c86841734a6fd5e5d6f25b3709b"
+  },
+  "parts": [
+    {
+      "index": 0,
+      "offset": 0,
+      "path": "Build/web.546e3953c1467fc4.data.unityweb.part0000",
+      "bytes": 67108864,
+      "sha256": "d5e54c2d4ac3ec527caf3e8ce803c743e34831a9952dc9819354dc6049df0c82"
+    },
+    {
+      "index": 1,
+      "offset": 67108864,
+      "path": "Build/web.546e3953c1467fc4.data.unityweb.part0001",
+      "bytes": 67108864,
+      "sha256": "1eb5140cb01774f86e7131add44decb9819f110d4ae70ce5e2d1f70bdd15112f"
+    },
+    {
+      "index": 2,
+      "offset": 134217728,
+      "path": "Build/web.546e3953c1467fc4.data.unityweb.part0002",
+      "bytes": 7180874,
+      "sha256": "7cf344844cdaef3b52ad078246bac2f098e2d4f172c31265344f3c51435b509d"
+    }
+  ]
+}
