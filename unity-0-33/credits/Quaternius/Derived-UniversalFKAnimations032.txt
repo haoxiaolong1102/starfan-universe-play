@@ -1,0 +1,35 @@
+Quaternius 动画源 · 0.32 真 FK 足骨派生说明
+
+原作者：Quaternius
+官方包：Ultimate Modular Characters
+来源：https://quaternius.com/packs/ultimatemodularcharacters.html
+原随包作者许可：CC0 1.0 Universal / Public Domain Dedication
+许可链接：https://creativecommons.org/publicdomain/zero/1.0/
+原许可副本：UltimateModularMen-original-License.txt（原字节保留）
+
+原动画：art/production032/sources/UltimateModularMen/AnimationSource/Animations.fbx
+原动画 SHA-256：259ed6f6e5f1bb2a15215a66a9ed02e8956083a281a8098103490d1a00292b7f
+派生动画：art/production032/sources/Derived/UniversalFKAnimations032.fbx
+派生动画 SHA-256：e76ce3b9cc8a887d085474108069a9ab3d419bbd84d29d092d60792d1d69c437
+派生文件大小：14233596 bytes
+工具：Blender 4.5.9 LTS，本项目自写 tools/actors032/derive_fk_animations.py
+
+改动范围
+- 仅将已有真实 Foot.L / Foot.R 骨的父级，从 Root 分别改为 LowerLeg.L / LowerLeg.R；保留世界 rest 矩阵并关闭 connected。
+- 先逐帧保存原作者24个动作的双脚姿态，再只重烘脚骨 local location / quaternion / scale，使 armature-world 姿态在所有原整数帧保持。
+- 其余原作者动画 F 曲线在内存中逐项哈希相同。没有用伪造 endbone 冒充脚掌，没有跨骨架共享 Generic 曲线，没有覆盖原始 FBX 或作者许可。
+- 动作 take 的重复 CharacterArmature 前缀只作元数据简化，保留原24个唯一动作后缀；每个真实 slot 绑定独立NLA条目供官方Blender导出器逐take烘焙，避免4.5 all-actions路径输出静止姿态。
+
+真实导出回读
+导出后清空 Blender 场景，重新导入派生 FBX：24动作全部存在、各自帧区间不变；原与回读均79根骨，双脚父链回读为 LowerLeg→Foot。
+原动作合计805个整数帧，双脚共1610次姿态比较。
+世界位置最大误差：4.49715410847e-06 米。
+世界旋转最大误差：0.000525269968519 度。
+缩放分量最大误差：2.92062759399e-06。
+原 FBX 和原许可 SHA 前后不变。
+
+补充精度范围
+上述极小误差严格指每个原整数帧。另一次24动作起/中/末位姿核查包含半帧插值：非Foot骨最大位置误差约1.27e-6米，Foot在Run_Shoot第13.5帧最大约0.00204891551395米（约2.05毫米），不能称连续时间完全零误差。
+
+这些记录证明真正 FK 足骨与作者动作的来源及烘焙回读，不表示 Unity Humanoid/T-pose、男女重定向、脚滑、武器握持或实战画面已经通过。原作者不为本项目影视主题背书；本派生说明不授予影视IP或演员肖像的商业发行授权。
+完整逐动作区间、误差和原始来源链见 UniversalFKAnimations032.provenance.json 的项目源档案。

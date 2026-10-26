@@ -1,0 +1,265 @@
+{
+    "schema": 1,
+    "version": "0.32.0-preview.1",
+    "unityVersion": "6000.3.26f1",
+    "buildTarget": "WebGL",
+    "sourceBankGuid": "3dc7c61c34c0d4294bfaa9ba7fad0986",
+    "modules": [
+        {
+            "id": "bootstrap",
+            "file": "bootstrap.9b2c4c76c5cb1b3b.bundle",
+            "sha256": "9b2c4c76c5cb1b3bfa3731ccd677bd2ae43372a14fa58095d09fdd8aee840850",
+            "contentHash": "3e97a1bc48bf7e03f58ca9831c9783ff",
+            "bankAsset": "assets/starfan/production032/data/bootstrap-bank.asset",
+            "mapAsset": "assets/starfan/production032/data/bootstrap-resources.asset",
+            "sharedAsset": "",
+            "bytes": 6603332,
+            "crc": 183838023,
+            "crcPresent": true,
+            "dependencies": []
+        },
+        {
+            "id": "common",
+            "file": "common.f85a2e45db93e35f.bundle",
+            "sha256": "f85a2e45db93e35fefdae7068f5a5bf8e01556d43d3bf83bfcfa7a0a3603b85a",
+            "contentHash": "e0d4acc649c575d63a75a75406d3613e",
+            "bankAsset": "assets/starfan/production032/data/common-bank.asset",
+            "mapAsset": "assets/starfan/production032/data/common-resources.asset",
+            "sharedAsset": "assets/starfan/production032/data/shared032.asset",
+            "bytes": 21381334,
+            "crc": 2094850836,
+            "crcPresent": true,
+            "dependencies": [
+                "bootstrap"
+            ]
+        },
+        {
+            "id": "film1",
+            "file": "film1.27977764fbd14c2e.bundle",
+            "sha256": "27977764fbd14c2edc7931520276679993f8dab604ececa27b9c3440aaa8ec9a",
+            "contentHash": "11eaed7f51dac55fcbc3148276309f64",
+            "bankAsset": "assets/starfan/production032/data/film1-bank.asset",
+            "mapAsset": "assets/starfan/production032/data/film1-resources.asset",
+            "sharedAsset": "",
+            "bytes": 25626413,
+            "crc": 207354395,
+            "crcPresent": true,
+            "dependencies": [
+                "bootstrap",
+                "common"
+            ]
+        },
+        {
+            "id": "film2",
+            "file": "film2.f7c68423c0781fbe.bundle",
+            "sha256": "f7c68423c0781fbef77ec2583985b3c351b099dc2306b69364fe9d93969c52ab",
+            "contentHash": "ad833b47207c236a4e01a160e8d07b85",
+            "bankAsset": "assets/starfan/production032/data/film2-bank.asset",
+            "mapAsset": "assets/starfan/production032/data/film2-resources.asset",
+            "sharedAsset": "",
+            "bytes": 11190166,
+            "crc": 2186198393,
+            "crcPresent": true,
+            "dependencies": [
+                "common"
+            ]
+        },
+        {
+            "id": "film3",
+            "file": "film3.72516dae8a291ebf.bundle",
+            "sha256": "72516dae8a291ebf9d8e9a44d11696f12fe765167038ac3596e3778f758ab313",
+            "contentHash": "4bcb37d05c83831d8ef82ac92759f7b4",
+            "bankAsset": "assets/starfan/production032/data/film3-bank.asset",
+            "mapAsset": "assets/starfan/production032/data/film3-resources.asset",
+            "sharedAsset": "",
+            "bytes": 5945675,
+            "crc": 977377650,
+            "crcPresent": true,
+            "dependencies": [
+                "common"
+            ]
+        },
+        {
+            "id": "film4",
+            "file": "film4.3c7bd45ccf60511d.bundle",
+            "sha256": "3c7bd45ccf60511d118304bec029c1dec5b4af0a7859e2e60c8539fb4c5dd777",
+            "contentHash": "b6ee52465a973508d0a0b0a38c017a0d",
+            "bankAsset": "assets/starfan/production032/data/film4-bank.asset",
+            "mapAsset": "assets/starfan/production032/data/film4-resources.asset",
+            "sharedAsset": "",
+            "bytes": 4106959,
+            "crc": 2657204657,
+            "crcPresent": true,
+            "dependencies": [
+                "common"
+            ]
+        },
+        {
+            "id": "film5",
+            "file": "film5.d0f73c1c2edd013b.bundle",
+            "sha256": "d0f73c1c2edd013baed64a9b60f68879a6326a16b8ed3633d724577e0cff8b29",
+            "contentHash": "b8feaf53897e95fe423ecbe7d582f1e8",
+            "bankAsset": "assets/starfan/production032/data/film5-bank.asset",
+            "mapAsset": "assets/starfan/production032/data/film5-resources.asset",
+            "sharedAsset": "",
+            "bytes": 6301853,
+            "crc": 1296615897,
+            "crcPresent": true,
+            "dependencies": [
+                "common"
+            ]
+        }
+    ],
+    "films": [
+        {
+            "filmIndex": 0,
+            "moduleId": "film1",
+            "title": "大话西游 · 荒漠月寨",
+            "stageIds": [
+                1,
+                2,
+                3,
+                4,
+                5
+            ],
+            "castIds": [
+                "film0_melee",
+                "film0_ranged",
+                "film0_charger",
+                "film0_boss",
+                "film0_elite",
+                "film0_mini0",
+                "film0_mini1"
+            ],
+            "prefabGuids": [
+                "cb6df43e1e3404d279851a7d5f8a8cbe",
+                "07c1fd7f8b85d4839bcc623dbd2c06eb",
+                "288aadd13c2a04d3896f3c1b34c53592",
+                "b559441f0206a4481824c18549f23586",
+                "2d80fc353188848b1bb07cabf7ba7151",
+                "3f6156d24057f47faa0c4b8ffa193828",
+                "3f6156d24057f47faa0c4b8ffa193828"
+            ]
+        },
+        {
+            "filmIndex": 1,
+            "moduleId": "film2",
+            "title": "功夫 · 猪笼城寨",
+            "stageIds": [
+                6,
+                7,
+                8,
+                9,
+                10
+            ],
+            "castIds": [
+                "film1_melee",
+                "film1_ranged",
+                "film1_charger",
+                "film1_boss",
+                "film1_elite",
+                "film1_mini0",
+                "film1_mini1"
+            ],
+            "prefabGuids": [
+                "ab1384c312c194ee792365e77ef4fe55",
+                "7eb54c246a0164d379df2c81c7f3cb4d",
+                "cbe375f01a30446d6a1b339a7c86d83d",
+                "180e85120fcb442418872abf248350af",
+                "130f23716178e4f57a963d2093bbaeb1",
+                "911ee6b0290cc47a49005999d47dafc3",
+                "911ee6b0290cc47a49005999d47dafc3"
+            ]
+        },
+        {
+            "filmIndex": 2,
+            "moduleId": "film3",
+            "title": "食神 · 街坊厨房",
+            "stageIds": [
+                11,
+                12,
+                13,
+                14,
+                15
+            ],
+            "castIds": [
+                "film2_melee",
+                "film2_ranged",
+                "film2_charger",
+                "film2_boss",
+                "film2_elite",
+                "film2_mini0",
+                "film2_mini1"
+            ],
+            "prefabGuids": [
+                "d012648b44dbf4327a3d786cce6f45d1",
+                "cade9de7f663749d89dc1784946a2686",
+                "600cc18ed72ed4c319591fe0a82d14d5",
+                "831e15b229ec345719706c6b118a269b",
+                "561fbff0ecc94447cad37a761e122be9",
+                "aae7cf373e79c40279908df555f523a6",
+                "aae7cf373e79c40279908df555f523a6"
+            ]
+        },
+        {
+            "filmIndex": 3,
+            "moduleId": "film4",
+            "title": "少林足球 · 决赛球场",
+            "stageIds": [
+                16,
+                17,
+                18,
+                19,
+                20
+            ],
+            "castIds": [
+                "film3_melee",
+                "film3_ranged",
+                "film3_charger",
+                "film3_boss",
+                "film3_elite",
+                "film3_mini0",
+                "film3_mini1"
+            ],
+            "prefabGuids": [
+                "ce414930e3bff4c1286f08b0b1f5fb35",
+                "7903adc2a6e554afcb367bb2aef4df88",
+                "4e76181cbf97d4d7ca4386dc0a3b1f0a",
+                "17f406f70d5fb4ddc80eca576e37fd7d",
+                "ba90182c488c94521b0fee35ea2a50a1",
+                "0ff92d27115944ee383dc3d6e080f062",
+                "0ff92d27115944ee383dc3d6e080f062"
+            ]
+        },
+        {
+            "filmIndex": 4,
+            "moduleId": "film5",
+            "title": "国产凌凌漆 · 九号码头",
+            "stageIds": [
+                21,
+                22,
+                23,
+                24,
+                25
+            ],
+            "castIds": [
+                "film4_melee",
+                "film4_ranged",
+                "film4_charger",
+                "film4_boss",
+                "film4_elite",
+                "film4_mini0",
+                "film4_mini1"
+            ],
+            "prefabGuids": [
+                "06d23e5dda15a435690fc067e6799906",
+                "cde5b35f272f04a70b1092112eeba792",
+                "5d787172702864035bf117daf8495bb6",
+                "e5a7817a45edb4166ac9b7b7974b5040",
+                "912c4d58bb24d4c369876e8d87783c90",
+                "2c63522e98f864ac7a8ad7aec5305a96",
+                "2c63522e98f864ac7a8ad7aec5305a96"
+            ]
+        }
+    ]
+}

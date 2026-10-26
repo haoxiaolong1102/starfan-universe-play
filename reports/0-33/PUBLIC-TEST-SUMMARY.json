@@ -1,0 +1,81 @@
+{
+  "schema": "starfan033-public-curated-test-summary-v1",
+  "buildId": "ebc840120f620a01",
+  "profileIdentifiersOmitted": true,
+  "gameplayWorldsPassed": 5,
+  "attempts": 7,
+  "wins": 5,
+  "failedAttemptsRetained": 2,
+  "wonZones": 20,
+  "wonTransfers": 15,
+  "wonGuardians": 20,
+  "wholeHarnessCleanExit": false,
+  "driverCleanupExitCode": 143,
+  "normalRefreshPassed": true,
+  "localHttpFilesVerified": 68,
+  "sizeBudgetPassed": false,
+  "firstPlayableBytes": 65447373,
+  "worlds": [
+    {
+      "world": "《大话西游》",
+      "attempts": 1,
+      "zones": 4,
+      "transfers": 3,
+      "guardians": 4,
+      "kills": 230,
+      "level": 16,
+      "lastLiveSeconds": 268.4040222167969,
+      "ultimateCastsLastLive": 25,
+      "cardTransactions": 18
+    },
+    {
+      "world": "《功夫》",
+      "attempts": 1,
+      "zones": 4,
+      "transfers": 3,
+      "guardians": 4,
+      "kills": 321,
+      "level": 18,
+      "lastLiveSeconds": 313.04132080078125,
+      "ultimateCastsLastLive": 29,
+      "cardTransactions": 18
+    },
+    {
+      "world": "《食神》",
+      "attempts": 1,
+      "zones": 4,
+      "transfers": 3,
+      "guardians": 4,
+      "kills": 227,
+      "level": 16,
+      "lastLiveSeconds": 261.57098388671875,
+      "ultimateCastsLastLive": 25,
+      "cardTransactions": 19
+    },
+    {
+      "world": "《唐伯虎点秋香》",
+      "attempts": 3,
+      "zones": 4,
+      "transfers": 3,
+      "guardians": 4,
+      "kills": 279,
+      "level": 16,
+      "lastLiveSeconds": 285.3807373046875,
+      "ultimateCastsLastLive": 26,
+      "cardTransactions": 16
+    },
+    {
+      "world": "《鹿鼎记》",
+      "attempts": 1,
+      "zones": 4,
+      "transfers": 3,
+      "guardians": 4,
+      "kills": 238,
+      "level": 18,
+      "lastLiveSeconds": 247.88217163085938,
+      "ultimateCastsLastLive": 23,
+      "cardTransactions": 24
+    }
+  ],
+  "scope": "Curated public summary, not raw profile/QA data. Public URL play verification follows deployment."
+}

@@ -1,0 +1,1280 @@
+{
+  "schema": 1,
+  "version": "0.33.0-preview.2",
+  "treeSha256": "2e43348a5eb5974e3638759f661400baad3455fe84ca84efafc49eb74c7e11d0",
+  "files": [
+    {
+      "path": "Art/Effekseer025/Sample/02_Tktk03/Parts/AuraTube.shader",
+      "bytes": 14757,
+      "sha256": "be0ec349db677b64f0aac1d4f5747b726142b88573c92cf68c552a4574eb5764"
+    },
+    {
+      "path": "Art/Effekseer025/Sample/02_Tktk03/Parts/Noise_Distortion.shader",
+      "bytes": 14830,
+      "sha256": "79ae65596c718ba27bc74819682cad0d528d2b01873a00c7d4752c6ea1769a95"
+    },
+    {
+      "path": "Art/Effekseer025/Sample/02_Tktk03/Parts/RadiarNoise.shader",
+      "bytes": 16136,
+      "sha256": "2dc34632f1551af52e389f5fbdc2ac82e82198d21af4e117013c10bf3addb45e"
+    },
+    {
+      "path": "Art/Effekseer025/Sample/02_Tktk03/Parts/ToonBase.shader",
+      "bytes": 15706,
+      "sha256": "bc458034366b12e7e8d82746241687424af199b30e6f22a278cc3a937f4f37d6"
+    },
+    {
+      "path": "Art/Effekseer025/Sample/02_Tktk03/Parts/ToonImpact.shader",
+      "bytes": 15898,
+      "sha256": "a6a059fddf2e38fd855666a230edd792655a66f2d4ec5954768767c0b2865412"
+    },
+    {
+      "path": "Art/Effekseer025/Sample/02_Tktk03/Parts/ToonWater.shader",
+      "bytes": 14581,
+      "sha256": "f77ba28854d5a7b8210eff7291fb5b5eadb86b158d1e33be71fc43f3037a8421"
+    },
+    {
+      "path": "Art/Effekseer025/Sample/02_Tktk03/Parts/ToonWaterTube.shader",
+      "bytes": 15832,
+      "sha256": "bc9e37fc2d113aa54ec28583d7c0f9b4e4066739cedd88e6aa584d0bbf7bd106"
+    },
+    {
+      "path": "Art/FirstActWorld/Shaders/FirstActSkillFootprint.shader",
+      "bytes": 5919,
+      "sha256": "c09b03a4225e1b983745181b93767de6e64590e5c1215519924a050b9e2b68e4"
+    },
+    {
+      "path": "Art/FirstActWorld/Shaders/FirstActVertexLit.shader",
+      "bytes": 10438,
+      "sha256": "3b0c2ad8345b32fc748880344b87b22ede2fefb55605493ad009f9d44dbad658"
+    },
+    {
+      "path": "Art/Source/Shaders/MainLight.hlsl",
+      "bytes": 1018,
+      "sha256": "97a9e64096f30eaf92a15b8c7a2033096ac60cc231deb3574198a5c15352e6e2"
+    },
+    {
+      "path": "Art/Vfx025/NovaSamples/Editor/ShaderOptimizeSample.cs",
+      "bytes": 2336,
+      "sha256": "3797e0bce55e1ab20b38a75d4558aba626749b2ae30e80e692c95dc2a7b2438e"
+    },
+    {
+      "path": "Editor/BuildAssetCatalog.cs",
+      "bytes": 7485,
+      "sha256": "934e52f5a823ed8bddcc1d7b83db7271530cb16d33955e5432ba004f839c8827"
+    },
+    {
+      "path": "Editor/Film01SceneBuilder.cs",
+      "bytes": 24717,
+      "sha256": "8fefd27ae31c71ba1d1a96e7517a5b53e02a7e30b5a825d11113f6f627caae86"
+    },
+    {
+      "path": "Editor/FilmActorBuilder.cs",
+      "bytes": 29690,
+      "sha256": "d5872d741a227cc2f223a72485246882acc58996828c0e267eaf786f56a93890"
+    },
+    {
+      "path": "Editor/FilmLootBuilder.cs",
+      "bytes": 11021,
+      "sha256": "a8ada211439384497147652f395bb347666481dd917d1d2e3a9ba4d3218fa2bd"
+    },
+    {
+      "path": "Editor/FilmPlaqueBuilder.cs",
+      "bytes": 6369,
+      "sha256": "e5efe3a7caf0bb9c743a4df97b57a9d0dbeedb06b52aee61064191f3e89fc7ca"
+    },
+    {
+      "path": "Editor/FilmProductionSetup.cs",
+      "bytes": 2526,
+      "sha256": "c0bb435a98ef7dc335a20d0083f4b5c30c5fdb0fdd297f1744e36a8f726601ee"
+    },
+    {
+      "path": "Editor/MoonBoxBuilder.cs",
+      "bytes": 3076,
+      "sha256": "50dd09a71b37b2fc5b5959c7656443a4b1d798013247d730d14e9580b936d7ed"
+    },
+    {
+      "path": "Editor/SF017GrowthQA.cs",
+      "bytes": 35800,
+      "sha256": "c94ff6e295fe7de2f1697cd064a35a904c1973ee7ea4b31f8e56dd5cd3e3b230"
+    },
+    {
+      "path": "Editor/SF017ProductionSetup.cs",
+      "bytes": 1753,
+      "sha256": "25a6f1841ba60c67260d865516af0c8cc18eb0b8fed306cdd7fe8430b42710e9"
+    },
+    {
+      "path": "Editor/SF018ArtBuilder.cs",
+      "bytes": 18984,
+      "sha256": "74ccd7d81feea1da5c84f242d434c393fd4b23734754d448f3e547ae2f44e57b"
+    },
+    {
+      "path": "Editor/SF018CampaignObserver.cs",
+      "bytes": 8100,
+      "sha256": "0524ca583716b0279393c0523f6eb05ed56974ba52203aeaaf996b8bf65646b3"
+    },
+    {
+      "path": "Editor/SF018CampaignQA.cs",
+      "bytes": 19836,
+      "sha256": "778f873ff1965d69097c0ae18f641dbee2c940ade2f8e42e45ebea6b7f7ede4e"
+    },
+    {
+      "path": "Editor/SF018HudQA.cs",
+      "bytes": 19169,
+      "sha256": "f95b46df76f3644782c6909a5302160f1022efca0355afd5c95c05d555452137"
+    },
+    {
+      "path": "Editor/SF018ProductionSetup.cs",
+      "bytes": 3325,
+      "sha256": "ed539b6565022647a88fa46ec4faef89807cd553ae461cb55f91f7ac8cc5c08d"
+    },
+    {
+      "path": "Editor/SF019ArtBuilder.cs",
+      "bytes": 34121,
+      "sha256": "3edd0b20e27b1a9bddcd15a44c1fecf7ff6af933a7e4c4d3a0f81620d7f8584d"
+    },
+    {
+      "path": "Editor/SF019CampaignObserver.cs",
+      "bytes": 15483,
+      "sha256": "fe4accfac895c94919c4eb89a3e4e2358e6353d33e875b0bc3b11047574293bc"
+    },
+    {
+      "path": "Editor/SF019ProductionSetup.cs",
+      "bytes": 3099,
+      "sha256": "8174f08b8faec67d30eff5a87a5cedbc9c0c719cc7ee562994c49f4dbddc1a16"
+    },
+    {
+      "path": "Editor/SF019QA.cs",
+      "bytes": 34781,
+      "sha256": "8866377ea220169ef7bfd2864e76f2bee04c7f46ee938b821a04685b1475c2ce"
+    },
+    {
+      "path": "Editor/SF019RelicBuilder.cs",
+      "bytes": 6227,
+      "sha256": "f12d97c21780398492cfb78c7ba472d51a8022691a50e7eab151e20541a52c8b"
+    },
+    {
+      "path": "Editor/SF020ArtBuilder.cs",
+      "bytes": 33045,
+      "sha256": "439e44d91cf403b3a67bc9dc55abac1fe26970f677412485a38963425c667905"
+    },
+    {
+      "path": "Editor/SF020CampaignObserver.cs",
+      "bytes": 21147,
+      "sha256": "92fe7ff16fb0ef5895bec46d41f8abaf4f743d1029d967317b9518a0e90003d3"
+    },
+    {
+      "path": "Editor/SF020ProductionSetup.cs",
+      "bytes": 3651,
+      "sha256": "d91149436732e905b46b34c0084f8ab2da8629fe2070add664f7c1799e94d7be"
+    },
+    {
+      "path": "Editor/SF020QA.cs",
+      "bytes": 48074,
+      "sha256": "993258e2979d63dbe5c801991285e0ac7db88745dd1b1126bb9cbe38446d92dd"
+    },
+    {
+      "path": "Editor/SF021ArtBuilder.cs",
+      "bytes": 13855,
+      "sha256": "14e8950611f4d346b9c612608044b7d5d89d27f9e43b5e82549e93fe3e6cce52"
+    },
+    {
+      "path": "Editor/SF021CardArtBuilder.cs",
+      "bytes": 18895,
+      "sha256": "eccb9de87a2465643cad3d5964c016f9f32d30cda815fb5a204f51d5683ca0c2"
+    },
+    {
+      "path": "Editor/SF021CardQA.cs",
+      "bytes": 18137,
+      "sha256": "ef00fb5b68c4c5328d8fafa5e09d55a339db231b7b5c2f382b79a06d09437fd5"
+    },
+    {
+      "path": "Editor/SF021CardStudio.shader",
+      "bytes": 2584,
+      "sha256": "47091b72d96812feabdb19a365bf38049c048d5072576e474251d6b2af08ebd6"
+    },
+    {
+      "path": "Editor/SF021EnemyQA.cs",
+      "bytes": 14533,
+      "sha256": "76cb34d4678e334da3d0b5eb28b008eab13f24f059c2f11bea9812b2a5ce6146"
+    },
+    {
+      "path": "Editor/SF021QA.cs",
+      "bytes": 24958,
+      "sha256": "c9a59379227e133bee68db85db2b4283c1e0fcc51edb7b2378b6f0942ce04e10"
+    },
+    {
+      "path": "Editor/SF022RegressionQA.cs",
+      "bytes": 19477,
+      "sha256": "392e79596297583eee7dd8831237a51730fdf5253068a7ed436c3aac8835d9e9"
+    },
+    {
+      "path": "Editor/SF023ArtBuilder.cs",
+      "bytes": 9888,
+      "sha256": "b3a5bd0b92bd687b2bb18c2c80f44a6e15f8c85bab89848ef844f7e302120240"
+    },
+    {
+      "path": "Editor/SF023AudioBuilder.cs",
+      "bytes": 9112,
+      "sha256": "12d2b9e7225cccd3b97b75cc4673f7e5912751a7409fdb94ea8cb46afaa9ca32"
+    },
+    {
+      "path": "Editor/SF023CardArtBuilder.cs",
+      "bytes": 17678,
+      "sha256": "daf3cc0ccb3af16826b75365007494c16e5e177c9d5dbe2c94c2b2e6bf1a439f"
+    },
+    {
+      "path": "Editor/SF023EnvironmentBuilder.cs",
+      "bytes": 7760,
+      "sha256": "905aa52c93896a2114806818bb3ee2182d84b5d27e7138e080366a09215509f1"
+    },
+    {
+      "path": "Editor/SF024EconomyQA.cs",
+      "bytes": 34616,
+      "sha256": "c250222e4048f386a90b7e52f0899e222d74aba3452b985b9af3edfef23504b2"
+    },
+    {
+      "path": "Editor/SF024EnemyArtBuilder.cs",
+      "bytes": 14754,
+      "sha256": "622a18d320d7b4fa9b30df845637413bfe4b5c751f707fa2aa60097b1622db32"
+    },
+    {
+      "path": "Editor/SF024EnemyQA.cs",
+      "bytes": 21827,
+      "sha256": "bf12ae38a373866a0e8656dacc147c9a1f61e22c3fa80811a498e2c5459d57b3"
+    },
+    {
+      "path": "Editor/SF024UltimateQA.cs",
+      "bytes": 23772,
+      "sha256": "fc43c7d7a690ee6d673636b519b28470e306495cc366fd43e0dd796ce9d7b117"
+    },
+    {
+      "path": "Editor/SF024VfxBuilder.cs",
+      "bytes": 7916,
+      "sha256": "5afe22cee5867fa78832283b117dfb902825041b4ecc270b0ca9b60f560fb52d"
+    },
+    {
+      "path": "Editor/SF025AnimatedVfxBuilder.cs",
+      "bytes": 37112,
+      "sha256": "0c33661b3bbb63cc7f01a10ff04e3d6677ce489a8a38606cb6255922633ba5f6"
+    },
+    {
+      "path": "Editor/SF025AtlasResample.shader",
+      "bytes": 1841,
+      "sha256": "7adfdd48f0d7f776ad986bbc4a570017686f4e9648a2103820606c31078bf529"
+    },
+    {
+      "path": "Editor/SF025EffekseerBuilder.cs",
+      "bytes": 33392,
+      "sha256": "6f4596c341b68b4d942c80ffd91c9264711cc2d4fc68111841c0ad271a19f2f7"
+    },
+    {
+      "path": "Editor/SF025VfxBuilder.cs",
+      "bytes": 3752,
+      "sha256": "5b00510abce19f762574d3685e824740c0efbee0bd98e2ac33836727f6b7cbd7"
+    },
+    {
+      "path": "Editor/SF025WeaponBuilder.cs",
+      "bytes": 30513,
+      "sha256": "843abe90b29b24c880f91fdfe37dc1e69f7f7b88b9d5025789815748d19c553b"
+    },
+    {
+      "path": "Editor/SF026PropBuilder.cs",
+      "bytes": 28636,
+      "sha256": "14fe9f251b560c70bac9d7aa8d51813b603629854750851edc7bcdd1aafa280f"
+    },
+    {
+      "path": "Editor/SF026RenderGraphCopyProbe.cs",
+      "bytes": 15402,
+      "sha256": "db9ecac43ccc0cbcf4cd87605f66aa4fd0cd83f9bfa7b0d109e2b651af6bbdd2"
+    },
+    {
+      "path": "Editor/SF027WebBuildScope.cs",
+      "bytes": 22379,
+      "sha256": "86c71166f32efbf2806b8698350264ae752b11acfa09aea2f271ef2c6e1ef8f7"
+    },
+    {
+      "path": "Editor/SFArcherSceneBuilder.cs",
+      "bytes": 15757,
+      "sha256": "87ff5f85db06cb92b1089175bc136ea5b7dfd79027df1665ee7a95fc8156dfa6"
+    },
+    {
+      "path": "Editor/SFCombatQA.cs",
+      "bytes": 13522,
+      "sha256": "e2e029c23e9f46a15f30a574be947aa0175128a2c82ab1fbfb7975dbfbddf20d"
+    },
+    {
+      "path": "Editor/SFFirstActCombatQA.cs",
+      "bytes": 48987,
+      "sha256": "262e40b83b2528039bb1b509a5216f0c33f4e2c93cc05fa0194bafe2519bb9aa"
+    },
+    {
+      "path": "Editor/SFFirstActCombatVisualBuilder.cs",
+      "bytes": 13199,
+      "sha256": "4049e19300b25c628fee19926c710f02d5cca09c731c12e19386500805b97adc"
+    },
+    {
+      "path": "Editor/SFFirstActHumanoidBuilder.cs",
+      "bytes": 52390,
+      "sha256": "0002bda03fe2bc094666278707026cadde1d17cd63497638b5e8cbd2945d35b1"
+    },
+    {
+      "path": "Editor/SFFirstActHumanoidQA.cs",
+      "bytes": 32943,
+      "sha256": "3f2101492d8c5f123434dae7730006629e59e9b4f00219c2289bfeac80de7aeb"
+    },
+    {
+      "path": "Editor/SFFirstActParticleQA.cs",
+      "bytes": 43789,
+      "sha256": "deaebcba01a139904645c3a4471fefc9aead087b1eb3ad5a922a89c442cbcf8e"
+    },
+    {
+      "path": "Editor/SFFirstActWorldBuilder.Cinematic.cs",
+      "bytes": 10812,
+      "sha256": "790c523f900e9397ba135ee4c74a3c0f4928d7c87f7b94d069764199b3139c9a"
+    },
+    {
+      "path": "Editor/SFFirstActWorldBuilder.cs",
+      "bytes": 41302,
+      "sha256": "86a0d4c1277780796aa52f046a2a56dfdca636cd48a8fdd0daab0158a1340523"
+    },
+    {
+      "path": "Editor/SFFirstActWorldQA.cs",
+      "bytes": 35202,
+      "sha256": "c4543ef0fcc8e933e40ac3e25c7fc308987dbc017a9349e9d3bda4e30828cef8"
+    },
+    {
+      "path": "Editor/SFHudQA.cs",
+      "bytes": 36498,
+      "sha256": "15191b250e24c57a52a597b19a116ed0f8c71937523e0a54521c6b9e75ad28b5"
+    },
+    {
+      "path": "Editor/SFInspection.cs",
+      "bytes": 3614,
+      "sha256": "cea5a7c2aeedb0310b665d1240d218acef15d2f8b3bc1bbe90436759c92ba5fe"
+    },
+    {
+      "path": "Editor/SFPilot.cs",
+      "bytes": 65859,
+      "sha256": "7f6dc34b3e43ece795b3d450f3e6e5a49a5d3396bfd368b4b199c2a1df555a22"
+    },
+    {
+      "path": "Editor/SFSceneBuilder.cs",
+      "bytes": 24391,
+      "sha256": "371201304e9f29a47875bb1b3f415fbbb7de190a8c4819743d842e057f3ffa06"
+    },
+    {
+      "path": "Production032/Editor/SF032ActorBuilder.cs",
+      "bytes": 60311,
+      "sha256": "a96828e679b8c45a2855449287263d8590b97babd92370ae4b895be940af2690"
+    },
+    {
+      "path": "Production032/Editor/SF032ActorRelabel.cs",
+      "bytes": 12503,
+      "sha256": "8cac524b57408a1b9ccfcbffbcffb03648dfabac6fcfdc275fbc4befdf0e6ecb"
+    },
+    {
+      "path": "Production032/Editor/SF032CapturePlaytest.cs",
+      "bytes": 84274,
+      "sha256": "f39e24a5578ac17fc432456fd1e9b7c69069c5da04362f7b8c18bdf17817087e"
+    },
+    {
+      "path": "Production032/Editor/SF032Film2ReadabilityBuilder.cs",
+      "bytes": 24109,
+      "sha256": "6be040423896d7ee5d667491b82f5dfb186696bb4b90e76149b5f2ed10f4c2d1"
+    },
+    {
+      "path": "Production032/Editor/SF032FilmCrowdBuilder.cs",
+      "bytes": 29355,
+      "sha256": "63354cbea7eab43cdc2cb598ee669c83f080343bf747cd8f3e6fbcf549a19aac"
+    },
+    {
+      "path": "Production032/Editor/SF032FontBuilder.cs",
+      "bytes": 25828,
+      "sha256": "d747259faaeb9c76e667dc4b30d3adceb86f862b6bd1d8c0fd2d6b33af717ac9"
+    },
+    {
+      "path": "Production032/Editor/SF032ModuleBuilder.cs",
+      "bytes": 59729,
+      "sha256": "fa8dbfc83bd8074518b5d49a46eec4bb660c249ece1d64d6163b9d382b303b23"
+    },
+    {
+      "path": "Production032/Editor/SF032ModuleTrim.cs",
+      "bytes": 33447,
+      "sha256": "ba2bf6377923d2005245470a847fdf85ae987237a23d5a4ae803632b0bdd13e2"
+    },
+    {
+      "path": "Production032/Editor/SF032Playtest.cs",
+      "bytes": 95097,
+      "sha256": "1b089d8caeaeb774ad4b119e6f14c974509754cf5cd741a84f4a07b0a7886386"
+    },
+    {
+      "path": "Production032/Editor/SF032SceneBuilder.cs",
+      "bytes": 33795,
+      "sha256": "05a4c2331fdaae9e5001747a8737527ed8b8bde2db68fb98db9c45893d26ee8f"
+    },
+    {
+      "path": "Production032/Editor/SF032SkillBatch.cs",
+      "bytes": 23136,
+      "sha256": "a227c19b472a11900c03d545094165268e9ad099f40e850d4031f2b209f29cbe"
+    },
+    {
+      "path": "Production032/Editor/SF032SkillFixtures.cs",
+      "bytes": 50646,
+      "sha256": "6f984583d5965445e88ba546ab5486a8092647f0ff4fb689ef9b0d85a8fdc034"
+    },
+    {
+      "path": "Production032/Editor/SF032TPose.cs",
+      "bytes": 7636,
+      "sha256": "ecb01341259dabfb42b8037eb13bfea2a18a6475610b14de75d89f7ada98eb0d"
+    },
+    {
+      "path": "Production032/Editor/SF032TextureOptimizer.cs",
+      "bytes": 28955,
+      "sha256": "4488acaa02b2762065aa449a878d9d6a00a25a8787ce96bd157f5cebe4db3d70"
+    },
+    {
+      "path": "Production032/Editor/SF032UIAudit.cs",
+      "bytes": 20561,
+      "sha256": "20b03934225b9aa1763a951892797c3cb02c56e470d602e1bfcc129af10f3980"
+    },
+    {
+      "path": "Production032/Editor/SF032WeaponBuilder.cs",
+      "bytes": 24534,
+      "sha256": "68167d1b14ec44d7c86df43ccb437378d512a1b53305af578d46adab6e9afb22"
+    },
+    {
+      "path": "Production032/Editor/SF033KitProgressionChecks.cs",
+      "bytes": 13415,
+      "sha256": "078b80e3b31164bd30c27b1a2128625a337c9dce456d979d51ca74fdd9333958"
+    },
+    {
+      "path": "Production032/Editor/SF033MerchantTests.cs",
+      "bytes": 7091,
+      "sha256": "c55bbce9bc22e01556101559979c5a8af0041cb743d3125cdc318160420f424a"
+    },
+    {
+      "path": "Production032/Editor/SF033RoutePlaytest.cs",
+      "bytes": 35032,
+      "sha256": "b109b42efb5fb6a1d936a6b5f21f23860c3419e6186bedcf72d517b4b5e34398"
+    },
+    {
+      "path": "Production032/Editor/SF033SkillBatch.cs",
+      "bytes": 28753,
+      "sha256": "9cbeb3c5b99d8ee76c5e321d95bdc137401812e32c9e70585bd38c75affd3f56"
+    },
+    {
+      "path": "Production032/Editor/SF033SkillFixtures.cs",
+      "bytes": 60322,
+      "sha256": "ecf81297475e9379bbab864df83df2419f2e3d6bee52c61748d85185f4cae2ba"
+    },
+    {
+      "path": "Production032/Editor/SF033SkillProbe.cs",
+      "bytes": 35449,
+      "sha256": "884425afe2a76b01cf3bd4037008a7243761cd2f68e97a3737fe3761cf1d9712"
+    },
+    {
+      "path": "Production032/Editor/SF035ModeCoverage.cs",
+      "bytes": 3633,
+      "sha256": "bcca74e0215788f62e0e846571043d67ae4e5914e0f589fde4004bd3a567b93a"
+    },
+    {
+      "path": "Production032/Editor/SF035ModeDriverReviewGuards.cs",
+      "bytes": 10947,
+      "sha256": "2ae70880b6892733bff4b347ccae103bc4422b0d81ac0f976f8c1c54a586e97a"
+    },
+    {
+      "path": "Production032/Editor/SF035ModePlaytest.cs",
+      "bytes": 100257,
+      "sha256": "ffb8bdfae92c37155d4dff546c166974110486ba9d0215e4fed3fc50051efe57"
+    },
+    {
+      "path": "Production032/Editor/SF035NaturalBuildPlaytest.cs",
+      "bytes": 85780,
+      "sha256": "7f1c2b460b029ec9788b85eee64a1b4c5163417cde7086110ef960d89a27ab77"
+    },
+    {
+      "path": "Production032/Editor/SF035NaturalBuildRouteHooks.cs",
+      "bytes": 32595,
+      "sha256": "29e7dc539d686c7489071c563c552561bff9908bf4d8a076ddbeec62f9814580"
+    },
+    {
+      "path": "Production032/Editor/SF035NaturalRoutePlan.cs",
+      "bytes": 7123,
+      "sha256": "597794e000b02b06a92987829d80aaf4bc68d949eaa265923d8cf31d7ec1a478"
+    },
+    {
+      "path": "Production032/Editor/SF035RecruitLegacyRoute.cs",
+      "bytes": 12687,
+      "sha256": "a85584c98fc358b21eec56b1885ce79be9335b9f7425ccaa16d27c8b18892e4b"
+    },
+    {
+      "path": "Production032/Runtime/SF032ActorAnimation.cs",
+      "bytes": 3159,
+      "sha256": "59c02ea7a2c615235db017f95c3230a069f5d40cb13b64c3b7239648a39e5637"
+    },
+    {
+      "path": "Production032/Runtime/SF032ActorBank.cs",
+      "bytes": 1532,
+      "sha256": "66fa36fa6a31ba9ed531a9b4267a6e40b5209f46c19b070a50d49538f3f3bddb"
+    },
+    {
+      "path": "Production032/Runtime/SF032ActorVisibility.cs",
+      "bytes": 7034,
+      "sha256": "55e0ffb51f843e56cfbe4e623dad6312aa6f2ced48f50b3f7094e0a8ea75aaab"
+    },
+    {
+      "path": "Production032/Runtime/SF032Adventure.cs",
+      "bytes": 99939,
+      "sha256": "2cb6273a955e826b36f953572845f2d752234071b1d26a926d351ef832e41f95"
+    },
+    {
+      "path": "Production032/Runtime/SF032AssetRegistry.cs",
+      "bytes": 1580,
+      "sha256": "ada717c31a54bc83072fde283c71013e5a8896255a2e34234172e4cc692d5b40"
+    },
+    {
+      "path": "Production032/Runtime/SF032Audio.cs",
+      "bytes": 584,
+      "sha256": "9149c50057a3a3342e91be3dc3b13002e01921134273637ba69f07d348a0616c"
+    },
+    {
+      "path": "Production032/Runtime/SF032Bootstrap.cs",
+      "bytes": 13679,
+      "sha256": "b86674e37d0f0c0503ad1eca483f2098cfadc7c24841cc638b3e485550821802"
+    },
+    {
+      "path": "Production032/Runtime/SF032Build.cs",
+      "bytes": 37161,
+      "sha256": "f0784530a255a5efc995783fbec48766757ef8fd38e651aea1593029e38f286e"
+    },
+    {
+      "path": "Production032/Runtime/SF032Caster.cs",
+      "bytes": 56598,
+      "sha256": "a313dfd09939cbf55a544c1010121bc8403668d5594622366b737cdbf390cf20"
+    },
+    {
+      "path": "Production032/Runtime/SF032ContentCatalog.cs",
+      "bytes": 4638,
+      "sha256": "4ca12fa14abb80fad7bf897b8335f8c4897240950a8160ffae35c5258b64db3f"
+    },
+    {
+      "path": "Production032/Runtime/SF032ContentLoader.cs",
+      "bytes": 26918,
+      "sha256": "1ed5729ec17d539ca24e502141f53864efa2de7dbf2b77b35c876f493211eb0e"
+    },
+    {
+      "path": "Production032/Runtime/SF032Definitions.cs",
+      "bytes": 27069,
+      "sha256": "64357d6a8e06d67f46325af418ea7590b8e60ca2cf6f54fc10fbc876b88dd03c"
+    },
+    {
+      "path": "Production032/Runtime/SF032Director.cs",
+      "bytes": 19035,
+      "sha256": "7c63fe875e4555bb365776cae306432aaaf5cebcff10a81cda983423f2bf91f0"
+    },
+    {
+      "path": "Production032/Runtime/SF032EffectPalette.cs",
+      "bytes": 9283,
+      "sha256": "f33814dc47443503183c6e7682b6c8062004575b36b309038aff368da5466cdd"
+    },
+    {
+      "path": "Production032/Runtime/SF032ElementRules.cs",
+      "bytes": 1559,
+      "sha256": "d21fa8cef5618549afd81c2387b49a7f4bba5428eae2b9a64d51cad4b272e73d"
+    },
+    {
+      "path": "Production032/Runtime/SF032EnemyAI.cs",
+      "bytes": 5748,
+      "sha256": "a39dde29175836a26275dbd133c3c3fe5cccb5f89391d84f92b5b618e5a802e0"
+    },
+    {
+      "path": "Production032/Runtime/SF032GameBridge.cs",
+      "bytes": 16161,
+      "sha256": "bb71d6708695f791fcee6e2767e899e4c7b1afd10436871b93d5f5f20666c842"
+    },
+    {
+      "path": "Production032/Runtime/SF032Hub.cs",
+      "bytes": 71087,
+      "sha256": "20cfd1c42ba4ec0b953ad17e2bff3589dd636badfa4b9f1831dfa9bf2dac408c"
+    },
+    {
+      "path": "Production032/Runtime/SF032LegacyHud.cs",
+      "bytes": 4996,
+      "sha256": "a1797b7bd80bf1eb3ce6892c19e1ec2a7e84717f6d41bed8fe601018c1d4d6cf"
+    },
+    {
+      "path": "Production032/Runtime/SF032PresentationBridge.cs",
+      "bytes": 3855,
+      "sha256": "3c5b4c5c9794d51f062df7f87aad2ae3361b89d83642a5665ff835a28a7fec17"
+    },
+    {
+      "path": "Production032/Runtime/SF032Primary.cs",
+      "bytes": 5327,
+      "sha256": "ec04fa48616d922e08b1b748ed9711a420bb41bd0083f679222fbb79eee37814"
+    },
+    {
+      "path": "Production032/Runtime/SF032Profile.cs",
+      "bytes": 16006,
+      "sha256": "256262aae74075a4871685b3611153f568475ab3cdc099ef27637c6535835738"
+    },
+    {
+      "path": "Production032/Runtime/SF032QAObserver.cs",
+      "bytes": 5941,
+      "sha256": "abd35fa36dfb98fc5c22284ec5c62e715b375fb294bec160e6440b8c8987619e"
+    },
+    {
+      "path": "Production032/Runtime/SF032ResourceMap.cs",
+      "bytes": 725,
+      "sha256": "e3feabb0cf4e5659c0eb2edf71ad4b8c623986d3751294c3e9147af6df95905f"
+    },
+    {
+      "path": "Production032/Runtime/SF032SharedAssets.cs",
+      "bytes": 988,
+      "sha256": "33aa5716e5d264cf370e292bf401cfe061407e9c5312952a8df413790e8f01a7"
+    },
+    {
+      "path": "Production032/Runtime/SF032Status.cs",
+      "bytes": 15167,
+      "sha256": "6bbc4c63ed7c72c8a72959bf4b7c6e0966fd1e7785d9ccfa331ae9d2e6103d98"
+    },
+    {
+      "path": "Production032/Runtime/SF032ThemePresentation.cs",
+      "bytes": 11949,
+      "sha256": "046332244015a7759f0473ed17c90fdb48ef0b0b02fd05d17cea0ae0958ae837"
+    },
+    {
+      "path": "Production032/Runtime/SF032WeaponBank.cs",
+      "bytes": 9522,
+      "sha256": "2c53174c0a1c19c998d9673451d9fbe7505f51aeea66ee792c64423b8de28611"
+    },
+    {
+      "path": "Production032/Runtime/SF032WorldCutaway.cs",
+      "bytes": 5460,
+      "sha256": "19ada810640d14e71635ee7f840342675bf398352fa0d01696c3126af94ada97"
+    },
+    {
+      "path": "Production032/Runtime/SF033KitProgression.cs",
+      "bytes": 13641,
+      "sha256": "b5a577f98f4e69e1305f30d23e5b9056f89ba1b819f60ced489428ddf1fe0483"
+    },
+    {
+      "path": "Production032/Runtime/SF033Merchant.cs",
+      "bytes": 3644,
+      "sha256": "b0f412bdaa30b5ef60960a791a7c99c0b0bd931ab7a172577d0a9189e83756b6"
+    },
+    {
+      "path": "Production032/Runtime/SF034AdventureNavigation.cs",
+      "bytes": 11017,
+      "sha256": "d64a0f273d8937403d32dd2891fedb323c134b45ae2237809eaa158a09a7a963"
+    },
+    {
+      "path": "Production032/Runtime/SF034CombatReview.cs",
+      "bytes": 3719,
+      "sha256": "73a5bfb340c46b08df7c37a037bdeb5e5a767e3c51843baa26d812483a94a93a"
+    },
+    {
+      "path": "Production032/Runtime/SF034DamageLedger.cs",
+      "bytes": 3303,
+      "sha256": "5255ca8125d152fe3ab152e8b9c40e87146cee2e49b2da176b331ea8a1231c1f"
+    },
+    {
+      "path": "Production032/Runtime/SF034Economy.cs",
+      "bytes": 25420,
+      "sha256": "5d8a22e386860987972e313784316aaa981f53b2fce6c16c0159d157a86b65c7"
+    },
+    {
+      "path": "Production032/Runtime/SF034EconomyHub.cs",
+      "bytes": 6055,
+      "sha256": "58d72364e5ecb01cafea791ead48ab8e0bf8ef25f290e9d8e9237e457eab66bb"
+    },
+    {
+      "path": "Production032/Runtime/SF034EntryBoosts.cs",
+      "bytes": 3392,
+      "sha256": "1192787a0b23fdae246917de2e553ae6386267e409c98a8282d3d8f6fc34dee9"
+    },
+    {
+      "path": "Production032/Runtime/SF034ExplorationMap.cs",
+      "bytes": 18219,
+      "sha256": "5d5ca1e3df75542b54ad96e6fabc04ab5a8ee0df12a58e6c7cad4f44fcbe96d7"
+    },
+    {
+      "path": "Production032/Runtime/SF034NavigationData.cs",
+      "bytes": 2572,
+      "sha256": "3e7a64c71121a26da813f51412b85504374b981e52c2de71d81b255affe7d303"
+    },
+    {
+      "path": "Production032/Runtime/SF034NavigationMath.cs",
+      "bytes": 3846,
+      "sha256": "79685df2f732c0554b05572d1a83e3fb1167beedf792bcdd80fe0e86d948dc80"
+    },
+    {
+      "path": "Production032/Runtime/SF034PendingRun.cs",
+      "bytes": 16417,
+      "sha256": "c9ba024d3c2b53019b5e07f7db5ef06a2fb784f0f4d2a4f56460481ee74ffdf1"
+    },
+    {
+      "path": "Production032/Runtime/SF034WeaponComparison.cs",
+      "bytes": 1288,
+      "sha256": "aa08f0a01248c4cdce50e9f34f5d5654a118b67122fe56d37f964cb965fae78f"
+    },
+    {
+      "path": "Production032/Runtime/SF034WeaponNumbers.cs",
+      "bytes": 1884,
+      "sha256": "70905ac32b08327c5bb349a86d697805386a6da051c9ec43060c45bed045c960"
+    },
+    {
+      "path": "Production032/Runtime/SF035AdventureActorLabel.cs",
+      "bytes": 1042,
+      "sha256": "512a9652486641c730cbd32a31d9c09c66349c742495906eebb9eac67d04f2be"
+    },
+    {
+      "path": "Production032/Runtime/SF035AdventureModes.cs",
+      "bytes": 11765,
+      "sha256": "46f246ad515bae57888b5e5195ba11ce5f43320d09681706a91a6be427f5c7af"
+    },
+    {
+      "path": "Production032/Runtime/SF035AdventureRelics.cs",
+      "bytes": 5068,
+      "sha256": "8d53926ad3fadcadd76004ecb0fefeec6e36d1e6d3374e742d7a821d83576f47"
+    },
+    {
+      "path": "Production032/Runtime/SF035BagReadout.cs",
+      "bytes": 2446,
+      "sha256": "75ce4bfbc7719bd7bc44da1e5e189d92766e0114a9e6c6461924b4fe6c725926"
+    },
+    {
+      "path": "Production032/Runtime/SF035CombatModes.cs",
+      "bytes": 382,
+      "sha256": "0138eec77eb668784c0abd3ab51640bd3d8f729a8fc55ab4b7f758f2f9cb0d25"
+    },
+    {
+      "path": "Production032/Runtime/SF035CombatReadout.cs",
+      "bytes": 2492,
+      "sha256": "3b01e7a75a56627bad2250c7fe9375de869b2ca7ff7475fadb05a2cf2a98278e"
+    },
+    {
+      "path": "Production032/Runtime/SF035FusionProfiles.cs",
+      "bytes": 4266,
+      "sha256": "8a0bab6bc60174903c7c20ef1e63d0c131e80be4c11a58eb558d13a3e514a577"
+    },
+    {
+      "path": "Production032/Runtime/SF035GroundLoot.cs",
+      "bytes": 7059,
+      "sha256": "8b6b475c9c0f349e9c4d706bb2963ded3b4961a63de114ebb695671f6d961ff7"
+    },
+    {
+      "path": "Production032/Runtime/SF035HudReadability.cs",
+      "bytes": 4546,
+      "sha256": "f4d8d96fc7b1bcf944e846895109fa7d9f973de93237bf55b9321e796fa81359"
+    },
+    {
+      "path": "Production032/Runtime/SF035LootCapacity.cs",
+      "bytes": 843,
+      "sha256": "0fe50dcb89fdaa4923efa0e7e1bba9b02388b2821309faf6d305d1b71ddef2ed"
+    },
+    {
+      "path": "Production032/Runtime/SF035LootQuantity.cs",
+      "bytes": 7016,
+      "sha256": "5aae812abcaa4d12a10878a2b9aa61bad6d0d69a96ea3929596d54384a8941bf"
+    },
+    {
+      "path": "Production032/Runtime/SF035ModeFeedbackQueue.cs",
+      "bytes": 2834,
+      "sha256": "b55a62a559be6bf1e0c5d5beae5e8c5a0565432fa8100cd7ddd111d7a22f8366"
+    },
+    {
+      "path": "Production032/Runtime/SF035ModeGrantFeedback.cs",
+      "bytes": 3970,
+      "sha256": "ebe98f0a1a186fe8ef6a7160a25bb30fbb388c293d27593f976a0ca5a05cced4"
+    },
+    {
+      "path": "Production032/Runtime/SF035ModeRecords.cs",
+      "bytes": 5242,
+      "sha256": "650afba9bb4411938311b0e529f4f2fe2097b2232913b177e5bbed84234ae77c"
+    },
+    {
+      "path": "Production032/Runtime/SF035Modes.cs",
+      "bytes": 21977,
+      "sha256": "1431b64ca3ad21ebdfcf5241fec7ccdfa05ffaf77675df6e095daa0a2f6595b6"
+    },
+    {
+      "path": "Production032/Runtime/SF035PrimaryRelease.cs",
+      "bytes": 819,
+      "sha256": "4b5e46fd31d790ce47e19dd7b5768a1313d3159acd6f2912ad5773a77d60bde8"
+    },
+    {
+      "path": "Production032/Runtime/SF035Relics.cs",
+      "bytes": 12098,
+      "sha256": "3d7d4b4b8fc91b7f286e20efa2b49f722721cdd9124ff9f3c59ae85b0f4255fa"
+    },
+    {
+      "path": "Production032/Runtime/SF035StoryActorLabel.cs",
+      "bytes": 1474,
+      "sha256": "14ea52343bfab5923317ec2d3fc869511df3508d03a1dd6d05aac49fe145594b"
+    },
+    {
+      "path": "Production032/Runtime/SF035WebChoiceWitness.cs",
+      "bytes": 7354,
+      "sha256": "51af3e41971cffbd4047252b2d58724bfbadcaaafa7d4ef6527fa89acefe1f28"
+    },
+    {
+      "path": "Production032/Runtime/SF035WebQAReadback.cs",
+      "bytes": 13923,
+      "sha256": "61d0850beaa2416cec4c2c8ba00e20972cbc93ed415d72ce716491462b56f506"
+    },
+    {
+      "path": "Production032/Runtime/SF036CombatReceiptSummary.cs",
+      "bytes": 2615,
+      "sha256": "d6ff21b48597256863767dbd5b0a5f2cba452923e4675297188bdff4431688ee"
+    },
+    {
+      "path": "Production032/Runtime/SF036CombatSafeHud.cs",
+      "bytes": 4709,
+      "sha256": "4295a402f5c661762414f298bd64caef624bef39273497a606488b3ae561be8c"
+    },
+    {
+      "path": "Production032/Runtime/SF036CopyAdventure.cs",
+      "bytes": 6357,
+      "sha256": "c6d199f3a46fd4b131cea7f7c234054cd74bf5317bff6379946bfc771948dac9"
+    },
+    {
+      "path": "Production032/Runtime/SF036CopyEvent.cs",
+      "bytes": 8533,
+      "sha256": "72f5813864ec4a5b90a65c7381f5827b1a151b879784814eef67d1c67a9ada08"
+    },
+    {
+      "path": "Production032/Runtime/SF036NeutralCast.cs",
+      "bytes": 778,
+      "sha256": "ec323cb8ac1c89671e2de94fc10fe4c2074408a1c64b934da87ad993b7274fed"
+    },
+    {
+      "path": "Resources/SF023Hero.shader",
+      "bytes": 1447,
+      "sha256": "dd37aecb491e83026940ea8ba46f51365d9605bec8dd1a11248da9b02f24b87a"
+    },
+    {
+      "path": "Resources/SFThreat.shader",
+      "bytes": 1005,
+      "sha256": "06cf77fbbe9a1c7ff9c9640fe3a9547e27f174d0ab769f095fec117f9476ea44"
+    },
+    {
+      "path": "Runtime/Film01Content.cs",
+      "bytes": 5777,
+      "sha256": "0a2e9bd0b60901e6e75947dc4107add87fdf08acdd7f413c7f6f79464105fec4"
+    },
+    {
+      "path": "Runtime/SF018Campaign.cs",
+      "bytes": 17954,
+      "sha256": "8b994270a733b120969cc2e92d28de70b23da6e613ea0479a796fc3528b501bd"
+    },
+    {
+      "path": "Runtime/SF018Content.cs",
+      "bytes": 5624,
+      "sha256": "ec91bda47bb38e21667c6f39b7b3c059e2b66644de5fb1efe765ea87fbe27ae3"
+    },
+    {
+      "path": "Runtime/SF018StageVisuals.cs",
+      "bytes": 5121,
+      "sha256": "0fa2ec712a0bf90c03b84842a464ffb232db1c2a42e6d1fb7292095c0817f61a"
+    },
+    {
+      "path": "Runtime/SF019BuildHints.cs",
+      "bytes": 10920,
+      "sha256": "65b71ee63f8c5ebd6506a26fe5a9fcdd1fcbfe77c96df344cb8034cf8908bb17"
+    },
+    {
+      "path": "Runtime/SF019CharacterSelection.cs",
+      "bytes": 4938,
+      "sha256": "7281d4a0426b6e2465c7c9b025544ed4a29a74d8bd0a44ffd3a3ab24fa4e9bb9"
+    },
+    {
+      "path": "Runtime/SF019Combat.cs",
+      "bytes": 18705,
+      "sha256": "54594f49ffcb6ae42710112ea98f1e20a8772f90edf8f02fc7c76a5f849ebfb5"
+    },
+    {
+      "path": "Runtime/SF019Equipment.cs",
+      "bytes": 20507,
+      "sha256": "b26e6681dc6de1299e9d470794cbaaae664f106982d83ed78d7d89c8ed4caca4"
+    },
+    {
+      "path": "Runtime/SF019Preview.cs",
+      "bytes": 11070,
+      "sha256": "aa9c6236441102befa68d16ed11c194a46c6174a7e79a280c4e22d303f2990b2"
+    },
+    {
+      "path": "Runtime/SF019Story.cs",
+      "bytes": 4281,
+      "sha256": "fb00787c7ef7ad749737e632315fcaedcfdeef5f9ad54bb96107ec23ca48819e"
+    },
+    {
+      "path": "Runtime/SF020Cast.cs",
+      "bytes": 4919,
+      "sha256": "0e4014be25fd45e25b0bdf8be4bd781886976b926954cf2ea358bc8256a53a8f"
+    },
+    {
+      "path": "Runtime/SF020Hud.cs",
+      "bytes": 17838,
+      "sha256": "1ec3ad09c2d86a5a0a33b304a002fad15d8435c53bcd3e17a90dad1a51fc3581"
+    },
+    {
+      "path": "Runtime/SF020Loadout.cs",
+      "bytes": 5846,
+      "sha256": "b863f5dd9cebd67a14cd1702ac88a9b270976a2ff7d54e8602cb255e06df8de6"
+    },
+    {
+      "path": "Runtime/SF020StageVisuals.cs",
+      "bytes": 5534,
+      "sha256": "d433bda2e981a81c57e3c6174b800b33b009f3b2e8d11e3f4e587391d5826689"
+    },
+    {
+      "path": "Runtime/SF020Ultimate.cs",
+      "bytes": 15435,
+      "sha256": "b07971ef9bb57acb4d5d681709f1ba908da6b4acdbc14890251a240563de9743"
+    },
+    {
+      "path": "Runtime/SF020UltimateBuild.cs",
+      "bytes": 8568,
+      "sha256": "5492d38a78b4dfba6cd2fab75a65bc7eae2150a0233e7fac3dc2530194c73aac"
+    },
+    {
+      "path": "Runtime/SF021CardArt.cs",
+      "bytes": 1753,
+      "sha256": "e1a5401ab67b81253671edba5a2bab2c67d1c789964b69d308e54d6168b3798f"
+    },
+    {
+      "path": "Runtime/SF021Enemies.cs",
+      "bytes": 20728,
+      "sha256": "8508dd6b68e8642320915fc49d3103efd2ed8652502aea3681143a1a02090fb0"
+    },
+    {
+      "path": "Runtime/SF021Hud.cs",
+      "bytes": 8596,
+      "sha256": "fb55610d3fcc4a5c594df426832c6c255c4928e9afe01f798d373fdcc47885fa"
+    },
+    {
+      "path": "Runtime/SF021Progression.cs",
+      "bytes": 6074,
+      "sha256": "d7a88ee711e597011ef79fcf42afda83fa8997c3d2934200ce829d6670b27d52"
+    },
+    {
+      "path": "Runtime/SF021Stats.cs",
+      "bytes": 8660,
+      "sha256": "3f965b3232ca92d8b1e6d05c229e28a29b91847b8b05c0630f6f09c6037735ea"
+    },
+    {
+      "path": "Runtime/SF021Story.cs",
+      "bytes": 11834,
+      "sha256": "3a8f0af323dde746e64824fa23bb64b15dc02298f05569eb00fb736aab1e3858"
+    },
+    {
+      "path": "Runtime/SF021Visuals.cs",
+      "bytes": 7569,
+      "sha256": "b6e392a9100f3851801b7745446759e750e97b849056bee856dd3ebc046edbcf"
+    },
+    {
+      "path": "Runtime/SF022Hud.cs",
+      "bytes": 25156,
+      "sha256": "e1bc658e27aed0a11eae0d1becc7c6f7f97eebe8e7e38511da7ff2bc147c1acd"
+    },
+    {
+      "path": "Runtime/SF023Audio.cs",
+      "bytes": 3887,
+      "sha256": "307ca0564d54a4e16fb2a2da9135fedd6978a2be794740af8ffb7db711555558"
+    },
+    {
+      "path": "Runtime/SF023Feedback.cs",
+      "bytes": 20049,
+      "sha256": "b715cf3624440a46a785210aa5701f835e0e02aa138e4a96fd67cb21366f10d6"
+    },
+    {
+      "path": "Runtime/SF023Intro.cs",
+      "bytes": 16890,
+      "sha256": "1aafa74db9def3aefd456487a36c34a713cfa6ddc29f07cdd29f9057b425629e"
+    },
+    {
+      "path": "Runtime/SF023PainterlyGround.shader",
+      "bytes": 3354,
+      "sha256": "15c37b09d95c4dfba4a6db9907cb331766293fa42fcdbc5394bd73feac4beb4f"
+    },
+    {
+      "path": "Runtime/SF023PresentationBank.cs",
+      "bytes": 615,
+      "sha256": "26d1125945a14b2c40fb6a4df96b93729bc2b7c9d19fdda03560a58fc6a44057"
+    },
+    {
+      "path": "Runtime/SF023StagePresentation.cs",
+      "bytes": 5408,
+      "sha256": "d25c621ee97faeb71ba4707317630d6a86054ba2a3ca64a29c882e7cfffec810"
+    },
+    {
+      "path": "Runtime/SF024Economy.cs",
+      "bytes": 1501,
+      "sha256": "1f8ea83cecc43d5805f808adee32b01e6d7865a8a71b9d12eca656fdbcbba570"
+    },
+    {
+      "path": "Runtime/SF024Enemies.cs",
+      "bytes": 49683,
+      "sha256": "988edd9b86b19161f05e503fbd19e63de21458d733c80b34f8d4a1923bdaf469"
+    },
+    {
+      "path": "Runtime/SF024GrowthFeedback.cs",
+      "bytes": 2225,
+      "sha256": "fab4f01c0df5869dda1fcfe42b3c1da1e47984bf650df586b72a67d009a0b550"
+    },
+    {
+      "path": "Runtime/SF024TexturedParticle.shader",
+      "bytes": 2261,
+      "sha256": "b8be0125ba8ac92b11a5a72f5624624d9cde952ce25de633065624d41b5f9e3b"
+    },
+    {
+      "path": "Runtime/SF024UltimateArchive.cs",
+      "bytes": 3951,
+      "sha256": "a80334d0789ccd7e6c2829180b3ba53396787eddf31f825e0afec4a674b3ea58"
+    },
+    {
+      "path": "Runtime/SF024UltimateHud.cs",
+      "bytes": 11420,
+      "sha256": "b1482e7cbd38a0eac18330816242147c8eca293ded2b628366b9353884693f3d"
+    },
+    {
+      "path": "Runtime/SF024Vfx.cs",
+      "bytes": 9463,
+      "sha256": "038ae8dee2d8f65120fd45b8fc0ca628feed672665e7b7fc45769cc5a9f6d8b3"
+    },
+    {
+      "path": "Runtime/SF025AnimatedVfx.cs",
+      "bytes": 1566,
+      "sha256": "cd2b23f51b1ad596484060bdb0718bcf96269c440b2d81e93acedd0953f5c4a1"
+    },
+    {
+      "path": "Runtime/SF025Effekseer.cs",
+      "bytes": 1507,
+      "sha256": "5cacbee20b655da46e7c70d9345bd8fba508fb0c4912ecc2444323dcc64b63c1"
+    },
+    {
+      "path": "Runtime/SF025EffekseerRuntime.cs",
+      "bytes": 15934,
+      "sha256": "61d4927d847dba294869b80d87c0b80e5e5f6022b912147e7c1e018b3023ddff"
+    },
+    {
+      "path": "Runtime/SF025Presentation.cs",
+      "bytes": 10973,
+      "sha256": "04c516526b5fb542bd05198dc753cf488fad3df1d57d2562f15605ac42c0b84e"
+    },
+    {
+      "path": "Runtime/SF025Vfx.cs",
+      "bytes": 17032,
+      "sha256": "661ca7b7b5f8e522c048344512d06e44bc3087d7e4f5d369fae26ce9747e0c58"
+    },
+    {
+      "path": "Runtime/SF025Weapons.cs",
+      "bytes": 2420,
+      "sha256": "b94f1e21ba89e54104b71bf994a5909e82ce555a66419a3611594fac2170b669"
+    },
+    {
+      "path": "Runtime/SF026Presentation.cs",
+      "bytes": 2605,
+      "sha256": "5a41b89ece07bc797108348e4c3f9d81828708d09b06b27a9063e7a1999e737a"
+    },
+    {
+      "path": "Runtime/SF026Props.cs",
+      "bytes": 4353,
+      "sha256": "8749fe48a1ed3aff1316bcbd0fd0b88f6b7ffe691e67ddd72ec307846a7c00af"
+    },
+    {
+      "path": "Runtime/SF028CardRules.cs",
+      "bytes": 8306,
+      "sha256": "d400efa76e229e6d79c92fb0cf3135340379db1945517cbad715812ac32d679d"
+    },
+    {
+      "path": "Runtime/SF028EnemyPresentation.cs",
+      "bytes": 17059,
+      "sha256": "fda7bdbd000b2598c65c0c7a54db43a0edebc8cb2dc4212bd99fa6dad831908c"
+    },
+    {
+      "path": "Runtime/SF028Flights.cs",
+      "bytes": 19439,
+      "sha256": "cfa427051d34bd0d743f497351d6089778b428325fe4240b31ab52cc3f31bfe0"
+    },
+    {
+      "path": "Runtime/SF028PlayerCombat.cs",
+      "bytes": 19730,
+      "sha256": "265988712b7a08f883e2069d224cce74720e6211de38720d482f48d75d241d05"
+    },
+    {
+      "path": "Runtime/SF029RelicCombat.cs",
+      "bytes": 30451,
+      "sha256": "9c7813613cacf42837624ff4dbf7308a25134b2f16cd298e2baa89869dd1593d"
+    },
+    {
+      "path": "Runtime/SF029SkillFeedback.cs",
+      "bytes": 6621,
+      "sha256": "b7d0a75959c416c9a6b9a405e37a949cff7af8234e99a78f122d81010fdbbf48"
+    },
+    {
+      "path": "Runtime/SF029TitleMotion.cs",
+      "bytes": 3248,
+      "sha256": "46b2202efdaa4a7c334e2717f6c529a1e8a3c2eea20e2a71871e8fce69a4bd88"
+    },
+    {
+      "path": "Runtime/SF030BossCombat.cs",
+      "bytes": 27366,
+      "sha256": "67e81573fa15cfbbba0f50606a68b5efcfa40ab01299347d89c533830af27591"
+    },
+    {
+      "path": "Runtime/SF030WeaponBank.cs",
+      "bytes": 571,
+      "sha256": "ab5b16e343f04af381a639ef0e4aa72a981b20dda6ff1c98c44a4263a442fa3e"
+    },
+    {
+      "path": "Runtime/SF030WeaponCombat.cs",
+      "bytes": 29561,
+      "sha256": "8d1fe722bbb187418f4ad4556afdc98baf28ab58dfb42a11b9050d0be3c9a630"
+    },
+    {
+      "path": "Runtime/SF031Combat.cs",
+      "bytes": 4183,
+      "sha256": "74234ea38b96efd7379cfec64ddbcb97a5e0771adbcc3de43c89432d1ca7b1c2"
+    },
+    {
+      "path": "Runtime/SF031Draft.cs",
+      "bytes": 9842,
+      "sha256": "9f1e130f3aeb98f3b698930fc951af540a35227364579809045877a676ece17b"
+    },
+    {
+      "path": "Runtime/SF031Hud.cs",
+      "bytes": 14711,
+      "sha256": "bd483681866e53df587a046eb38c67941c033bc65af923c28cbcc6d38ba5be4e"
+    },
+    {
+      "path": "Runtime/SFActor.cs",
+      "bytes": 26763,
+      "sha256": "e8f7f9326d66b2046c5eec61193d969ca8f248f55c2ff1d35231ff8c19d5dfec"
+    },
+    {
+      "path": "Runtime/SFArcherCapabilities.cs",
+      "bytes": 5374,
+      "sha256": "bae214eaf5945c73cf4a6be405c416e0a2f88d948e76b052a93a5fba3d93b292"
+    },
+    {
+      "path": "Runtime/SFArcherFootprints.cs",
+      "bytes": 19253,
+      "sha256": "79db9e434ba70541447a564093cdc06919dd7bee53ebb1a1a967f950abffa05b"
+    },
+    {
+      "path": "Runtime/SFArcherNavigationGrid.cs",
+      "bytes": 13860,
+      "sha256": "d6f91b53e04748eebf1effcb454711d23d1620111eb58a0bdb182b0464027511"
+    },
+    {
+      "path": "Runtime/SFArcherPresentation.cs",
+      "bytes": 24629,
+      "sha256": "b4af1fb30a3d0d7dad7666e5a827e6d26a173e2231b415406a6be9df382ace97"
+    },
+    {
+      "path": "Runtime/SFArcherProjectiles.cs",
+      "bytes": 6500,
+      "sha256": "b73a6e8033e7cc78f4baf3417fefc54c52864f0fc9068564548564b2f610c29b"
+    },
+    {
+      "path": "Runtime/SFAudio.cs",
+      "bytes": 17398,
+      "sha256": "5a40330a6c0c136be6af8d76a02c973383e8934f16c0a5a0117b84271359660d"
+    },
+    {
+      "path": "Runtime/SFBuild.cs",
+      "bytes": 21184,
+      "sha256": "f60ac0a2357dca28b0641941af163a730b12ec2dceec14c111138da3f4d7baa4"
+    },
+    {
+      "path": "Runtime/SFCamera.cs",
+      "bytes": 2450,
+      "sha256": "0a1244124ef1b2cc2d5c27d3a4ba73c168266e45caad94cdafed63765c04b36a"
+    },
+    {
+      "path": "Runtime/SFCardArt.cs",
+      "bytes": 917,
+      "sha256": "4117a546c20f7a8a37c0f9ae2727a7bc04881d06e932bc1e46d2afb6bff263a9"
+    },
+    {
+      "path": "Runtime/SFFirstActAttackVolume.cs",
+      "bytes": 5731,
+      "sha256": "4adea10859aee35fc8c35d7b96418fdf924675a163ecafdd6a6f4814b153e210"
+    },
+    {
+      "path": "Runtime/SFFirstActCharacterReview.cs",
+      "bytes": 17479,
+      "sha256": "f6a9ed4e8c815c6647f83389718e5b0626adf32092cb6e97ca3b1087f69bc838"
+    },
+    {
+      "path": "Runtime/SFFirstActCombat.cs",
+      "bytes": 25040,
+      "sha256": "dd3773e8effdb511042d5b9202e90e5d49318340555fff0517faf85ddd658d9f"
+    },
+    {
+      "path": "Runtime/SFFirstActDamageTarget.cs",
+      "bytes": 8060,
+      "sha256": "7301f3814ba48631eda30abc48f8749a3ad55772f14b863b6bcfd2c15315b499"
+    },
+    {
+      "path": "Runtime/SFFirstActRoofCutaway.cs",
+      "bytes": 3548,
+      "sha256": "b818ad6a96d14008b2b083f39477332f94960a5c0de059329d0179ee15a241ca"
+    },
+    {
+      "path": "Runtime/SFFirstActStoryIntro.cs",
+      "bytes": 16411,
+      "sha256": "7e535013a517acfed387e4fe5d49d490edb62cab17dcf2a0b8580cae9cbafba3"
+    },
+    {
+      "path": "Runtime/SFFirstActTrialEncounter.cs",
+      "bytes": 46306,
+      "sha256": "73318eecdf87da0b0ccb461476b9852ec71ea969506d5a823e6b091c67a53e82"
+    },
+    {
+      "path": "Runtime/SFFirstActWorldReview.cs",
+      "bytes": 18783,
+      "sha256": "32d3137551af5e6a2d645aa729498b7ada4d9e685624d0f0bdd8215fef51bae6"
+    },
+    {
+      "path": "Runtime/SFGame.cs",
+      "bytes": 60005,
+      "sha256": "e3af9e3aef9307a24980023778a2e1442e767ec9b559213db92d2cfe67809c68"
+    },
+    {
+      "path": "Runtime/SFHud.cs",
+      "bytes": 95812,
+      "sha256": "cbc7fdd8076770c329a2d8730fe116c741b6de0115fa99e45d7784ac879f65a9"
+    },
+    {
+      "path": "Runtime/SFLoot.cs",
+      "bytes": 27065,
+      "sha256": "6ad3b6fd34840de887bd8f319e46ace63501f83eecdfaea4315851180e7b3e69"
+    },
+    {
+      "path": "Runtime/SFLootVisuals.cs",
+      "bytes": 5706,
+      "sha256": "8b9b43aa278c6dc217475e271ba458868c966d023c8861eda9f272fc946cc07e"
+    },
+    {
+      "path": "Runtime/SFWarning.cs",
+      "bytes": 37334,
+      "sha256": "9a77d029c79a0dbe785518f120ca00ced179928eec3eafd8a8f1b2334188de91"
+    },
+    {
+      "path": "Runtime/SFWebNameInput.cs",
+      "bytes": 5128,
+      "sha256": "bb7aa3d3ba04749517470a290357988f579e48011a1dbf870323e0ccce66a051"
+    },
+    {
+      "path": "Scripts/SFAssets.cs",
+      "bytes": 1521,
+      "sha256": "e5e8c20463d098bf3173a25044cbe6fba6e90733fcd0673cc5db5dabe40e79ea"
+    }
+  ],
+  "sourceUrl": null,
+  "bindingVerifiedInBuild": false,
+  "scope": "Observed source snapshot at packaging time. The bootstrap BuildReport has no embedded source-tree hash; this is not proof that these sources produced the binary."
+}

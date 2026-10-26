@@ -1,0 +1,705 @@
+{
+  "schema": 1,
+  "version": "0.33.0-preview.2",
+  "playerVersion": "0.33.0-preview.2",
+  "contentVersion": "0.32.0-preview.1",
+  "outputFamily": "unity-0-33",
+  "resourceRecovery": {
+    "verifiedAtPackaging": true,
+    "journalSha256": "84467848eb3af8ab0171c87e8e188874f3e4fd3d976d084c4ead76531334cca2",
+    "restoredRoots": 18,
+    "fingerprintTreeSha256": "5d5ab9048381caaf84a228571bb5beb68aa014ce8ae3dec318101a0dbff792fc",
+    "scope": "Observed complete restored Resources GUID/file/meta state and matching producer journal; not source-to-binary binding."
+  },
+  "buildId": "ebc840120f620a01",
+  "packagedUtc": "2026-10-26T22:16:41.617176+00:00",
+  "title": "小人物逆袭",
+  "scope": "Packaging and static byte validation only; not browser/gameplay/asset-origin acceptance or publication.",
+  "entryScene": "Assets/StarFan/Production032/Scenes/Bootstrap032.unity",
+  "singlePlayer": true,
+  "bootstrapRecordSha256": "2b18db77231092ed73a7e8fc372218b515a103040acf9cb597a9247312b2facf",
+  "originalUnityHtmlSha256": "6068d3bfe66bd27dc59fe8628a8a1ef4cdae33b24ccb318e27e7e5757ae530b2",
+  "metadata": {
+    "companyName": "StarFan Studio",
+    "productName": "小人物逆袭",
+    "productVersion": "0.33.0-preview.2"
+  },
+  "unityVersion": "6000.3.26f1",
+  "buildFiles": {
+    "loaderUrl": {
+      "path": "Build/starfan033.fa8dcb8dc96d795e.loader.js",
+      "bytes": 117894,
+      "sha256": "fa8dcb8dc96d795e21d16624d37807ed6b70a7ff2391b5e1dc09a9ad24afb22f",
+      "sourceSha256": "fa8dcb8dc96d795e21d16624d37807ed6b70a7ff2391b5e1dc09a9ad24afb22f",
+      "sourceBytes": 117894,
+      "sourceEncoding": "javascript",
+      "decodedSha256": "fa8dcb8dc96d795e21d16624d37807ed6b70a7ff2391b5e1dc09a9ad24afb22f",
+      "decodedBytes": 117894,
+      "encoding": "none"
+    },
+    "dataUrl": {
+      "path": "Build/starfan033.413642027c549ab5.data.unityweb",
+      "bytes": 4165625,
+      "sha256": "413642027c549ab5396507932d418dc84c9238c73505bc570609802bd492b3a2",
+      "sourceSha256": "413642027c549ab5396507932d418dc84c9238c73505bc570609802bd492b3a2",
+      "sourceBytes": 4165625,
+      "sourceEncoding": "brotli",
+      "decodedSha256": "24334905a3aea7e94680d302fb175741c51d5aee23761d3cef4a325afa63eace",
+      "decodedBytes": 10939058,
+      "encoding": "unity-marked-brotli-fallback"
+    },
+    "frameworkUrl": {
+      "path": "Build/starfan033.8aa74b040837cd8b.framework.js.unityweb",
+      "bytes": 82545,
+      "sha256": "8aa74b040837cd8bf9f40f45d5e043cabd182f2d96731c9091fb0ea96f4dd114",
+      "sourceSha256": "8aa74b040837cd8bf9f40f45d5e043cabd182f2d96731c9091fb0ea96f4dd114",
+      "sourceBytes": 82545,
+      "sourceEncoding": "brotli",
+      "decodedSha256": "c8bc4d7fc689f2854c49ea9d05402848d3c58022c56e75ca8ae165de532e5e42",
+      "decodedBytes": 516552,
+      "encoding": "unity-marked-brotli-fallback"
+    },
+    "codeUrl": {
+      "path": "Build/starfan033.59945555aaf0714f.wasm.unityweb",
+      "bytes": 7461008,
+      "sha256": "59945555aaf0714fb4853d69ad110a7070e2b50a80ebeee00b5ff8696c4e4db7",
+      "sourceSha256": "59945555aaf0714fb4853d69ad110a7070e2b50a80ebeee00b5ff8696c4e4db7",
+      "sourceBytes": 7461008,
+      "sourceEncoding": "brotli",
+      "decodedSha256": "6e6a064b942b2b3c7e5d4d26f374e599d0555b9ff38df345c1c33c8f648d01ca",
+      "decodedBytes": 33191348,
+      "encoding": "unity-marked-brotli-fallback"
+    }
+  },
+  "modules": [
+    {
+      "path": "modules/bootstrap.9b2c4c76c5cb1b3b.bundle",
+      "bytes": 6603332,
+      "sha256": "9b2c4c76c5cb1b3bfa3731ccd677bd2ae43372a14fa58095d09fdd8aee840850",
+      "id": "bootstrap",
+      "dependencies": []
+    },
+    {
+      "path": "modules/common.f85a2e45db93e35f.bundle",
+      "bytes": 21381334,
+      "sha256": "f85a2e45db93e35fefdae7068f5a5bf8e01556d43d3bf83bfcfa7a0a3603b85a",
+      "id": "common",
+      "dependencies": [
+        "bootstrap"
+      ]
+    },
+    {
+      "path": "modules/film1.27977764fbd14c2e.bundle",
+      "bytes": 25626413,
+      "sha256": "27977764fbd14c2edc7931520276679993f8dab604ececa27b9c3440aaa8ec9a",
+      "id": "film1",
+      "dependencies": [
+        "bootstrap",
+        "common"
+      ]
+    },
+    {
+      "path": "modules/film2.f7c68423c0781fbe.bundle",
+      "bytes": 11190166,
+      "sha256": "f7c68423c0781fbef77ec2583985b3c351b099dc2306b69364fe9d93969c52ab",
+      "id": "film2",
+      "dependencies": [
+        "common"
+      ]
+    },
+    {
+      "path": "modules/film3.72516dae8a291ebf.bundle",
+      "bytes": 5945675,
+      "sha256": "72516dae8a291ebf9d8e9a44d11696f12fe765167038ac3596e3778f758ab313",
+      "id": "film3",
+      "dependencies": [
+        "common"
+      ]
+    },
+    {
+      "path": "modules/film4.3c7bd45ccf60511d.bundle",
+      "bytes": 4106959,
+      "sha256": "3c7bd45ccf60511d118304bec029c1dec5b4af0a7859e2e60c8539fb4c5dd777",
+      "id": "film4",
+      "dependencies": [
+        "common"
+      ]
+    },
+    {
+      "path": "modules/film5.d0f73c1c2edd013b.bundle",
+      "bytes": 6301853,
+      "sha256": "d0f73c1c2edd013baed64a9b60f68879a6326a16b8ed3633d724577e0cff8b29",
+      "id": "film5",
+      "dependencies": [
+        "common"
+      ]
+    }
+  ],
+  "catalog": {
+    "path": "modules/catalog.json",
+    "bytes": 9222,
+    "sha256": "0ebc0db1f75f470db52db544c55e5bf27977da9f81c6cda1d0f43c1036de9a73"
+  },
+  "sourceCodeHashManifest": "source-code-hashes033.json",
+  "sourceCodeTreeSha256": "2e43348a5eb5974e3638759f661400baad3455fe84ca84efafc49eb74c7e11d0",
+  "sourceBindingVerifiedInBuild": false,
+  "budget": {
+    "limitBytes": 20971520,
+    "bootstrapAndCommonModulesBytes": 27984666,
+    "bootstrapWebAndCommonBytes": 39820960,
+    "firstPlayableWithFilm1Bytes": 65447373,
+    "bootstrapAndCommonPassed": false,
+    "firstPlayablePassed": false
+  },
+  "streamingAssets": [],
+  "credits": [
+    {
+      "path": "credits/Audio/Edited-sample-source-manifest.json",
+      "bytes": 43458,
+      "sha256": "398d75dd2efa05a102fb7d98b79c19bea627b10b4daa0fb994bad5f77bcf039d"
+    },
+    {
+      "path": "credits/Audio/Edited-samples-credits.txt",
+      "bytes": 1107,
+      "sha256": "94b2dbf543fc1dc6191eb816153ce731081781df6b549c8474869d9bd4ac6e4c"
+    },
+    {
+      "path": "credits/Audio/Kenney-impact-sounds-original-License.txt",
+      "bytes": 608,
+      "sha256": "b49aa9c56b04528b95913de13e506a0f7c5e807b9925db9bfef86af1f91120db"
+    },
+    {
+      "path": "credits/Audio/Kenney-rpg-audio-original-License.txt",
+      "bytes": 478,
+      "sha256": "5735dfd72cb64cbbceda4ebc00c380c41ca680edb82ff153aa7c9ab97614c539"
+    },
+    {
+      "path": "credits/Audio/Kenney-ui-audio-original-License.txt",
+      "bytes": 479,
+      "sha256": "4f88ab3c885c87874834441a0d009cea8942f57461d7b870be65cf4e31362073"
+    },
+    {
+      "path": "credits/Audio/Kenney-voiceover-original-License.txt",
+      "bytes": 486,
+      "sha256": "57d021b53ab176ba287ee0e32abe3a31df86a2449715bf437789cf9779cc1d4e"
+    },
+    {
+      "path": "credits/Audio/Legacy-music-and-voices-credits.txt",
+      "bytes": 1332,
+      "sha256": "3b0bafeceea8b4d3b02e5b5a0e74791006c92d001e42bfaf68a926fbcda3821d"
+    },
+    {
+      "path": "credits/Audio/Original-voiceover-Credits.txt",
+      "bytes": 172,
+      "sha256": "b16848bb21bf12e38c6fc96ad2a55bb9e623a11dba3a843c957aa356515d2fef"
+    },
+    {
+      "path": "credits/CREDITS.txt",
+      "bytes": 5750,
+      "sha256": "93e412776f47e97b9fede28963c02c00420311d33345e5db5dfee03de6b67955"
+    },
+    {
+      "path": "credits/CodeManu/Derived-manifest.json",
+      "bytes": 1063707,
+      "sha256": "8fcdbb71362d402caa4f81c39c60f8f7c93b08e440cb13879dcc42fc14c9b8ac"
+    },
+    {
+      "path": "credits/CodeManu/Original-project-attribution.md",
+      "bytes": 1661,
+      "sha256": "dbf75ce281839ba4d7e2e4406ffb94ea13d72e4591e4c98bb1dd6d689b87da56"
+    },
+    {
+      "path": "credits/Effekseer/Anchored-FireBall-modifications.json",
+      "bytes": 1950,
+      "sha256": "ed840f430b3ed95da02a3fc1a6bdc0b760695df6cb702097ea48d2bcd05517f4"
+    },
+    {
+      "path": "credits/Effekseer/Original-runtime-MIT.md",
+      "bytes": 1079,
+      "sha256": "f6e9923b503504f7970a6312a4b465e05f5e3586e1140c6471c8ef826cf23c9a"
+    },
+    {
+      "path": "credits/Effekseer/Original-samples-CC0.md",
+      "bytes": 728,
+      "sha256": "e63fa8058841fa6ae128dfe192c10541d85ccd2e4e2f93b6bcf1fbd7a4292cc5"
+    },
+    {
+      "path": "credits/Effekseer/Project-attribution.md",
+      "bytes": 1398,
+      "sha256": "4c80a29e1181d371a2803384669b2354c4b5cfc0a350efdfe988ce9afe3cce6e"
+    },
+    {
+      "path": "credits/Environment/Original-source-README.md",
+      "bytes": 2451,
+      "sha256": "477b54e797f6f8a650e9f8620d963ae81332466868a32187f70f7748c723ca49"
+    },
+    {
+      "path": "credits/Font/Original-OFL.txt",
+      "bytes": 4301,
+      "sha256": "6a73f9541c2de74158c0e7cf6b0a58ef774f5a780bf191f2d7ec9cc53efe2bf2"
+    },
+    {
+      "path": "credits/Font/Original-font-source.md",
+      "bytes": 390,
+      "sha256": "365ecf4e50a197a35c408444faeed517a5801c561e958bc6e3a06a917e4b41fd"
+    },
+    {
+      "path": "credits/Font/StarFanUI032-original-OFL.txt",
+      "bytes": 4301,
+      "sha256": "6a73f9541c2de74158c0e7cf6b0a58ef774f5a780bf191f2d7ec9cc53efe2bf2"
+    },
+    {
+      "path": "credits/Font/StarFanUI032-subset-notice.txt",
+      "bytes": 2537,
+      "sha256": "86fdfc9d90b9cb4af4761f09e773ecb65485d26981cd025d731550d14520be6a"
+    },
+    {
+      "path": "credits/Font/fontTools-original-MIT-LICENSE.txt",
+      "bytes": 1072,
+      "sha256": "6787208f83f659ccbc2223b2fde952ffa6f7e8aca62f1a8a2bf5bc51bb1b2383"
+    },
+    {
+      "path": "credits/NOVA/Original-Samples-README.md",
+      "bytes": 1936,
+      "sha256": "7cfb2e17221d9936e04003a97bcfa1f2b5c38bc653514d3b90a2733237c6ec23"
+    },
+    {
+      "path": "credits/NOVA/Original-Third-Party-Notices.md",
+      "bytes": 2941,
+      "sha256": "df648ac1d81354a9503574555c47a2aa80239aa1f087d73d0e70932022286d61"
+    },
+    {
+      "path": "credits/NOVA/Original-package-LICENSE.md",
+      "bytes": 1078,
+      "sha256": "9b8db24af13bc3f09f8341d141f180065ab34a1777aef0516502bbf0c38feae3"
+    },
+    {
+      "path": "credits/NOVA/Original-repository-LICENSE.md",
+      "bytes": 1078,
+      "sha256": "9b8db24af13bc3f09f8341d141f180065ab34a1777aef0516502bbf0c38feae3"
+    },
+    {
+      "path": "credits/Props/Original-source-license-evidence.md",
+      "bytes": 2461,
+      "sha256": "40b96f3a0bf25de667c0206b3ed23a89a371c77b9a84e24db6e375638ab9a80f"
+    },
+    {
+      "path": "credits/Props/Selected-props-attribution.md",
+      "bytes": 3799,
+      "sha256": "2ba38fda55133b48af772567acca8e9e05f4f10c161d33207e751f459c8aa5c8"
+    },
+    {
+      "path": "credits/Props/Selected-props-source-manifest.json",
+      "bytes": 11874,
+      "sha256": "34b634c29c6f8be6325e632c43054d51347c4b34458859f6f1b98bc4192d1f02"
+    },
+    {
+      "path": "credits/Quaternius/Derived-UniversalFKAnimations032.txt",
+      "bytes": 2764,
+      "sha256": "37ca2a2cbbe731bd90e3d45bd8c7f4bef6abb24716fa73b99e14621ffce3d588"
+    },
+    {
+      "path": "credits/Quaternius/FantasyProps-Standard-original-License.txt",
+      "bytes": 837,
+      "sha256": "edad12240087a33e08fc031e4e66c2b2b4b2a6d4f086339bde04f741b385fbda"
+    },
+    {
+      "path": "credits/Quaternius/LegacyAnimations-Standard-original-License.txt",
+      "bytes": 332,
+      "sha256": "6d01f55c6e4c49a2c9963e147e561945ae2c83958c8ca667d90a6bffdbfac061"
+    },
+    {
+      "path": "credits/Quaternius/LegacyBaseCharacters-Standard-original-License.txt",
+      "bytes": 806,
+      "sha256": "0f4beaf0fe360a7732e58bbe3dbf60a2422367fbea60cb9ea4add968f383268e"
+    },
+    {
+      "path": "credits/Quaternius/LegacyCharacter-attribution.md",
+      "bytes": 2798,
+      "sha256": "f339a627879e6ab6c49700191dba956ab9bac99e57b4e91f1ebb6d2c076f997a"
+    },
+    {
+      "path": "credits/Quaternius/LegacyOutfits-Standard-original-License.txt",
+      "bytes": 728,
+      "sha256": "2202cc2f608c4210790b112e5f121bc2e7f8dced7b5b1c7f4be6203461bdebbb"
+    },
+    {
+      "path": "credits/Quaternius/MedievalVillage-Standard-original-License.txt",
+      "bytes": 840,
+      "sha256": "ec6fd5004514cb0515a7dc1065f474644d31698861597b32e1745945ffec71de"
+    },
+    {
+      "path": "credits/Quaternius/Official-source-acquisition-manifest.json",
+      "bytes": 77202,
+      "sha256": "cfc0e682f170632522d1f24fed28a790f07de94db136e44b9292dc4f62c585ed"
+    },
+    {
+      "path": "credits/Quaternius/UltimateModularMen-original-License.txt",
+      "bytes": 372,
+      "sha256": "e8dbf915a2b82229913e301a0787696611241bdefec4832bc084f54161db1efe"
+    },
+    {
+      "path": "credits/Quaternius/UltimateModularWomen-original-License.txt",
+      "bytes": 372,
+      "sha256": "e8dbf915a2b82229913e301a0787696611241bdefec4832bc084f54161db1efe"
+    },
+    {
+      "path": "credits/Quaternius/UltimateMonsters-original-License.txt",
+      "bytes": 374,
+      "sha256": "de990ef6fc68cffd7fd1ae342c4d0c823b541b8848d8f76bca5d3339f4de6f6e"
+    },
+    {
+      "path": "credits/SOURCE-COPIES.json",
+      "bytes": 13808,
+      "sha256": "cb91feac40f7a6ca903c32395620031bbbdaaa2e366a1c84aa60ba92f1d3757e"
+    },
+    {
+      "path": "credits/Title/Original-keyart-attribution.md",
+      "bytes": 603,
+      "sha256": "087f8b30ee69597f5e86b31796b0d1dd12791b3bc3bf0b280dc27c68f0f728de"
+    },
+    {
+      "path": "credits/Title/Original-keyart-manifest.json",
+      "bytes": 2004,
+      "sha256": "b755ca7088c287be4eee494577f613ce62357e0bc5a05b7d757bcb3c793f61c0"
+    },
+    {
+      "path": "credits/Unity/Original-Boss-Room-LICENSE.md",
+      "bytes": 452,
+      "sha256": "b7bd774e693d010a22386460b6f0e2544f1b496c735e746d80cb94e54b0a07ce"
+    },
+    {
+      "path": "credits/Unity/Original-Boss-Room-Third-Party-Notices.md",
+      "bytes": 2698,
+      "sha256": "9de3af22f58b67f2b716b5848a0af1b97a1cdf1d96c04374384761da0346eac0"
+    },
+    {
+      "path": "credits/Unity/Original-Unity-Companion-License.txt",
+      "bytes": 6242,
+      "sha256": "75377eac4782953a8fac0284596b1427e9f5dfef7cea55e563aa938686203069"
+    },
+    {
+      "path": "credits/Unity/Original-source-record.txt",
+      "bytes": 454,
+      "sha256": "a4c8144dc0ee70479e1758fb742992146e31e5c827976abe49349786e2c26575"
+    },
+    {
+      "path": "credits/Weapons/Selected-CCBY3-weapons-attribution.md",
+      "bytes": 616,
+      "sha256": "49b05cc8a5b7059dc9bb7735f5bcbc03aacc6a8bad5afd1a4200f2db1b5e37c3"
+    }
+  ],
+  "host": {
+    "transport": "HTTP(S) required",
+    "unitywebMime": [
+      "application/octet-stream",
+      "application/vnd.unity"
+    ],
+    "wasmMimeIfUncompressed": "application/wasm",
+    "scriptMime": [
+      "text/javascript",
+      "application/javascript"
+    ],
+    "contentEncodingRequired": false,
+    "compression": "Original Unity-marked Brotli/gzip bytes; matching unchanged Unity fallback loader decompresses the actual bytes",
+    "headersFile": "Optional custom-host policy only; GitHub Pages ignores _headers. Content fingerprints prevent stale binary reuse; index/catalog are still subject to host caching."
+  },
+  "audit": {
+    "rawNodeSourceAndResearchFiles": "rejected by path/type allowlist",
+    "opaqueUnityBundleAssetOrigins": "not decoded/audited here; root must validate build inventories",
+    "runtimeVerified": false,
+    "published": false
+  },
+  "shellFiles": [
+    {
+      "path": "Build/starfan033.fa8dcb8dc96d795e.loader.js",
+      "bytes": 117894,
+      "sha256": "fa8dcb8dc96d795e21d16624d37807ed6b70a7ff2391b5e1dc09a9ad24afb22f"
+    },
+    {
+      "path": "Build/starfan033.413642027c549ab5.data.unityweb",
+      "bytes": 4165625,
+      "sha256": "413642027c549ab5396507932d418dc84c9238c73505bc570609802bd492b3a2"
+    },
+    {
+      "path": "Build/starfan033.8aa74b040837cd8b.framework.js.unityweb",
+      "bytes": 82545,
+      "sha256": "8aa74b040837cd8bf9f40f45d5e043cabd182f2d96731c9091fb0ea96f4dd114"
+    },
+    {
+      "path": "Build/starfan033.59945555aaf0714f.wasm.unityweb",
+      "bytes": 7461008,
+      "sha256": "59945555aaf0714fb4853d69ad110a7070e2b50a80ebeee00b5ff8696c4e4db7"
+    },
+    {
+      "path": "shell.edcabe7951a7d478.css",
+      "bytes": 6560,
+      "sha256": "edcabe7951a7d4783008bad5d1a7ef7fbc82e3d492e3e466381685bbb198e5b8"
+    },
+    {
+      "path": "shell.a93669d36763ba69.js",
+      "bytes": 10101,
+      "sha256": "a93669d36763ba69d62dd63e3358c55601990aa47d7a6f3f587c12bdb1b672a4"
+    },
+    {
+      "path": "poster.150a134e2589122d.png",
+      "bytes": 2233803,
+      "sha256": "150a134e2589122d61546d1b9dfd50553848e69bae188893986087c00771b65a"
+    },
+    {
+      "path": "credits/Audio/Edited-sample-source-manifest.json",
+      "bytes": 43458,
+      "sha256": "398d75dd2efa05a102fb7d98b79c19bea627b10b4daa0fb994bad5f77bcf039d"
+    },
+    {
+      "path": "credits/Audio/Edited-samples-credits.txt",
+      "bytes": 1107,
+      "sha256": "94b2dbf543fc1dc6191eb816153ce731081781df6b549c8474869d9bd4ac6e4c"
+    },
+    {
+      "path": "credits/Audio/Kenney-impact-sounds-original-License.txt",
+      "bytes": 608,
+      "sha256": "b49aa9c56b04528b95913de13e506a0f7c5e807b9925db9bfef86af1f91120db"
+    },
+    {
+      "path": "credits/Audio/Kenney-rpg-audio-original-License.txt",
+      "bytes": 478,
+      "sha256": "5735dfd72cb64cbbceda4ebc00c380c41ca680edb82ff153aa7c9ab97614c539"
+    },
+    {
+      "path": "credits/Audio/Kenney-ui-audio-original-License.txt",
+      "bytes": 479,
+      "sha256": "4f88ab3c885c87874834441a0d009cea8942f57461d7b870be65cf4e31362073"
+    },
+    {
+      "path": "credits/Audio/Kenney-voiceover-original-License.txt",
+      "bytes": 486,
+      "sha256": "57d021b53ab176ba287ee0e32abe3a31df86a2449715bf437789cf9779cc1d4e"
+    },
+    {
+      "path": "credits/Audio/Legacy-music-and-voices-credits.txt",
+      "bytes": 1332,
+      "sha256": "3b0bafeceea8b4d3b02e5b5a0e74791006c92d001e42bfaf68a926fbcda3821d"
+    },
+    {
+      "path": "credits/Audio/Original-voiceover-Credits.txt",
+      "bytes": 172,
+      "sha256": "b16848bb21bf12e38c6fc96ad2a55bb9e623a11dba3a843c957aa356515d2fef"
+    },
+    {
+      "path": "credits/CREDITS.txt",
+      "bytes": 5750,
+      "sha256": "93e412776f47e97b9fede28963c02c00420311d33345e5db5dfee03de6b67955"
+    },
+    {
+      "path": "credits/CodeManu/Derived-manifest.json",
+      "bytes": 1063707,
+      "sha256": "8fcdbb71362d402caa4f81c39c60f8f7c93b08e440cb13879dcc42fc14c9b8ac"
+    },
+    {
+      "path": "credits/CodeManu/Original-project-attribution.md",
+      "bytes": 1661,
+      "sha256": "dbf75ce281839ba4d7e2e4406ffb94ea13d72e4591e4c98bb1dd6d689b87da56"
+    },
+    {
+      "path": "credits/Effekseer/Anchored-FireBall-modifications.json",
+      "bytes": 1950,
+      "sha256": "ed840f430b3ed95da02a3fc1a6bdc0b760695df6cb702097ea48d2bcd05517f4"
+    },
+    {
+      "path": "credits/Effekseer/Original-runtime-MIT.md",
+      "bytes": 1079,
+      "sha256": "f6e9923b503504f7970a6312a4b465e05f5e3586e1140c6471c8ef826cf23c9a"
+    },
+    {
+      "path": "credits/Effekseer/Original-samples-CC0.md",
+      "bytes": 728,
+      "sha256": "e63fa8058841fa6ae128dfe192c10541d85ccd2e4e2f93b6bcf1fbd7a4292cc5"
+    },
+    {
+      "path": "credits/Effekseer/Project-attribution.md",
+      "bytes": 1398,
+      "sha256": "4c80a29e1181d371a2803384669b2354c4b5cfc0a350efdfe988ce9afe3cce6e"
+    },
+    {
+      "path": "credits/Environment/Original-source-README.md",
+      "bytes": 2451,
+      "sha256": "477b54e797f6f8a650e9f8620d963ae81332466868a32187f70f7748c723ca49"
+    },
+    {
+      "path": "credits/Font/Original-OFL.txt",
+      "bytes": 4301,
+      "sha256": "6a73f9541c2de74158c0e7cf6b0a58ef774f5a780bf191f2d7ec9cc53efe2bf2"
+    },
+    {
+      "path": "credits/Font/Original-font-source.md",
+      "bytes": 390,
+      "sha256": "365ecf4e50a197a35c408444faeed517a5801c561e958bc6e3a06a917e4b41fd"
+    },
+    {
+      "path": "credits/Font/StarFanUI032-original-OFL.txt",
+      "bytes": 4301,
+      "sha256": "6a73f9541c2de74158c0e7cf6b0a58ef774f5a780bf191f2d7ec9cc53efe2bf2"
+    },
+    {
+      "path": "credits/Font/StarFanUI032-subset-notice.txt",
+      "bytes": 2537,
+      "sha256": "86fdfc9d90b9cb4af4761f09e773ecb65485d26981cd025d731550d14520be6a"
+    },
+    {
+      "path": "credits/Font/fontTools-original-MIT-LICENSE.txt",
+      "bytes": 1072,
+      "sha256": "6787208f83f659ccbc2223b2fde952ffa6f7e8aca62f1a8a2bf5bc51bb1b2383"
+    },
+    {
+      "path": "credits/NOVA/Original-Samples-README.md",
+      "bytes": 1936,
+      "sha256": "7cfb2e17221d9936e04003a97bcfa1f2b5c38bc653514d3b90a2733237c6ec23"
+    },
+    {
+      "path": "credits/NOVA/Original-Third-Party-Notices.md",
+      "bytes": 2941,
+      "sha256": "df648ac1d81354a9503574555c47a2aa80239aa1f087d73d0e70932022286d61"
+    },
+    {
+      "path": "credits/NOVA/Original-package-LICENSE.md",
+      "bytes": 1078,
+      "sha256": "9b8db24af13bc3f09f8341d141f180065ab34a1777aef0516502bbf0c38feae3"
+    },
+    {
+      "path": "credits/NOVA/Original-repository-LICENSE.md",
+      "bytes": 1078,
+      "sha256": "9b8db24af13bc3f09f8341d141f180065ab34a1777aef0516502bbf0c38feae3"
+    },
+    {
+      "path": "credits/Props/Original-source-license-evidence.md",
+      "bytes": 2461,
+      "sha256": "40b96f3a0bf25de667c0206b3ed23a89a371c77b9a84e24db6e375638ab9a80f"
+    },
+    {
+      "path": "credits/Props/Selected-props-attribution.md",
+      "bytes": 3799,
+      "sha256": "2ba38fda55133b48af772567acca8e9e05f4f10c161d33207e751f459c8aa5c8"
+    },
+    {
+      "path": "credits/Props/Selected-props-source-manifest.json",
+      "bytes": 11874,
+      "sha256": "34b634c29c6f8be6325e632c43054d51347c4b34458859f6f1b98bc4192d1f02"
+    },
+    {
+      "path": "credits/Quaternius/Derived-UniversalFKAnimations032.txt",
+      "bytes": 2764,
+      "sha256": "37ca2a2cbbe731bd90e3d45bd8c7f4bef6abb24716fa73b99e14621ffce3d588"
+    },
+    {
+      "path": "credits/Quaternius/FantasyProps-Standard-original-License.txt",
+      "bytes": 837,
+      "sha256": "edad12240087a33e08fc031e4e66c2b2b4b2a6d4f086339bde04f741b385fbda"
+    },
+    {
+      "path": "credits/Quaternius/LegacyAnimations-Standard-original-License.txt",
+      "bytes": 332,
+      "sha256": "6d01f55c6e4c49a2c9963e147e561945ae2c83958c8ca667d90a6bffdbfac061"
+    },
+    {
+      "path": "credits/Quaternius/LegacyBaseCharacters-Standard-original-License.txt",
+      "bytes": 806,
+      "sha256": "0f4beaf0fe360a7732e58bbe3dbf60a2422367fbea60cb9ea4add968f383268e"
+    },
+    {
+      "path": "credits/Quaternius/LegacyCharacter-attribution.md",
+      "bytes": 2798,
+      "sha256": "f339a627879e6ab6c49700191dba956ab9bac99e57b4e91f1ebb6d2c076f997a"
+    },
+    {
+      "path": "credits/Quaternius/LegacyOutfits-Standard-original-License.txt",
+      "bytes": 728,
+      "sha256": "2202cc2f608c4210790b112e5f121bc2e7f8dced7b5b1c7f4be6203461bdebbb"
+    },
+    {
+      "path": "credits/Quaternius/MedievalVillage-Standard-original-License.txt",
+      "bytes": 840,
+      "sha256": "ec6fd5004514cb0515a7dc1065f474644d31698861597b32e1745945ffec71de"
+    },
+    {
+      "path": "credits/Quaternius/Official-source-acquisition-manifest.json",
+      "bytes": 77202,
+      "sha256": "cfc0e682f170632522d1f24fed28a790f07de94db136e44b9292dc4f62c585ed"
+    },
+    {
+      "path": "credits/Quaternius/UltimateModularMen-original-License.txt",
+      "bytes": 372,
+      "sha256": "e8dbf915a2b82229913e301a0787696611241bdefec4832bc084f54161db1efe"
+    },
+    {
+      "path": "credits/Quaternius/UltimateModularWomen-original-License.txt",
+      "bytes": 372,
+      "sha256": "e8dbf915a2b82229913e301a0787696611241bdefec4832bc084f54161db1efe"
+    },
+    {
+      "path": "credits/Quaternius/UltimateMonsters-original-License.txt",
+      "bytes": 374,
+      "sha256": "de990ef6fc68cffd7fd1ae342c4d0c823b541b8848d8f76bca5d3339f4de6f6e"
+    },
+    {
+      "path": "credits/SOURCE-COPIES.json",
+      "bytes": 13808,
+      "sha256": "cb91feac40f7a6ca903c32395620031bbbdaaa2e366a1c84aa60ba92f1d3757e"
+    },
+    {
+      "path": "credits/Title/Original-keyart-attribution.md",
+      "bytes": 603,
+      "sha256": "087f8b30ee69597f5e86b31796b0d1dd12791b3bc3bf0b280dc27c68f0f728de"
+    },
+    {
+      "path": "credits/Title/Original-keyart-manifest.json",
+      "bytes": 2004,
+      "sha256": "b755ca7088c287be4eee494577f613ce62357e0bc5a05b7d757bcb3c793f61c0"
+    },
+    {
+      "path": "credits/Unity/Original-Boss-Room-LICENSE.md",
+      "bytes": 452,
+      "sha256": "b7bd774e693d010a22386460b6f0e2544f1b496c735e746d80cb94e54b0a07ce"
+    },
+    {
+      "path": "credits/Unity/Original-Boss-Room-Third-Party-Notices.md",
+      "bytes": 2698,
+      "sha256": "9de3af22f58b67f2b716b5848a0af1b97a1cdf1d96c04374384761da0346eac0"
+    },
+    {
+      "path": "credits/Unity/Original-Unity-Companion-License.txt",
+      "bytes": 6242,
+      "sha256": "75377eac4782953a8fac0284596b1427e9f5dfef7cea55e563aa938686203069"
+    },
+    {
+      "path": "credits/Unity/Original-source-record.txt",
+      "bytes": 454,
+      "sha256": "a4c8144dc0ee70479e1758fb742992146e31e5c827976abe49349786e2c26575"
+    },
+    {
+      "path": "credits/Weapons/Selected-CCBY3-weapons-attribution.md",
+      "bytes": 616,
+      "sha256": "49b05cc8a5b7059dc9bb7735f5bcbc03aacc6a8bad5afd1a4200f2db1b5e37c3"
+    },
+    {
+      "path": "credits/index.html",
+      "bytes": 5431,
+      "sha256": "37f58efb8159f8743f5a018163f664b491f55c1b28d083ee2d1427f7ec5082c5"
+    },
+    {
+      "path": "index.html",
+      "bytes": 3832,
+      "sha256": "814eb4d38de0c36f6d512ff309d01beddfa1a8ba8521625b644c8d5c4a9dd9b7"
+    },
+    {
+      "path": ".nojekyll",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "_headers",
+      "bytes": 260,
+      "sha256": "8597f196e70201122efe54c678226e343c196b10d4ca65b8eeb7f89636443eef"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "utc": "2026-10-19T13:36:34.260261+00:00",
+  "scope": "Exact byte-derived CC0 author-effect project. No source mesh/texture/material/child node removed or modified; not imported or visually accepted in Unity.",
+  "originalSource": "art/vfx025-alternatives/effekseer/tool-static/Effekseer1.80.7Win/Sample/01_Pierre02/FireBall.efkproj",
+  "originalSourceSha256": "21d7b9cede01b446f6bcbef3411bb5ceb1b7a146fe6894bfe0efbeb11c5801e9",
+  "originalBytes": 268230,
+  "derivedSource": "art/vfx025-alternatives/effekseer/derived/FireBallAnchored.efkproj",
+  "derivedDestination": "Assets/StarFan/Art/Effekseer025/Sample/01_Pierre02/FireBallAnchored.efkproj",
+  "derivedSha256": "c38abf323b0984841076982a01bc77ed13bced1330ce9c6495ea4bc2ccf6218b",
+  "derivedBytes": 268277,
+  "author": "Pierre, Effekseer sample contributor",
+  "license": "CC0 per original official Effekseer Sample/readme.txt; runtime separateMIT",
+  "officialRelease": "https://github.com/effekseer/Effekseer/releases/tag/1807",
+  "licenseSource": "art/vfx025-alternatives/effekseer/tool-static/Effekseer1.80.7Win/Sample/readme.txt",
+  "diff": "FireBallAnchored.diff",
+  "changes": [
+    {
+      "xmlPath": "/EffekseerProject/Root/Children/Node[1]/LocationValues/Type",
+      "before": "3 (FCurve)",
+      "after": "0 (Fixed)"
+    },
+    {
+      "xmlPath": "/EffekseerProject/Root/Children/Node[1]/LocationValues/Fixed/Location",
+      "before": {
+        "X": "absent/default0",
+        "Y": "absent/default0",
+        "Z": "15"
+      },
+      "after": {
+        "X": "0",
+        "Y": "0",
+        "Z": "0"
+      }
+    }
+  ],
+  "preserved": {
+    "originalBytesUnchanged": true,
+    "nodeCountBefore": 50,
+    "nodeCountAfter": 50,
+    "childSubtreeExactXmlEqual": true,
+    "allOtherRootPropertiesExactXmlEqual": true,
+    "inactiveOriginalFCurvePreserved": true,
+    "sourceTextureModelMaterialBytesChanged": false
+  },
+  "unityImportedByThisTask": false,
+  "visualAcceptance": false
+}
