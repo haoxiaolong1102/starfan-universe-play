@@ -1,0 +1,321 @@
+{
+  "schema": "starfan032-credits-local-evidence-v1",
+  "utc": "2026-10-25T12:38:56.078438+00:00",
+  "scope": "Only UTF-8 notice/attribution/manifest copies from existing local sources; no network lookup, media, archives, author code or source-license modifications. Not a film IP/commercial-rights clearance statement.",
+  "copy_count": 43,
+  "copies": [
+    {
+      "path": "Quaternius/UltimateMonsters-original-License.txt",
+      "original_source": "art/production032/sources/UltimateMonsters.License.txt",
+      "bytes": 374,
+      "sha256": "de990ef6fc68cffd7fd1ae342c4d0c823b541b8848d8f76bca5d3339f4de6f6e",
+      "byte_exact_copy": true
+    },
+    {
+      "path": "Quaternius/UltimateModularMen-original-License.txt",
+      "original_source": "art/production032/sources/UltimateModularMen.License.txt",
+      "bytes": 372,
+      "sha256": "e8dbf915a2b82229913e301a0787696611241bdefec4832bc084f54161db1efe",
+      "byte_exact_copy": true
+    },
+    {
+      "path": "Quaternius/UltimateModularWomen-original-License.txt",
+      "original_source": "art/production032/sources/UltimateModularWomen.License.txt",
+      "bytes": 372,
+      "sha256": "e8dbf915a2b82229913e301a0787696611241bdefec4832bc084f54161db1efe",
+      "byte_exact_copy": true
+    },
+    {
+      "path": "Quaternius/Official-source-acquisition-manifest.json",
+      "original_source": "art/production032/ASSET-MANIFEST.json",
+      "bytes": 77202,
+      "sha256": "cfc0e682f170632522d1f24fed28a790f07de94db136e44b9292dc4f62c585ed",
+      "byte_exact_copy": true
+    },
+    {
+      "path": "Quaternius/MedievalVillage-Standard-original-License.txt",
+      "original_source": "unity-remake/StarFanURP/Assets/StarFan/Art/FirstActWorld/Source/Village/License_Standard.txt",
+      "bytes": 840,
+      "sha256": "ec6fd5004514cb0515a7dc1065f474644d31698861597b32e1745945ffec71de",
+      "byte_exact_copy": true
+    },
+    {
+      "path": "Quaternius/FantasyProps-Standard-original-License.txt",
+      "original_source": "unity-remake/StarFanURP/Assets/StarFan/Art/FirstActWorld/Source/Props/License_Standard.txt",
+      "bytes": 837,
+      "sha256": "edad12240087a33e08fc031e4e66c2b2b4b2a6d4f086339bde04f741b385fbda",
+      "byte_exact_copy": true
+    },
+    {
+      "path": "Quaternius/LegacyBaseCharacters-Standard-original-License.txt",
+      "original_source": "unity-remake/StarFanURP/Assets/StarFan/Art/FirstActHumanoid/Source/Base/License_Standard.txt",
+      "bytes": 806,
+      "sha256": "0f4beaf0fe360a7732e58bbe3dbf60a2422367fbea60cb9ea4add968f383268e",
+      "byte_exact_copy": true
+    },
+    {
+      "path": "Quaternius/LegacyOutfits-Standard-original-License.txt",
+      "original_source": "unity-remake/StarFanURP/Assets/StarFan/Art/FirstActHumanoid/Source/Outfits/License_Standard.txt",
+      "bytes": 728,
+      "sha256": "2202cc2f608c4210790b112e5f121bc2e7f8dced7b5b1c7f4be6203461bdebbb",
+      "byte_exact_copy": true
+    },
+    {
+      "path": "Quaternius/LegacyAnimations-Standard-original-License.txt",
+      "original_source": "unity-remake/StarFanURP/Assets/StarFan/Art/FirstActHumanoid/Source/Animations/License.txt",
+      "bytes": 332,
+      "sha256": "6d01f55c6e4c49a2c9963e147e561945ae2c83958c8ca667d90a6bffdbfac061",
+      "byte_exact_copy": true
+    },
+    {
+      "path": "Quaternius/LegacyCharacter-attribution.md",
+      "original_source": "art/first-act/ATTRIBUTION.md",
+      "bytes": 2798,
+      "sha256": "f339a627879e6ab6c49700191dba956ab9bac99e57b4e91f1ebb6d2c076f997a",
+      "byte_exact_copy": true
+    },
+    {
+      "path": "Environment/Original-source-README.md",
+      "original_source": "art/first-act/environment/README.md",
+      "bytes": 2451,
+      "sha256": "477b54e797f6f8a650e9f8620d963ae81332466868a32187f70f7748c723ca49",
+      "byte_exact_copy": true
+    },
+    {
+      "path": "NOVA/Original-repository-LICENSE.md",
+      "original_source": "art/vfx025/nova-complete/source/LICENSE.md",
+      "bytes": 1078,
+      "sha256": "9b8db24af13bc3f09f8341d141f180065ab34a1777aef0516502bbf0c38feae3",
+      "byte_exact_copy": true
+    },
+    {
+      "path": "NOVA/Original-package-LICENSE.md",
+      "original_source": "art/vfx025/nova-complete/source/Assets/Nova/LICENSE.md",
+      "bytes": 1078,
+      "sha256": "9b8db24af13bc3f09f8341d141f180065ab34a1777aef0516502bbf0c38feae3",
+      "byte_exact_copy": true
+    },
+    {
+      "path": "NOVA/Original-Third-Party-Notices.md",
+      "original_source": "art/vfx025/nova-complete/source/Third Party Notices.md",
+      "bytes": 2941,
+      "sha256": "df648ac1d81354a9503574555c47a2aa80239aa1f087d73d0e70932022286d61",
+      "byte_exact_copy": true
+    },
+    {
+      "path": "NOVA/Original-Samples-README.md",
+      "original_source": "art/vfx025/nova-complete/source/Assets/Samples/README.md",
+      "bytes": 1936,
+      "sha256": "7cfb2e17221d9936e04003a97bcfa1f2b5c38bc653514d3b90a2733237c6ec23",
+      "byte_exact_copy": true
+    },
+    {
+      "path": "CodeManu/Original-project-attribution.md",
+      "original_source": "unity-remake/StarFanURP/Assets/StarFan/Art/AnimatedVfx025/License/ATTRIBUTION.md",
+      "bytes": 1661,
+      "sha256": "dbf75ce281839ba4d7e2e4406ffb94ea13d72e4591e4c98bb1dd6d689b87da56",
+      "byte_exact_copy": true
+    },
+    {
+      "path": "CodeManu/Derived-manifest.json",
+      "original_source": "unity-remake/StarFanURP/Assets/StarFan/Art/AnimatedVfx025/License/DERIVED_MANIFEST.json",
+      "bytes": 1063707,
+      "sha256": "8fcdbb71362d402caa4f81c39c60f8f7c93b08e440cb13879dcc42fc14c9b8ac",
+      "byte_exact_copy": true
+    },
+    {
+      "path": "Effekseer/Original-runtime-MIT.md",
+      "original_source": "unity-remake/StarFanURP/Assets/StarFan/Art/Effekseer025/License/RUNTIME_MIT.md",
+      "bytes": 1079,
+      "sha256": "f6e9923b503504f7970a6312a4b465e05f5e3586e1140c6471c8ef826cf23c9a",
+      "byte_exact_copy": true
+    },
+    {
+      "path": "Effekseer/Original-samples-CC0.md",
+      "original_source": "unity-remake/StarFanURP/Assets/StarFan/Art/Effekseer025/License/SAMPLE_CC0.md",
+      "bytes": 728,
+      "sha256": "e63fa8058841fa6ae128dfe192c10541d85ccd2e4e2f93b6bcf1fbd7a4292cc5",
+      "byte_exact_copy": true
+    },
+    {
+      "path": "Effekseer/Project-attribution.md",
+      "original_source": "unity-remake/StarFanURP/Assets/StarFan/Art/Effekseer025/License/ATTRIBUTION.md",
+      "bytes": 1398,
+      "sha256": "4c80a29e1181d371a2803384669b2354c4b5cfc0a350efdfe988ce9afe3cce6e",
+      "byte_exact_copy": true
+    },
+    {
+      "path": "Effekseer/Anchored-FireBall-modifications.json",
+      "original_source": "unity-remake/StarFanURP/Assets/StarFan/Art/Effekseer025/License/DERIVED_FIREBALL_ANCHORED.json",
+      "bytes": 1950,
+      "sha256": "ed840f430b3ed95da02a3fc1a6bdc0b760695df6cb702097ea48d2bcd05517f4",
+      "byte_exact_copy": true
+    },
+    {
+      "path": "Weapons/Selected-CCBY3-weapons-attribution.md",
+      "original_source": "unity-remake/StarFanURP/Assets/StarFan/Art/Weapons025/License/ATTRIBUTION.md",
+      "bytes": 616,
+      "sha256": "49b05cc8a5b7059dc9bb7735f5bcbc03aacc6a8bad5afd1a4200f2db1b5e37c3",
+      "byte_exact_copy": true
+    },
+    {
+      "path": "Props/Selected-props-attribution.md",
+      "original_source": "unity-remake/StarFanURP/Assets/StarFan/Art/Props026/License/ATTRIBUTION.md",
+      "bytes": 3799,
+      "sha256": "2ba38fda55133b48af772567acca8e9e05f4f10c161d33207e751f459c8aa5c8",
+      "byte_exact_copy": true
+    },
+    {
+      "path": "Props/Selected-props-source-manifest.json",
+      "original_source": "unity-remake/StarFanURP/Assets/StarFan/Art/Props026/License/SOURCE_MANIFEST.json",
+      "bytes": 11874,
+      "sha256": "34b634c29c6f8be6325e632c43054d51347c4b34458859f6f1b98bc4192d1f02",
+      "byte_exact_copy": true
+    },
+    {
+      "path": "Props/Original-source-license-evidence.md",
+      "original_source": "art/props026/licenses/SOURCE_LICENSES.md",
+      "bytes": 2461,
+      "sha256": "40b96f3a0bf25de667c0206b3ed23a89a371c77b9a84e24db6e375638ab9a80f",
+      "byte_exact_copy": true
+    },
+    {
+      "path": "Audio/Edited-samples-credits.txt",
+      "original_source": "art/audio023/AUDIO_CREDITS.txt",
+      "bytes": 1107,
+      "sha256": "94b2dbf543fc1dc6191eb816153ce731081781df6b549c8474869d9bd4ac6e4c",
+      "byte_exact_copy": true
+    },
+    {
+      "path": "Audio/Legacy-music-and-voices-credits.txt",
+      "original_source": "unity-remake/StarFanURP/Assets/StarFan/Art/Fan019/Resources/StarFanAudio019Credits.txt",
+      "bytes": 1332,
+      "sha256": "3b0bafeceea8b4d3b02e5b5a0e74791006c92d001e42bfaf68a926fbcda3821d",
+      "byte_exact_copy": true
+    },
+    {
+      "path": "Audio/Kenney-impact-sounds-original-License.txt",
+      "original_source": "art/audio023/licenses/impact-sounds-LICENSE.txt",
+      "bytes": 608,
+      "sha256": "b49aa9c56b04528b95913de13e506a0f7c5e807b9925db9bfef86af1f91120db",
+      "byte_exact_copy": true
+    },
+    {
+      "path": "Audio/Kenney-rpg-audio-original-License.txt",
+      "original_source": "art/audio023/licenses/rpg-audio-LICENSE.txt",
+      "bytes": 478,
+      "sha256": "5735dfd72cb64cbbceda4ebc00c380c41ca680edb82ff153aa7c9ab97614c539",
+      "byte_exact_copy": true
+    },
+    {
+      "path": "Audio/Kenney-ui-audio-original-License.txt",
+      "original_source": "art/audio023/licenses/ui-audio-LICENSE.txt",
+      "bytes": 479,
+      "sha256": "4f88ab3c885c87874834441a0d009cea8942f57461d7b870be65cf4e31362073",
+      "byte_exact_copy": true
+    },
+    {
+      "path": "Audio/Kenney-voiceover-original-License.txt",
+      "original_source": "art/audio023/licenses/voiceover-pack-LICENSE.txt",
+      "bytes": 486,
+      "sha256": "57d021b53ab176ba287ee0e32abe3a31df86a2449715bf437789cf9779cc1d4e",
+      "byte_exact_copy": true
+    },
+    {
+      "path": "Audio/Original-voiceover-Credits.txt",
+      "original_source": "art/audio023/licenses/voiceover-Credits.txt",
+      "bytes": 172,
+      "sha256": "b16848bb21bf12e38c6fc96ad2a55bb9e623a11dba3a843c957aa356515d2fef",
+      "byte_exact_copy": true
+    },
+    {
+      "path": "Audio/Edited-sample-source-manifest.json",
+      "original_source": "art/audio023/audio-manifest.json",
+      "bytes": 43458,
+      "sha256": "398d75dd2efa05a102fb7d98b79c19bea627b10b4daa0fb994bad5f77bcf039d",
+      "byte_exact_copy": true
+    },
+    {
+      "path": "Unity/Original-Unity-Companion-License.txt",
+      "original_source": "unity-remake/StarFanURP/Assets/StarFan/Art/Licenses/Unity-Companion-License.txt",
+      "bytes": 6242,
+      "sha256": "75377eac4782953a8fac0284596b1427e9f5dfef7cea55e563aa938686203069",
+      "byte_exact_copy": true
+    },
+    {
+      "path": "Unity/Original-Boss-Room-LICENSE.md",
+      "original_source": "unity-remake/StarFanURP/Assets/StarFan/Art/Licenses/Unity-Boss-Room-LICENSE.md",
+      "bytes": 452,
+      "sha256": "b7bd774e693d010a22386460b6f0e2544f1b496c735e746d80cb94e54b0a07ce",
+      "byte_exact_copy": true
+    },
+    {
+      "path": "Unity/Original-Boss-Room-Third-Party-Notices.md",
+      "original_source": "unity-remake/StarFanURP/Assets/StarFan/Art/Licenses/Unity-Boss-Room-Third-Party-Notices.md",
+      "bytes": 2698,
+      "sha256": "9de3af22f58b67f2b716b5848a0af1b97a1cdf1d96c04374384761da0346eac0",
+      "byte_exact_copy": true
+    },
+    {
+      "path": "Unity/Original-source-record.txt",
+      "original_source": "unity-remake/StarFanURP/Assets/StarFan/Art/Licenses/SOURCE.txt",
+      "bytes": 454,
+      "sha256": "a4c8144dc0ee70479e1758fb742992146e31e5c827976abe49349786e2c26575",
+      "byte_exact_copy": true
+    },
+    {
+      "path": "Font/Original-OFL.txt",
+      "original_source": "unity-remake/StarFanURP/Assets/StarFan/Fonts/OFL.txt",
+      "bytes": 4301,
+      "sha256": "6a73f9541c2de74158c0e7cf6b0a58ef774f5a780bf191f2d7ec9cc53efe2bf2",
+      "byte_exact_copy": true
+    },
+    {
+      "path": "Font/Original-font-source.md",
+      "original_source": "unity-remake/StarFanURP/Assets/StarFan/Fonts/SOURCE.md",
+      "bytes": 390,
+      "sha256": "365ecf4e50a197a35c408444faeed517a5801c561e958bc6e3a06a917e4b41fd",
+      "byte_exact_copy": true
+    },
+    {
+      "path": "Title/Original-keyart-attribution.md",
+      "original_source": "art/title029/ATTRIBUTION.md",
+      "bytes": 603,
+      "sha256": "087f8b30ee69597f5e86b31796b0d1dd12791b3bc3bf0b280dc27c68f0f728de",
+      "byte_exact_copy": true
+    },
+    {
+      "path": "Title/Original-keyart-manifest.json",
+      "original_source": "art/title029/manifest.json",
+      "bytes": 2004,
+      "sha256": "b755ca7088c287be4eee494577f613ce62357e0bc5a05b7d757bcb3c793f61c0",
+      "byte_exact_copy": true
+    },
+    {
+      "path": "Font/StarFanUI032-original-OFL.txt",
+      "original_source": "art/production032/fonts/OFL-original.txt",
+      "bytes": 4301,
+      "sha256": "6a73f9541c2de74158c0e7cf6b0a58ef774f5a780bf191f2d7ec9cc53efe2bf2",
+      "byte_exact_copy": true
+    },
+    {
+      "path": "Font/fontTools-original-MIT-LICENSE.txt",
+      "original_source": "art/production032/fonts/fontTools-MIT-LICENSE.txt",
+      "bytes": 1072,
+      "sha256": "6787208f83f659ccbc2223b2fde952ffa6f7e8aca62f1a8a2bf5bc51bb1b2383",
+      "byte_exact_copy": true
+    }
+  ],
+  "notes": [
+    "New actor looks reuse source model/animations; not all new film-character models.",
+    "Actual female clone hierarchy correction and use of male Humanoid source must remain disclosed in final actor import provenance.",
+    "Asset acquisition manifest is a historical original document; its not-imported status records acquisition time, not current Unity import state.",
+    "CodeManu license metadata discrepancy retained explicitly; source notification not silently relabeled.",
+    "All original files retained byte-for-byte."
+  ],
+  "project_generated_notices": [
+    "CREDITS.txt",
+    "Quaternius/Derived-UniversalFKAnimations032.txt",
+    "Font/StarFanUI032-subset-notice.txt"
+  ]
+}

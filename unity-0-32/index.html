@@ -1,0 +1,54 @@
+<!doctype html>
+<!-- starfan032-web-shell:1 -->
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <meta name="theme-color" content="#111514">
+  <meta http-equiv="Cache-Control" content="no-cache">
+  <link rel="icon" href="data:,">
+  <link rel="stylesheet" href="shell.edcabe7951a7d478.css">
+  <title>小人物逆袭 · 单人冒险</title>
+</head>
+<body>
+  <header class="topbar">
+    <a class="wordmark" href="./" aria-label="小人物逆袭首页">小人物逆袭</a>
+    <span class="edition">0.32 · 单人冒险</span>
+    <button id="qa-snapshot" type="button" hidden disabled>测试快照</button>
+    <button id="fullscreen" type="button" aria-label="切换游戏全屏">全屏</button>
+  </header>
+  <main id="stage">
+    <canvas id="unity-canvas" width="1600" height="900" tabindex="0" aria-label="小人物逆袭游戏画面"></canvas>
+    <section id="loading" aria-labelledby="game-title">
+      <div id="poster" aria-hidden="true"></div>
+      <div class="poster-shade" aria-hidden="true"></div>
+      <div class="opening">
+        <p class="eyebrow">一介小人物，也有一场好戏。</p>
+        <h1 id="game-title">小人物<span>逆袭</span></h1>
+        <p class="intro">带上行囊，走进五幕片场。<br>边走边战，把每一次成长握在手里。</p>
+        <div class="loading-state" aria-live="polite">
+          <div class="status-row"><span id="status">正在准备游戏加载器…</span><span id="percent" aria-hidden="true">准备中</span></div>
+          <progress id="progress" max="1" aria-label="Unity 引擎实际加载进度"></progress>
+          <p id="download-note" class="download-note">首次加载后，篇章资源按需载入。</p>
+        </div>
+        <div id="failure" hidden>
+          <h2>这场好戏，暂时没能开场</h2>
+          <p id="friendly-error">请检查网络连接后重试。</p>
+          <button id="retry" type="button">重新载入</button>
+          <details><summary>查看错误详情</summary><pre id="error-detail"></pre></details>
+        </div>
+        <p class="single-player">单人冒险 · 局外进度保存在当前浏览器</p>
+      </div>
+      <div class="opening-foot"><span>姓名与男女造型，由你决定</span><span>手中武器，决定打法</span></div>
+    </section>
+    <p id="banner" role="status" hidden></p>
+  </main>
+  <footer>
+    <div class="controls"><span><kbd>WASD</kbd> / 方向键 移动</span><span>自动攻击</span><span><kbd>E</kbd> 互动 / 出口</span><span><kbd>Q</kbd> / <kbd>1</kbd> 葫芦</span><span><kbd>Shift</kbd> 闪身</span><span><kbd>Space</kbd> 绝招</span><span><kbd>Esc</kbd> 暂停</span></div>
+    <p class="keyboard-note">建议使用电脑浏览器与键盘 · 点击画面后操作 · 本局途中请勿刷新</p>
+    <nav aria-label="版本与来源"><a id="credits-link" href="credits/index.html" hidden>素材来源</a><a href="source-code-hashes032.json" target="_blank" rel="noopener">源码指纹</a><a href="build-manifest032.json" target="_blank" rel="noopener">版本记录</a></nav>
+  </footer>
+  <script type="application/json" id="build-config">{"loaderUrl": "Build/starfan032.93e9ac20a398c83e.loader.js", "dataUrl": "Build/starfan032.30df67f92e230407.data.unityweb", "frameworkUrl": "Build/starfan032.0bd382a3379f6ce5.framework.js.unityweb", "codeUrl": "Build/starfan032.5423686f57b8aa3f.wasm.unityweb", "companyName": "StarFan Studio", "productName": "小人物逆袭", "productVersion": "0.32.0-preview.1", "buildId": "848451c9fb367b2c", "streamingAssetsUrl": "StreamingAssets", "initialMiB": 37.8, "poster": "poster.150a134e2589122d.png", "credits": true, "sourceUrl": null}</script>
+  <script src="shell.a93669d36763ba69.js" defer></script>
+</body>
+</html>

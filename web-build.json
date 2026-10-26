@@ -1,54 +1,24 @@
 {
-  "schema": 2,
-  "version": "0.27.0-preview.1",
+  "schema": 3,
+  "version": "0.32.0-preview.1",
   "engine": "Unity 6000.3.26f1",
-  "generated_at_utc": "2026-10-22T08:16:59.418782+00:00",
-  "entry_html": "unity-0-27/index.html",
+  "generated_at_utc": "2026-10-26T04:01:28.485415+00:00",
+  "entry_html": "unity-0-32/index.html",
   "scope": {
-    "films": 1,
-    "waves": 5,
-    "weapon": "Warrior0 long staff",
-    "ultimate": 0
+    "singlePlayer": true,
+    "worlds": 5,
+    "zonesPerWorld": 4,
+    "totalZones": 20,
+    "networkCoop": false,
+    "currentRunResumeOnReload": false
   },
-  "build": {
-    "result": "Succeeded",
-    "errors": 0,
-    "warnings": 17,
-    "bytes": 108588305,
-    "seconds": 470.351162,
-    "version": "0.27.0-preview.1",
-    "outputPath": "unity-0-27/",
-    "scenes": [
-      "Assets/StarFan/Art/FirstActArcher/Scenes/FirstActArcher.unity"
-    ]
-  },
-  "files": {
-    "loaderUrl": {
-      "path": "Build/web.2f3e0f617e154ee2.loader.js",
-      "bytes": 117894,
-      "sha256": "2f3e0f617e154ee20c1f0a2d69fad130f5cfa91220e88416c99f7c2627dddb1e"
-    },
-    "dataUrl": {
-      "path": "Build/web.b5723286841c8686.data.unityweb",
-      "bytes": 101295370,
-      "sha256": "b5723286841c8686430d301ff72569e79eb2ab4e4667dfc1228385d310a38a7e"
-    },
-    "frameworkUrl": {
-      "path": "Build/web.006b71357c6c06ab.framework.js.unityweb",
-      "bytes": 80579,
-      "sha256": "006b71357c6c06ab4f6c9eb7dc8366d86395871900b9f17d9e0e6864081f6f99"
-    },
-    "codeUrl": {
-      "path": "Build/web.83041d2066f56553.wasm.unityweb",
-      "bytes": 7090883,
-      "sha256": "83041d2066f5655305ea3f4f2979215a741dfb0659711555bc94cf49a62b8e30"
-    }
-  },
+  "buildId": "848451c9fb367b2c",
+  "manifest": "unity-0-32/build-manifest032.json",
   "validation": {
-    "editor_five_wave_public_input_route": "passed; single seed and ultimate route",
-    "chrome_ui_regression": "passed; one wave to second wave on identical runtime code; final texture build startup/combat/card smoke",
-    "complete_browser_five_wave_clear": "not verified",
-    "multiple_build_routes": "not verified",
-    "public_http_verification": "recorded separately after deployment"
-  }
+    "nativeFiveWorlds": "passed with earned defensive meta; see report",
+    "browser": "local Hub, first world, cards, rack and defeat settlement smoke; not all-world browser clear",
+    "integrity": "68 local HTTP files passed; public check follows",
+    "budgetPassed": false
+  },
+  "report": "reports/0-32/index.html"
 }

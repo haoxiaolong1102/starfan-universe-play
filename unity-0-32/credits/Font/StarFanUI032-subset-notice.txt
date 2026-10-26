@@ -1,0 +1,33 @@
+StarFanUI032 Regular — project-specific OFL-1.1 derivative
+
+Original font: Noto Sans CJK SC Regular 2.004, notofonts/noto-cjk.
+Original copyright: © 2014-2021 Adobe (http://www.adobe.com/).
+Noto is a trademark of Google Inc.
+Original source: https://github.com/notofonts/noto-cjk
+Original download record: Font/Original-font-source.md.
+Original license: SIL Open Font License 1.1; exact original text in Font/StarFanUI032-original-OFL.txt (and Font/Original-OFL.txt).
+
+Derived font: StarFanUI032-Regular.otf, internal family StarFanUI032, PostScript StarFanUI032-Regular. The derivative remains under SIL OFL1.1. No author endorsement is claimed. Original copyright, author, trademark, license text and URLs remain in the font's name/CFF records. Family/full/unique/PostScript/CFF/FD names are renamed. The original source font/license files are unchanged.
+
+Changes: offline CFF OpenType subsetting, hinting removal, Unicode and layout-substitution glyph closure, internal derivative naming. No glyph outlines drawn or imported from another font. Retained set includes complete GB2312 (7,445 characters, 6,763 Han), printable ASCII, 255 explicit personal-name extras and all source-supported scanned owned UI/source characters. This is not a full-Unicode or every-name font.
+
+Original source SHA-256:
+2c76254f6fc379fddfce0a7e84fb5385bb135d3e399294f6eeb6680d0365b74b
+Original OFL SHA-256:
+6a73f9541c2de74158c0e7cf6b0a58ef774f5a780bf191f2d7ec9cc53efe2bf2
+Derived OTF SHA-256:
+f0cdacb7579869dcc2b4f3520239b1a84895051a8b0d74aa00753893d5cf75bf
+Derived OTF: 3,014,836 bytes, 13,819 CFF glyphs, 7,708 Unicode cmap entries.
+Two independent offline runs produced the same OTF SHA. Actual Unity/WebGL font import/render checks are separate from this derivative notice.
+
+Development tool: fontTools 4.67.0, MIT.
+Official project: https://github.com/fonttools/fonttools
+Official version metadata: https://pypi.org/pypi/fonttools/4.67.0/json
+Universal wheel SHA-256:
+4304f03ed7f4ba000a8dcc941ad854bfa52e2f3b6112b8f099b6f431cf98e701
+Exact original MIT license: Font/fontTools-original-MIT-LICENSE.txt.
+The tool was used offline from an isolated SHA-verified wheel, without a system installation. It is a development dependency, not executed by the game runtime.
+
+Reproducible project script: tools/fonts032/subset_font.py.
+Detailed source/coverage/unsupported-character report: art/production032/fonts/subset-report.json.
+This notice records font provenance only; it does not claim film IP authorization or completion of game-content verification.

@@ -1,0 +1,62 @@
+小人物逆袭 · 0.32 试玩素材鸣谢与来源
+
+角色、衣装与场景
+Quaternius — Ultimate Monsters、Ultimate Modular Characters、Ultimate Modular Women。
+https://quaternius.com/packs/ultimatemonsters.html
+https://quaternius.com/packs/ultimatemodularcharacters.html
+https://quaternius.com/packs/ultimatemodularwomen.html
+本地随包作者通知为 CC0 1.0，原文完整保存在 Quaternius/。
+https://creativecommons.org/publicdomain/zero/1.0/
+多套衣装、怪物、角色和NPC复用同一套源模型、动作与道具；派生视觉条目数不是新原创人物数。新人物适配采用原作者模型、实际蒙皮和动作，经Unity材质、尺寸、骨层级/Avatar与Mecanim重定向处理。最终导入和动画通过情况以实际制作报告为准，不把取得源文件写成完成验收。
+原始 Monsters 通知标题写 Ultimate Platformer Pack，Women 通知标题写 Ultimate Modular Males；这些原作者文件按原字节保留，没有替换标题。正确素材包页面、下载出处和SHA记录在 Quaternius/Official-source-acquisition-manifest.json。
+已有 Medieval Village MegaKit / Fantasy Props MegaKit Standard、Base Characters / Outfits / Animation Library Standard 继续适用自己的原通知；未把免费子集写成付费完整包。
+
+纹理特效
+NOVA Shader — CyberAgent, Inc.，MIT；示例特效作者 @Ugokashiya。
+https://github.com/CyberAgentGameEntertainment/NovaShader
+NOVA/ 保留原MIT文本、第三方通知与示例作者说明。项目适配包括Unity/URP设置、选取完整示例、实例调色及与可见粒子接触匹配的施放轨迹；原纹理/材质仍按其来源记录。
+
+CodeManu — Free VFX Asset Pack（SpriteMancer）。
+https://opengameart.org/content/free-vfx-asset-pack
+https://codemanu.itch.io/vfx-free-pack
+两个作者发布页的许可元数据存在CC0与CC BY4.0差异；保留完整作者、出处和修改记录，未混写为所有来源统一CC0。项目的重排图集、重采样、透明边缘和播放设置见 CodeManu/ 原始归档通知。
+
+Effekseer Project — runtime MIT；示例贡献者 Pierre、NextSoft，示例CC0。
+https://github.com/effekseer/Effekseer/releases/tag/1807
+对应运行库和示例许可分别保留在 Effekseer/。FireBallAnchored是项目单独校准的派生版本，具体根位置修改和SHA记录随附；世界火把对单张火苗纹理的复用不称为完整FireBall。
+
+兵器与道具
+Stylised Fantasy Weapons — mastahcez and Mallaria，CC BY3.0。
+https://opengameart.org/content/stylised-fantasy-weapons
+https://creativecommons.org/licenses/by/3.0/
+修改：Unity FBX导入、URP纹理材质绑定、轴/单位/握点/Muzzle包装及032实际米制持物/弹体包装；保留原网格和UV，原纹理未重绘。详见 Weapons/Selected-CCBY3-weapons-attribution.md。
+Derringer Pistol — LonesomeDucky，CC0 1.0。
+https://opengameart.org/content/derringer-pistol
+保留源网格、UV、原albedo/normal，项目进行刚体尺度、轴和握点校准；实际出处见 Props/Selected-props-source-manifest.json。
+其余本项目自制道具的实际sourceKind逐项记录于Props/；离线Blender网格和AI底色不会因为共用资源银行而被改称第三方CC0模型。道具名称或主题并不使通用模型成为官方电影原道具。
+
+声音与音乐
+Kenney — Impact Sounds、RPG Audio、UI Audio、Voiceover Pack，CC0 1.0。
+https://kenney.nl/assets/impact-sounds
+https://kenney.nl/assets/rpg-audio
+https://kenney.nl/assets/ui-audio
+https://kenney.nl/assets/voiceover-pack
+通用英语人声：Jeffrey M. Smith（男）、Giselle（女），按原作者Credits保留。样本剪切、响度、滤波、采样率、淡入淡出和混合记录随Audio/通知与清单。
+Kevin MacLeod (incompetech.com) — Asian Drums / The Show Must Be Go / Monkeys Spinning Monkeys / Movement Proposition / Covert Affair。
+Creative Commons By Attribution 4.0: https://creativecommons.org/licenses/by/4.0/
+https://incompetech.com/music/royalty-free/
+修改：响度归一、Ogg编码、播放音量、交叉淡化和循环。它们是独立授权器乐作品，不是影片原声。
+保留的Unity Boss Room录音/参考素材仍受Unity Companion License及其第三方通知约束，见Unity/。没有把它们或任何既有来源重新归类为CC0。
+
+字体与主题原画
+Noto Sans CJK SC Regular — notofonts/noto-cjk，SIL Open Font License 1.1。
+https://github.com/notofonts/noto-cjk
+原许可和下载来源见Font/，未打包macOS系统字体。
+032另用独立的StarFanUI032 Regular字体子集，保留原版权与OFL1.1，内部字体名称已改；完整GB2312与当前文案保留，不宣称完整Unicode。原/派生SHA与修改说明见Font/StarFanUI032-subset-notice.txt。制作用fontTools 4.67.0（MIT），原许可精确副本一并保留，工具代码不由游戏运行。
+主页原画、部分地面和道具底色为本项目通过image_gen制作的主题图，按Title/、Environment/与Props/记录来源；不是电影剧照、演员肖像或实机截图。
+
+主题与结尾信
+本作是小人物成长主题的单机试玩。电影名称、人物与情节联想属于致敬主题说明；本素材鸣谢不表示周星驰本人、电影权利方或素材作者参与、背书本作，也不表示影视IP已经取得商业发行授权。
+结尾信为本作原创写给影迷，不是周星驰或其他演员本人来信。
+
+本目录仅收录本地已存在的原文通知、署名、来源和SHA。未联网补造许可，没有改动旧许可原件。具体运行包使用哪些素材，以最终资源依赖清单为准；保留引用的旧来源通知，不把“保留许可”当成使用/验收所有候选素材的声明。
