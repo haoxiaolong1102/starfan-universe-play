@@ -77,5 +77,38 @@
       "cardTransactions": 24
     }
   ],
-  "scope": "Curated public summary, not raw profile/QA data. Public URL play verification follows deployment."
+  "scope": "Separate bounded evidence: local full five-world Mage chain with cleanup143; public fresh Fan firstworld with two retained failures and clean0; normal qa=0 page UI smoke only. No all-builds/full-modes acceptance.",
+  "publicHttpFilesVerified": 68,
+  "publicSingleWorld": {
+    "weaponSchool": "Fan",
+    "genderPointer": "Girl",
+    "storedGenderVerified": 1,
+    "attempts": 3,
+    "failedAttemptsRetained": 2,
+    "wins": 1,
+    "zones": 4,
+    "guardians": 4,
+    "kills": 244,
+    "level": 17,
+    "lastLiveSeconds": 293.7119445800781,
+    "ultimateCastsLastLive": 19,
+    "cardTransactions": 24,
+    "normalRefreshPassed": true,
+    "wholeHarnessCleanExit": true,
+    "harnessExitCode": 0,
+    "worldsCleared": 1,
+    "coldHubMilliseconds": 17413
+  },
+  "ordinaryPublicPage": {
+    "qaQuery": false,
+    "qaButtonHidden": true,
+    "normalBeginAndMovement": true,
+    "naturalLevel2CardSelected": true,
+    "normalPauseRetreatAndHubReload": true,
+    "contextCloseResolved": true,
+    "worldPassed": false,
+    "consoleErrors": 0,
+    "networkFailures": 0,
+    "scope": "UI smoke, deliberate retreat, no victory claim"
+  }
 }
