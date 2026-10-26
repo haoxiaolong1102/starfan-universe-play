@@ -15,10 +15,15 @@
   "buildId": "848451c9fb367b2c",
   "manifest": "unity-0-32/build-manifest032.json",
   "validation": {
-    "nativeFiveWorlds": "passed with earned defensive meta; see report",
-    "browser": "local Hub, first world, cards, rack and defeat settlement smoke; not all-world browser clear",
-    "integrity": "68 local HTTP files passed; public check follows",
-    "budgetPassed": false
+    "nativeFiveWorlds": "All5 worlds20 partitions passed; one staff route with legitimately earned defensive meta",
+    "browser": "Public normal URL Hub/first-world/input/cards/pause/settlement passed, errors0, 1deprecation warning; not browser all-world clear",
+    "integrity": "68 exact HTTPS files passed, errors0",
+    "budgetPassed": false,
+    "knownIssues": [
+      "Ambiguous pause exit label",
+      "Nearby interaction prompt overlays pause/rack",
+      "Fresh-profile balance and audio/art polish need further review"
+    ]
   },
   "report": "reports/0-32/index.html"
 }

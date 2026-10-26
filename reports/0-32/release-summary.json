@@ -1,0 +1,62 @@
+{
+  "schema": "starfan032-public-release-summary-v1",
+  "version": "0.32.0-preview.1",
+  "status": "single-player-playtest-candidate",
+  "buildId": "848451c9fb367b2c",
+  "playUrl": "https://haoxiaolong1102.github.io/starfan-universe-play/unity-0-32/",
+  "reportUrl": "https://haoxiaolong1102.github.io/starfan-universe-play/reports/0-32/",
+  "gameplay": {
+    "worlds": 5,
+    "totalPartitions": 20,
+    "networkCoop": false,
+    "cloudSave": false,
+    "localMeta": true,
+    "currentRunReloadResume": false
+  },
+  "nativeValidation": {
+    "worldsPassed": 5,
+    "partitionsPassed": 20,
+    "scope": "One staff route using legitimately earned defensive meta; not fresh profile, every seed or every build"
+  },
+  "publicBrowserValidation": {
+    "passed": true,
+    "scope": [
+      "Normal URL hides QA button",
+      "Hub cold browser startup",
+      "Chinese text and name input",
+      "Film1 actual load and rendering",
+      "WASD actual gameplay",
+      "Lv2 three-card overlay",
+      "炉火丸 card selection",
+      "Esc pause",
+      "Pause exit actually settles once",
+      "Return Hub"
+    ],
+    "errors": 0,
+    "warnings": 1,
+    "allWorldBrowserClear": false
+  },
+  "httpIntegrity": {
+    "passed": true,
+    "verifiedFiles": 68,
+    "failedFiles": 0,
+    "finishedUtc": "2026-10-26T04:07:01.342471+00:00"
+  },
+  "loading": {
+    "startupAndHubMiB": 37.83,
+    "firstWorldTotalMiB": 62.27,
+    "internal20MiBBudgetPassed": false,
+    "scope": "File inventory bytes; not measured network timing"
+  },
+  "knownIssues": [
+    "Pause exit label ambiguous; actual button settles current run",
+    "Nearby interaction prompt overlays pause/rack",
+    "Fresh-profile difficulty and other build routes require focused balance review",
+    "Audio and art polish remain; movie-actor likeness and original film audio not included"
+  ],
+  "cleanup": {
+    "generatedDirectoriesRemoved": 21,
+    "removedLogicalBytes": 430016782,
+    "sourceLicensesReportsAndGitHistoryPreserved": true
+  }
+}
