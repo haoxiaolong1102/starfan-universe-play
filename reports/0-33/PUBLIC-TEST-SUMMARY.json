@@ -109,7 +109,12 @@
     "worldPassed": false,
     "consoleErrors": 0,
     "networkFailures": 0,
-    "scope": "UI smoke, deliberate retreat, no victory claim"
+    "scope": "UI smoke, deliberate retreat, no victory claim",
+    "warnings": {
+      "audioUserGesturePolicy": 53,
+      "deprecatedSyncApi": 1,
+      "audioAudiblyVerified": false
+    }
   },
   "newOpenModeUiIssue": {
     "severity": "P2",
