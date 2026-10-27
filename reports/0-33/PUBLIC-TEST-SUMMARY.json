@@ -141,5 +141,22 @@
     "publicWebSameFailureReproduced": false,
     "loggerAndEmptyMerchantCandidatesEngineValidated": false
   },
-  "updatedDate": "2026-10-27"
+  "updatedDate": "2026-10-27",
+  "ordinaryAudioGestureVerification": {
+    "status": "passed-bounded-trusted-gesture-context-unlock",
+    "normalQa0": true,
+    "preActivation": false,
+    "preAudioState": "suspended",
+    "postAudioState": "running",
+    "sameContext": true,
+    "postTimeAdvanceSeconds": 5.018666666666666,
+    "observedPostIntervalMs": 5023,
+    "policyWarningsBefore": 29,
+    "policyWarningsAfter": 0,
+    "harnessExitCode": 0,
+    "ownedContextClosed": true,
+    "audiblePlaybackVerified": false,
+    "pcmOrQualityVerified": false,
+    "priorInconclusiveObserverRetained": true
+  }
 }
