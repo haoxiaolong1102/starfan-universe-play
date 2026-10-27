@@ -118,10 +118,28 @@
   },
   "newOpenModeUiIssue": {
     "severity": "P2",
-    "status": "confirmed-open-not-fixed",
+    "status": "confirmed-open-candidate-not-engine-validated",
     "evidenceGameTime": "05:31",
     "mode": "endless",
     "issue": "Legacy IMGUI mode info overlaps new uGUI left chapter and XP rows",
     "fullModePassed": false
-  }
+  },
+  "nativeEndlessFailure": {
+    "status": "os-memory-pressure-terminated-incomplete",
+    "lastGameSeconds": 1862.048095703125,
+    "migrations": 2,
+    "nightSeen": false,
+    "target2700Passed": false,
+    "modeVictory": false,
+    "originalFailureRetained": true,
+    "normalInterruptedRecovery": {
+      "dust": 81,
+      "bonk": 5,
+      "settledOnce": true,
+      "twoOrdinaryReloadsStable": true
+    },
+    "publicWebSameFailureReproduced": false,
+    "loggerAndEmptyMerchantCandidatesEngineValidated": false
+  },
+  "updatedDate": "2026-10-27"
 }
